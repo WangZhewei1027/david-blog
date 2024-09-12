@@ -6,7 +6,7 @@ export default function Home() {
       {/* Header */}
       <header className="w-full bg-white py-6 shadow-md">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-3xl font-bold text-gray-800">David's Blog</h1>
+          <h1 className="text-3xl font-bold text-gray-800">{"David's Blog"}</h1>
           <p className="text-lg text-gray-500">
             Welcome to the world of a junior Computer Science student who loves
             Jazz music.
@@ -20,10 +20,10 @@ export default function Home() {
         <section className="bg-white rounded-lg shadow-md p-8 w-full max-w-4xl text-center">
           <h2 className="text-2xl font-bold text-gray-800 mb-4">Meet David</h2>
           <p className="text-gray-600">
-            Hi! I'm David, a junior studying Computer Science. My passion lies
+            {`Hi! I'm David, a junior studying Computer Science. My passion lies
             in coding, algorithms, and all things tech-related. When I'm not in
             front of a screen, you can find me immersed in the soothing sounds
-            of Jazz music.
+            of Jazz music.`}
           </p>
         </section>
 
@@ -55,10 +55,10 @@ export default function Home() {
             Jazz & Me
           </h3>
           <p className="text-gray-600">
-            Jazz music is my escape. Whether it's John Coltrane, Miles Davis, or
+            {`Jazz music is my escape. Whether it's John Coltrane, Miles Davis, or
             the smooth sounds of a modern artist, I find creativity in the
             melodies and rhythm. It’s the perfect background music for coding
-            sessions.
+            sessions.`}
           </p>
           <div className="mt-4">
             <a
@@ -91,7 +91,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="w-full bg-white py-4 text-center shadow-inner mt-auto">
         <p className="text-gray-500 text-sm">
-          &copy; 2024 David's Blog. All Rights Reserved.
+          {`2024 David's Blog. All Rights Reserved.`}
         </p>
       </footer>
     </div>
