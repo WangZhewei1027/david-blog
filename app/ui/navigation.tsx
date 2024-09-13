@@ -1,21 +1,22 @@
 "use client";
 
-import { Button } from "@/app/ui/button";
+import { Button } from "@/components/ui/button";
 import { useState } from "react";
+import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggleMenu = () => {
+  const toggleDrawer = () => {
     setIsOpen(!isOpen);
   };
 
   return (
     <nav className="bg-white border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-16">
+        <div className="flex justify-between h-16 relative">
           <div className="flex">
-            <div className="flex-shrink-0 content-center">
+            <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 md:static md:translate-x-0 md:translate-y-0 md:content-center ">
               <a href="/" className="text-xl font-bold text-gray-800">
                 {"David's Blog"}
               </a>
@@ -46,46 +47,19 @@ const Navbar = () => {
                 Contact
               </a>
             </div>
-          </div>
-          <div className="flex items-center">
-            <div className="-mr-2 flex md:hidden">
-              <Button onClick={toggleMenu}>Menu</Button>
+            <div className="flex h-full items-center absolute right-0">
+              <Button
+                variant="outline"
+                size="icon"
+                onClick={toggleDrawer}
+                className="right-4"
+              >
+                <HamburgerMenuIcon />
+              </Button>
             </div>
           </div>
         </div>
       </div>
-
-      {/* Mobile Menu */}
-      {isOpen && (
-        <div className="md:hidden">
-          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <a
-              href="/"
-              className="text-gray-900 block px-3 py-2 rounded-md text-base font-medium"
-            >
-              Home
-            </a>
-            <a
-              href="/about"
-              className="text-gray-900 block px-3 py-2 rounded-md text-base font-medium"
-            >
-              About
-            </a>
-            <a
-              href="/blog"
-              className="text-gray-900 block px-3 py-2 rounded-md text-base font-medium"
-            >
-              Blog
-            </a>
-            <a
-              href="/contact"
-              className="text-gray-900 block px-3 py-2 rounded-md text-base font-medium"
-            >
-              Contact
-            </a>
-          </div>
-        </div>
-      )}
     </nav>
   );
 };
