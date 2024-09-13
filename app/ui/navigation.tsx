@@ -3,6 +3,16 @@
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { HamburgerMenuIcon } from "@radix-ui/react-icons";
+import {
+  Drawer,
+  DrawerClose,
+  DrawerContent,
+  DrawerDescription,
+  DrawerFooter,
+  DrawerHeader,
+  DrawerTitle,
+  DrawerTrigger,
+} from "@/components/ui/drawer";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,33 +39,91 @@ const Navbar = () => {
                 Home
               </a>
               <a
+                href="/music"
+                className="text-gray-900 hover:text-gray-700 inline-flex items-center px-1 pt-1 text-sm font-medium"
+              >
+                Music
+              </a>
+              <a
+                href="/coding"
+                className="text-gray-900 hover:text-gray-700 inline-flex items-center px-1 pt-1 text-sm font-medium"
+              >
+                Coding
+              </a>
+              <a
+                href="/life"
+                className="text-gray-900 hover:text-gray-700 inline-flex items-center px-1 pt-1 text-sm font-medium"
+              >
+                Life
+              </a>
+              <a
                 href="/about"
                 className="text-gray-900 hover:text-gray-700 inline-flex items-center px-1 pt-1 text-sm font-medium"
               >
                 About
               </a>
-              <a
-                href="/blog"
-                className="text-gray-900 hover:text-gray-700 inline-flex items-center px-1 pt-1 text-sm font-medium"
-              >
-                Blog
-              </a>
-              <a
-                href="/contact"
-                className="text-gray-900 hover:text-gray-700 inline-flex items-center px-1 pt-1 text-sm font-medium"
-              >
-                Contact
-              </a>
             </div>
             <div className="flex h-full items-center absolute right-0">
-              <Button
-                variant="outline"
-                size="icon"
-                onClick={toggleDrawer}
-                className="right-4"
-              >
-                <HamburgerMenuIcon />
-              </Button>
+              <Drawer>
+                <DrawerTrigger asChild>
+                  <Button
+                    variant="outline"
+                    size="icon"
+                    onClick={toggleDrawer}
+                    className="right-4"
+                  >
+                    <HamburgerMenuIcon />
+                  </Button>
+                </DrawerTrigger>
+                <DrawerContent>
+                  <div className="mx-auto w-full max-w-sm">
+                    <DrawerHeader>
+                      <DrawerTitle>Content</DrawerTitle>
+                      <DrawerDescription>
+                        Set your daily activity goal.
+                      </DrawerDescription>
+                    </DrawerHeader>
+                    <div className="flex-col">
+                      <a
+                        href="/"
+                        className="text-gray-900 hover:text-gray-700 inline-flex items-center px-1 pt-1 text-sm font-medium"
+                      >
+                        Home
+                      </a>
+                      <a
+                        href="/music"
+                        className="text-gray-900 hover:text-gray-700 inline-flex items-center px-1 pt-1 text-sm font-medium"
+                      >
+                        Music
+                      </a>
+                      <a
+                        href="/coding"
+                        className="text-gray-900 hover:text-gray-700 inline-flex items-center px-1 pt-1 text-sm font-medium"
+                      >
+                        Coding
+                      </a>
+                      <a
+                        href="/life"
+                        className="text-gray-900 hover:text-gray-700 inline-flex items-center px-1 pt-1 text-sm font-medium"
+                      >
+                        Life
+                      </a>
+                      <a
+                        href="/about"
+                        className="text-gray-900 hover:text-gray-700 inline-flex items-center px-1 pt-1 text-sm font-medium"
+                      >
+                        About
+                      </a>
+                    </div>
+                    <DrawerFooter>
+                      <Button>Submit</Button>
+                      <DrawerClose asChild>
+                        <Button variant="outline">Cancel</Button>
+                      </DrawerClose>
+                    </DrawerFooter>
+                  </div>
+                </DrawerContent>
+              </Drawer>
             </div>
           </div>
         </div>

@@ -1,9 +1,9 @@
 export default function About() {
   return (
-    <div className="container mx-auto px-32 mt-16">
+    <div className="container mx-auto px-4 mt-16">
       <h1 className="text-3xl font-bold text-gray-800">Welcome to My Blog</h1>
 
-      <div className="mt-8 border-t border-gray-200"></div>
+      <div className="mt-4 border-t border-gray-200"></div>
 
       <div className="mt-8 border border-gray-200 p-8 rounded-lg shadow-inner hover:bg-gray-50 cursor-pointer">
         <h2 className="text-2xl font-bold mb-4">
