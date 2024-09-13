@@ -3,17 +3,6 @@
 export default function Home() {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col justify-center items-center">
-      {/* Header */}
-      <header className="w-full bg-white py-6 shadow-md">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-3xl font-bold text-gray-800">{"David's Blog"}</h1>
-          <p className="text-lg text-gray-500">
-            Welcome to the world of a junior Computer Science student who loves
-            Jazz music.
-          </p>
-        </div>
-      </header>
-
       {/* Main Content */}
       <main className="flex flex-col justify-center items-center w-full px-4 py-10">
         {/* Intro Section */}

@@ -22,8 +22,10 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const drawerOptionStyle = "font-bold text-center py-2 text-xl md:text-left";
+
   return (
-    <nav className="bg-white border-b border-gray-200">
+    <nav className="bg-white/10 backdrop-blur-lg border-b border-gray-200 fixed w-full">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 relative">
           <div className="flex">
@@ -86,48 +88,36 @@ const Navbar = () => {
                 <DrawerContent>
                   <div className="mx-auto w-full max-w-sm">
                     <DrawerHeader>
-                      <DrawerTitle>Content</DrawerTitle>
+                      <DrawerTitle>
+                        <div className="text-2xl">Content</div>
+                      </DrawerTitle>
                       <DrawerDescription>
-                        Set your daily activity goal.
+                        Navigate to different sections of the blog.
                       </DrawerDescription>
                     </DrawerHeader>
-                    <div className="flex-col">
-                      <a
-                        href="/"
-                        className="text-gray-900 hover:text-gray-700 inline-flex items-center px-1 pt-1 text-sm font-medium"
-                      >
+                    <div className="px-16 md:px-4">
+                      <div className="border-b"></div>
+                    </div>
+
+                    <div className="flex flex-col p-4">
+                      <a href="/" className={drawerOptionStyle}>
                         Home
                       </a>
-                      <a
-                        href="/music"
-                        className="text-gray-900 hover:text-gray-700 inline-flex items-center px-1 pt-1 text-sm font-medium"
-                      >
+                      <a href="/music" className={drawerOptionStyle}>
                         Music
                       </a>
-                      <a
-                        href="/coding"
-                        className="text-gray-900 hover:text-gray-700 inline-flex items-center px-1 pt-1 text-sm font-medium"
-                      >
+                      <a href="/coding" className={drawerOptionStyle}>
                         Coding
                       </a>
-                      <a
-                        href="/life"
-                        className="text-gray-900 hover:text-gray-700 inline-flex items-center px-1 pt-1 text-sm font-medium"
-                      >
+                      <a href="/life" className={drawerOptionStyle}>
                         Life
                       </a>
-                      <a
-                        href="/about"
-                        className="text-gray-900 hover:text-gray-700 inline-flex items-center px-1 pt-1 text-sm font-medium"
-                      >
+                      <a href="/about" className={drawerOptionStyle}>
                         About
                       </a>
                     </div>
                     <DrawerFooter>
-                      <Button>Submit</Button>
-                      <DrawerClose asChild>
-                        <Button variant="outline">Cancel</Button>
-                      </DrawerClose>
+                      <div className="pt-4 w-full"></div>
                     </DrawerFooter>
                   </div>
                 </DrawerContent>
