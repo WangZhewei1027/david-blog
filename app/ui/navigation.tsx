@@ -13,6 +13,7 @@ import {
   DrawerTitle,
   DrawerTrigger,
 } from "@/components/ui/drawer";
+import Image from "next/image";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,6 +29,13 @@ const Navbar = () => {
           <div className="flex">
             <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 md:static md:translate-x-0 md:translate-y-0 md:content-center ">
               <a href="/" className="text-xl font-bold text-gray-800">
+                <Image
+                  src="/david.png"
+                  alt="David's Logo"
+                  className="h-8 w-8 inline-block mr-2"
+                  width={358}
+                  height={358}
+                />
                 {"David's Blog"}
               </a>
             </div>
