@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
-import { HamburgerMenuIcon } from "@radix-ui/react-icons";
+
 import {
   Drawer,
   DrawerClose,
@@ -22,7 +22,8 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
-  const drawerOptionStyle = "font-bold text-center py-2 text-xl md:text-left";
+  const drawerOptionStyle =
+    "font-bold text-center py-2 text-xl md:text-left hover:text-gray-400";
 
   return (
     <nav className="bg-white/10 backdrop-blur-lg border-b border-gray-200 fixed w-full">
@@ -77,12 +78,17 @@ const Navbar = () => {
               <Drawer>
                 <DrawerTrigger asChild>
                   <Button
-                    variant="outline"
+                    variant="ghost"
                     size="icon"
                     onClick={toggleDrawer}
                     className="right-4"
                   >
-                    <HamburgerMenuIcon />
+                    <Image
+                      src="/icons/menu_24dp_5F6368.svg"
+                      alt="Menu"
+                      width={24}
+                      height={24}
+                    />
                   </Button>
                 </DrawerTrigger>
                 <DrawerContent>
