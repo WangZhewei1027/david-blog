@@ -17,6 +17,9 @@ const pics = [
 export default function Page() {
   return (
     <main className="min-h-screen bg-gray-50 flex justify-center items-center flex-col">
+      <h2 className="text-2xl font-bold my-4 border-b p-4">
+        New York Bule Sky & Sunset Collection
+      </h2>
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 p-4">
         {pics.map((pic) => (
           <div className="p-2" key={pic}>
