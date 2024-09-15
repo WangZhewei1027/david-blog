@@ -2,12 +2,12 @@ import Image from "next/image";
 
 export default function Profile() {
   return (
-    <section className="bg-white rounded-lg shadow-md p-8 flex flex-col flex-1 break-words">
+    <section className="bg-white rounded-lg p-8 flex flex-col flex-1 break-words">
       <img
         src="/david.jpeg"
         className="object-cover rounded-full w-full h-full mb-4"
       />
-      <h2 className="text-2xl font-bold text-gray-800 ">David</h2>
+      <h2 className="text-2xl font-bold text-gray-800">David</h2>
       <div className="text-base text-gray-500">Zhewei Wang</div>
 
       <div className="border-t my-4" />
@@ -44,9 +44,10 @@ export default function Profile() {
 
       <div className="border-t my-4" />
 
+      <div className="text-lg font-bold text-gray-800 mb-2">About David</div>
       <p className="text-gray-600">
         {`Hi! I'm David, a junior studying Computer Science. My passion lies
-            in coding, algorithms, and all things tech-related. When I'm not in
+            in coding, web design, and all things tech-related. When I'm not in
             front of a screen, you can find me immersed in the soothing sounds
             of Jazz music.`}
       </p>

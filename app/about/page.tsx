@@ -1,8 +1,8 @@
-export default function About() {
+export default function Page() {
   return (
-    <div>
-      <h1>About</h1>
-      <p>This is the about page</p>
+    <div className="flex flex-col items-center justify-center min-h-screen">
+      <h1 className="text-4xl font-bold">About Page</h1>
+      <p className="mt-4 text-lg">Welcome to the about page!</p>
     </div>
   );
 }

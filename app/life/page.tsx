@@ -1,7 +1,7 @@
 export default function Life() {
   return (
     <div className="container mx-auto px-4 mt-16">
-      <h1 className="text-3xl font-bold text-gray-800">Welcome to My Blog</h1>
+      <h1 className="text-3xl font-bold text-gray-800">Welcome to My Life</h1>
 
       <div className="mt-4 border-t border-gray-200"></div>
 
@@ -11,8 +11,7 @@ export default function Life() {
             New York Bule Sky & Sunset Collection
           </h2>
           <p className="text-gray-700">
-            This content is inside a container. It will remain centered, and its
-            width will adjust based on the screen size.
+            Sep 14, 2024 - A collection of photographs
           </p>
         </a>
       </article>
