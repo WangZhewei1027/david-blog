@@ -14,6 +14,8 @@ const pics = [
   "IMG_6778.jpeg",
 ];
 
+const date = "Sep 14, 2024";
+
 export default function Page() {
   return (
     <main className="min-h-screen bg-gray-50 flex justify-center items-center flex-col">

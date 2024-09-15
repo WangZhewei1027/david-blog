@@ -1,20 +1,26 @@
+import Article from "@/app/ui/article";
+import Image from "next/image";
+
 export default function Life() {
   return (
     <div className="container mx-auto px-4 mt-16">
-      <h1 className="text-3xl font-bold text-gray-800">Welcome to My Life</h1>
+      <div className="flex flex-row space-x-3">
+        <Image
+          src="/icons/photo_camera_24dp_5F6368.svg"
+          alt="pin"
+          width={24}
+          height={24}
+        />
+        <h2 className="text-2xl font-bold text-gray-800">Welcome to My Life</h2>
+      </div>
 
-      <div className="mt-4 border-t border-gray-200"></div>
-
-      <article className="mt-8 border border-gray-200 p-8 rounded-lg shadow-inner hover:bg-gray-50 cursor-pointer">
-        <a href="/life/new_york_blue_sky_and_sunset_collection">
-          <h2 className="text-2xl font-bold mb-4">
-            New York Bule Sky & Sunset Collection
-          </h2>
-          <p className="text-gray-700">
-            Sep 14, 2024 - A collection of photographs
-          </p>
-        </a>
-      </article>
+      <div className="mt-4 border-t border-gray-200" />
+      <Article
+        title="New York Bule Sky & Sunset Collection"
+        date="Sep 14, 2024"
+        caption="A collection of photographs"
+        link="/life/2024/09/new-york-blue-sky-sunset-collection"
+      />
     </div>
   );
 }

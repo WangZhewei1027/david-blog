@@ -2,6 +2,7 @@
 import Profile from "@/app/ui/profile";
 import Footer from "@/app/ui/footer";
 import Image from "next/image";
+import Article from "@/app/ui/article";
 
 function MyCard() {
   return (
@@ -16,19 +17,14 @@ function MyCard() {
         <h2 className="text-2xl font-bold text-gray-800">Pinned Blogs</h2>
       </div>
 
-      <div className="mt-4 border-t border-gray-200"></div>
+      <div className="mt-4 border-t border-gray-200" />
 
-      <div className="hover:bg-gray-100 p-8 border-b transition-all">
-        <a href="/life/new_york_blue_sky_and_sunset_collection">
-          <h2 className="text-xl font-bold mb-1">
-            <li>New York Bule Sky & Sunset Collection</li>
-          </h2>
-          <p className="text-base text-gray-500">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sep 14, 2024 - A collection of
-            photographs
-          </p>
-        </a>
-      </div>
+      <Article
+        title="New York Bule Sky & Sunset Collection"
+        date="Sep 14, 2024"
+        caption="A collection of photographs"
+        link="/life/2024/09/new-york-blue-sky-sunset-collection"
+      />
     </section>
   );
 }
