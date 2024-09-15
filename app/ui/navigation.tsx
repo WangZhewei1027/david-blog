@@ -31,7 +31,10 @@ const Navbar = () => {
         <div className="flex justify-between h-16 relative">
           <div className="flex">
             <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 md:static md:translate-x-0 md:translate-y-0 md:content-center ">
-              <a href="/" className="text-xl font-bold text-gray-800">
+              <a
+                href="/"
+                className="text-xl font-bold text-gray-800 no-underline font-serif"
+              >
                 {/* <Image
                   src="/david.png"
                   alt="David's Logo"
