@@ -3,9 +3,12 @@ import Image from "next/image";
 export default function Profile() {
   return (
     <section className="bg-white rounded-lg p-8 flex flex-col flex-1 break-words">
-      <img
+      <Image
         src="/david.jpeg"
+        alt="david's profile picture"
         className="object-cover rounded-full w-full h-full mb-4"
+        width={100}
+        height={100}
       />
       <h2 className="text-2xl font-bold text-gray-800">David</h2>
       <div className="text-base text-gray-500">Zhewei Wang</div>
