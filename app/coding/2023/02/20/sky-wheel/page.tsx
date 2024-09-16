@@ -8,7 +8,7 @@ export default function Page() {
       <Container>
         <h1 className="text-center mb-4 font-serif">Sky Wheel</h1>
         <div className="text-center text-gray-400 mb-4 font-serif">
-          Feb 20, 2024
+          Feb 20, 2023
         </div>
         <div className="flex w-full h-full justify-center p-4">
           <Image
