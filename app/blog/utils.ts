@@ -6,6 +6,9 @@ type Metadata = {
   publishedAt: string;
   summary: string;
   image?: string;
+  type: string;
+  pin?: boolean;
+  tags?: string[];
 };
 
 function parseFrontmatter(fileContent: string) {
@@ -17,10 +20,36 @@ function parseFrontmatter(fileContent: string) {
   let metadata: Partial<Metadata> = {};
 
   frontMatterLines.forEach((line) => {
-    let [key, ...valueArr] = line.split(": ");
+    const [key, ...valueArr] = line.split(": ");
     let value = valueArr.join(": ").trim();
     value = value.replace(/^['"](.*)['"]$/, "$1"); // Remove quotes
-    metadata[key.trim() as keyof Metadata] = value;
+
+    switch (key.trim()) {
+      case "title":
+        metadata.title = value;
+        break;
+      case "publishedAt":
+        metadata.publishedAt = value;
+        break;
+      case "summary":
+        metadata.summary = value;
+      case "type":
+        metadata.type = value;
+        break;
+      case "image":
+        metadata.image = value;
+        break;
+      case "pin":
+        // Convert "true" or "false" to a boolean
+        metadata.pin = value.toLowerCase() === "true";
+        break;
+      case "tags":
+        // Split tags by comma and trim them
+        metadata.tags = value.split(",").map((tag) => tag.trim());
+        break;
+      default:
+        break;
+    }
   });
 
   return { metadata: metadata as Metadata, content };
@@ -110,4 +139,31 @@ export function formatDate(date: string, includeRelative = false) {
   }
 
   return `${fullDate} (${formattedDate})`;
+}
+
+export function getBlogPostBySlug(slug: string) {
+  const posts = getBlogPosts();
+  return posts.find((post) => post.slug === slug);
+}
+
+export function getBlogPostsByTag(tag: string) {
+  const posts = getBlogPosts();
+  return posts.filter((post) => post.metadata.tags?.includes(tag));
+}
+
+export function getPinnedBlogPosts() {
+  const posts = getBlogPosts();
+  return posts.filter((post) => post.metadata.pin);
+}
+
+export function getRecentBlogPosts(limit: number) {
+  const posts = getBlogPosts();
+  return posts.slice(0, limit);
+}
+
+export function getBlogPostsByTags(tags: string[]) {
+  const posts = getBlogPosts();
+  return posts.filter((post) =>
+    post.metadata.tags?.some((tag) => tags.includes(tag))
+  );
 }

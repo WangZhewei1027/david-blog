@@ -2,6 +2,8 @@ import Profile from "@/app/ui/profile";
 import Footer from "@/app/ui/footer";
 import Image from "next/image";
 import Article from "@/app/ui/article";
+import { getPinnedBlogPosts } from "@/app/blog/utils";
+import { PostsList } from "@/app/ui/postsList";
 
 function MyCard() {
   return (
@@ -19,12 +21,7 @@ function MyCard() {
 
       <div className="mt-4 border-t border-gray-200" />
 
-      <Article
-        title="New York Bule Sky & Sunset Collection"
-        date="Sep 14, 2024"
-        caption="A collection of photographs"
-        link="/life/2024/09/15/new-york-blue-sky-sunset-collection"
-      />
+      <PostsList posts={getPinnedBlogPosts()} />
     </section>
   );
 }

@@ -3,6 +3,7 @@ import Image from "next/image";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { highlight } from "sugar-high";
 import React from "react";
+import Page from "@/public/posts/new-york-blue-sky-sunset-collection/page";
 
 function Table({ data }) {
   let headers = data.headers.map((header, index) => (
@@ -97,6 +98,7 @@ let components = {
   a: CustomLink,
   code: Code,
   Table,
+  Page,
 };
 
 export function CustomMDX(props) {

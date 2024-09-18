@@ -13,7 +13,7 @@ export default function Article({ title, date, caption, link }: ArticleProps) {
           <li>{title}</li>
         </h2>
         <p className="text-sm text-gray-500 m-0 sm:text-base">
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{date} - {caption}
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{date} &nbsp;&nbsp;{caption}
         </p>
       </a>
     </div>

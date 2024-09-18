@@ -59,9 +59,8 @@ export default function Blog({ params }) {
     notFound();
   }
 
-  return (
-    <Container>
-      {/* <script
+  {
+    /* <script
         type="application/ld+json"
         suppressHydrationWarning
         dangerouslySetInnerHTML={{
@@ -82,12 +81,23 @@ export default function Blog({ params }) {
             },
           }),
         }}
-      /> */}
-      <h1 className="text-center mb-4 font-serif">{post.metadata.title}</h1>
+      /> */
+  }
+
+  return (
+    <>
+      <h1 className="text-center mt-8 mb-4 font-serif">
+        {post.metadata.title}
+      </h1>
       <div className="text-center text-gray-400 mb-4 font-serif">
         {formatDate(post.metadata.publishedAt)}
       </div>
-      <CustomMDX source={post.content} />
-    </Container>
+      {post.metadata.type === "article" && (
+        <Container>
+          <CustomMDX source={post.content} />
+        </Container>
+      )}
+      {post.metadata.type === "special" && <CustomMDX source={post.content} />}
+    </>
   );
 }
