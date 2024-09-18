@@ -12,6 +12,7 @@ function MyCard() {
           alt="pin"
           width={24}
           height={24}
+          priority={true}
         />
         <h2 className="mb-0">Pinned Blogs</h2>
       </div>
