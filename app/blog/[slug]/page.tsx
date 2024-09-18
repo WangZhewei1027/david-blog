@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { CustomMDX } from "@/components/mdx";
 import { formatDate, getBlogPosts } from "@/app/blog/utils";
 import { baseUrl } from "@/app/sitemap";
+import Container from "@/app/ui/container";
 
 export async function generateStaticParams() {
   let posts = getBlogPosts();
@@ -59,8 +60,8 @@ export default function Blog({ params }) {
   }
 
   return (
-    <section>
-      <script
+    <Container>
+      {/* <script
         type="application/ld+json"
         suppressHydrationWarning
         dangerouslySetInnerHTML={{
@@ -81,18 +82,12 @@ export default function Blog({ params }) {
             },
           }),
         }}
-      />
-      <h1 className="title font-semibold text-2xl tracking-tighter">
-        {post.metadata.title}
-      </h1>
-      <div className="flex justify-between items-center mt-2 mb-8 text-sm">
-        <p className="text-sm text-neutral-600 dark:text-neutral-400">
-          {formatDate(post.metadata.publishedAt)}
-        </p>
+      /> */}
+      <h1 className="text-center mb-4 font-serif">{post.metadata.title}</h1>
+      <div className="text-center text-gray-400 mb-4 font-serif">
+        {formatDate(post.metadata.publishedAt)}
       </div>
-      <article className="prose">
-        <CustomMDX source={post.content} />
-      </article>
-    </section>
+      <CustomMDX source={post.content} />
+    </Container>
   );
 }

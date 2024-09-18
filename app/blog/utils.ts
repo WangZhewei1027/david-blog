@@ -26,8 +26,30 @@ function parseFrontmatter(fileContent: string) {
   return { metadata: metadata as Metadata, content };
 }
 
-function getMDXFiles(dir) {
-  return fs.readdirSync(dir).filter((file) => path.extname(file) === ".mdx");
+function getMDXFiles(dir: string): string[] {
+  let mdxFiles: string[] = [];
+
+  // Read all files and folders in the directory
+  const files = fs.readdirSync(dir);
+
+  files.forEach((file) => {
+    const filePath = path.join(dir, file);
+
+    // Check if it's a directory
+    if (fs.statSync(filePath).isDirectory()) {
+      // Recursively find .mdx files in subdirectories
+      mdxFiles = mdxFiles.concat(getMDXFiles(filePath));
+    } else {
+      // Filter to add only .mdx files
+      if (path.extname(file) === ".mdx") {
+        mdxFiles.push(filePath);
+      }
+    }
+  });
+
+  //console.log(mdxFiles);
+
+  return mdxFiles;
 }
 
 function readMDXFile(filePath) {
@@ -37,8 +59,9 @@ function readMDXFile(filePath) {
 
 function getMDXData(dir) {
   let mdxFiles = getMDXFiles(dir);
+  //console.log(mdxFiles);
   return mdxFiles.map((file) => {
-    let { metadata, content } = readMDXFile(path.join(dir, file));
+    let { metadata, content } = readMDXFile(file);
     let slug = path.basename(file, path.extname(file));
 
     return {

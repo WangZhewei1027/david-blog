@@ -71,10 +71,10 @@ const Navbar = () => {
                 Life
               </a>
               <a
-                href="/about"
+                href="/blog"
                 className="text-gray-900 hover:text-gray-700 inline-flex items-center px-1 pt-1 text-sm font-medium"
               >
-                About
+                Blog
               </a>
             </div>
             <div className="flex h-full items-center absolute right-0">
@@ -121,8 +121,8 @@ const Navbar = () => {
                       <a href="/life" className={drawerOptionStyle}>
                         Life
                       </a>
-                      <a href="/about" className={drawerOptionStyle}>
-                        About
+                      <a href="/blog" className={drawerOptionStyle}>
+                        Blogs
                       </a>
                     </div>
                     <DrawerFooter>
