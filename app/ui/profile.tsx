@@ -4,7 +4,7 @@ export default function Profile() {
   return (
     <section className="bg-white rounded-lg p-8 flex flex-col flex-1 break-words">
       <Image
-        src="/david.jpeg"
+        src="/assets/david.jpeg"
         alt="david's profile picture"
         className="object-cover rounded-full w-full h-full mb-4"
         width={100}

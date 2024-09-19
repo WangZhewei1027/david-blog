@@ -1,16 +1,28 @@
 import { PostsList } from "@/app/ui/postsList";
 import Container from "@/app/ui/container";
 import { getBlogPosts } from "@/app/blog/utils";
+import Image from "next/image";
 
 export default function Page() {
   const posts = getBlogPosts();
 
   return (
     <Container>
-      <h1 className="mb-8 text-2xl font-semibold tracking-tighter">My Blogs</h1>
-      <p className="mb-4">{`Welcome to my blog! Here, I share my thoughts, ideas, and experiences on a variety of topics. Whether you're here to explore new perspectives or just curious about something, I hope you find these posts insightful and engaging. Happy reading!`}</p>
-      <div className="border-b" />
-      <PostsList posts={posts} />
+      <div className="container mx-auto px-4 min-h-screen">
+        <div className="flex flex-row space-x-3">
+          <Image
+            src="/icons/bookmark_24dp_5F6368.svg"
+            alt="pin"
+            width={24}
+            height={24}
+          />
+          <h2 className="text-2xl font-bold text-gray-800">
+            Welcome to My Blogs
+          </h2>
+        </div>
+        <div className="mt-4 border-t border-gray-200" />
+        <PostsList posts={posts} />
+      </div>
     </Container>
   );
 }

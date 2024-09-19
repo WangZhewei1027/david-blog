@@ -35,13 +35,6 @@ const Navbar = () => {
                 href="/"
                 className="text-xl font-bold text-gray-800 no-underline font-serif"
               >
-                {/* <Image
-                  src="/david.png"
-                  alt="David's Logo"
-                  className="h-8 w-8 inline-block mr-2"
-                  width={358}
-                  height={358}
-                /> */}
                 {"David's Blog"}
               </a>
             </div>

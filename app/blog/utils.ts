@@ -45,7 +45,9 @@ function parseFrontmatter(fileContent: string) {
         break;
       case "tags":
         // Split tags by comma and trim them
-        metadata.tags = value.split(",").map((tag) => tag.trim());
+        metadata.tags = value
+          ? value.split(",").map((item) => item.trim())
+          : [];
         break;
       default:
         break;
@@ -148,6 +150,7 @@ export function getBlogPostBySlug(slug: string) {
 
 export function getBlogPostsByTag(tag: string) {
   const posts = getBlogPosts();
+  console.log(posts);
   return posts.filter((post) => post.metadata.tags?.includes(tag));
 }
 
