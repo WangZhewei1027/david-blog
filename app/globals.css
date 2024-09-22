@@ -5,6 +5,16 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  --sh-class: #007acc;       /* Deep blue for class names */
+  --sh-identifier: #005f99;  /* Darker blue for identifiers */
+  --sh-sign: #666666;        /* Medium gray for signs */
+  --sh-property: #008080;    /* Teal for properties */
+  --sh-entity: #d68c00;      /* Golden yellow for entities */
+  --sh-jsxliterals: #9a67ea; /* Soft purple for JSX literals */
+  --sh-string: #008000;      /* Green for strings */
+  --sh-keyword: #d80000;     /* Rich red for keywords */
+  --sh-comment: #999999;     /* Soft gray for comments */
 }
 
 
@@ -87,19 +97,19 @@ body {
 
 /* Headers */
 h1 {
-  @apply text-3xl font-bold;
+  @apply text-3xl font-bold mb-4;
 }
 
 h2 {
-  @apply text-2xl font-bold;
+  @apply text-2xl font-bold mb-3;
 }
 
 h3 {
-  @apply text-xl font-bold;
+  @apply text-xl font-bold mb-2;
 }
 
 h4 {
-  @apply text-lg font-bold;
+  @apply text-lg font-bold mb-1;
 }
 
 /* Paragraph */
@@ -118,7 +128,7 @@ pre {
 }
 
 code {
-  @apply bg-gray-200 rounded px-1 py-0.5 text-sm font-mono text-red-600;
+  @apply px-1 py-0.5 text-sm font-mono;
 }
 
 /* Inline Code */

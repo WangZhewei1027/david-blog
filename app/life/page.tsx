@@ -16,7 +16,7 @@ export default function Life() {
             width={24}
             height={24}
           />
-          <h2 className="text-2xl font-bold text-gray-800">
+          <h2 className="text-2xl font-bold text-gray-800 mb-0">
             Welcome to My Life
           </h2>
         </div>

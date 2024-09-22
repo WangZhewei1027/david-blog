@@ -10,7 +10,7 @@ export default function Profile() {
         width={100}
         height={100}
       />
-      <h2 className="text-2xl font-bold text-gray-800">David</h2>
+      <div className="text-2xl font-bold text-gray-800 mb-0">David</div>
       <div className="text-base text-gray-500">Zhewei Wang</div>
 
       <div className="border-t my-4" />
@@ -48,7 +48,7 @@ export default function Profile() {
       <div className="border-t my-4" />
 
       <h3 className="mb-2">About David</h3>
-      <div>
+      <div className="text-gray-600">
         {`Hi! I'm David, a junior studying Computer Science. My passion lies
             in coding, web design, and all things tech-related. When I'm not in
             front of a screen, you can find me immersed in the soothing sounds

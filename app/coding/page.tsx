@@ -16,7 +16,9 @@ export default function Coding() {
             width={24}
             height={24}
           />
-          <h2 className="text-2xl font-bold text-gray-800">My Coding Works</h2>
+          <h2 className="text-2xl font-bold text-gray-800 mb-0">
+            My Coding Works
+          </h2>
         </div>
         <div className="mt-4 border-t border-gray-200" />
         <PostsList posts={posts} />

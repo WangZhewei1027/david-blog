@@ -3,7 +3,8 @@ import Image from "next/image";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { highlight } from "sugar-high";
 import React from "react";
-import Page from "@/public/posts/new-york-blue-sky-sunset-collection/page";
+import Gallery from "./gallery";
+import TwoColumns from "./two-columns";
 
 function Table({ data }) {
   let headers = data.headers.map((header, index) => (
@@ -46,11 +47,15 @@ function CustomLink(props) {
 }
 
 function RoundedImage(props) {
-  return <Image alt={props.alt} className="rounded-lg" {...props} />;
+  return (
+    <div className="flex justify-center mb-4">
+      <Image alt={props.alt} {...props} />
+    </div>
+  );
 }
 
 function Code({ children, ...props }) {
-  let codeHTML = highlight(children);
+  let codeHTML = highlight(children as string);
   return <code dangerouslySetInnerHTML={{ __html: codeHTML }} {...props} />;
 }
 
@@ -98,7 +103,8 @@ let components = {
   a: CustomLink,
   code: Code,
   Table,
-  Page,
+  Gallery,
+  TwoColumns,
 };
 
 export function CustomMDX(props) {
