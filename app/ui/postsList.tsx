@@ -21,6 +21,7 @@ export function PostsList({ posts }: { posts: any[] }) {
             title={post.metadata.title}
             date={post.metadata.publishedAt}
             caption={post.metadata.summary}
+            tags={post.metadata.tags}
             link={`/blog/${post.slug}`}
           />
         ))}

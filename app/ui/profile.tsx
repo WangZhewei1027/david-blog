@@ -1,14 +1,20 @@
+"use client";
 import Image from "next/image";
+import { useState } from "react";
 
 export default function Profile() {
+  const [isHovered, setIsHovered] = useState(false);
+
   return (
     <section className="bg-white rounded-lg p-8 flex flex-col flex-1 break-words">
       <Image
-        src="/assets/david.jpeg"
+        src={isHovered ? "/assets/david_smile.jpg" : "/assets/david.jpeg"}
         alt="david's profile picture"
-        className="object-cover rounded-full w-full h-full mb-4"
+        className="object-cover rounded-full w-full h-full mb-4 transition-all"
         width={100}
         height={100}
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
       />
       <div className="text-2xl font-bold text-gray-800 mb-0">David</div>
       <div className="text-base text-gray-500">Zhewei Wang</div>
