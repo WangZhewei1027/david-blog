@@ -147,7 +147,7 @@ ol {
 
 /* List Items */
 li {
-  @apply mb-1;
+  @apply mb-1 text-gray-600;
 }
 
 /* Links */
@@ -184,7 +184,7 @@ hr {
 
 /* Bold Text */
 strong {
-  @apply font-bold;
+  @apply font-bold text-gray-600;
 }
 
 /* Italic Text */
