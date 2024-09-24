@@ -124,7 +124,7 @@ blockquote {
 
 /* Code Blocks */
 pre {
-  @apply bg-gray-100 p-4 rounded-lg overflow-x-auto text-sm;
+  @apply bg-gray-100 p-4 rounded-lg overflow-x-auto text-sm mb-7;
 }
 
 code {
