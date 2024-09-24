@@ -1,0 +1,58 @@
+---
+title: How to Show Video Previews on Mobile Devices
+publishedAt: 2024-09-23
+summary: Solution to show video preview on mobile
+type: article
+pin: true
+tags: fontend
+---
+
+# Problem
+
+When using the video tag, video previews don’t display on mobile devices (specifically mobile Chrome and Safari), even though they work perfectly on desktop browsers.
+
+On iPhone:
+
+<div className="flex justify-center mb-4">
+    <Image src="/posts/video-preview-on-mobile/mobile.jpeg" className="shadow-xl" height={200} width={200} />
+</div>
+
+On laptop:
+
+<div className="flex justify-center mb-4">
+    <Image src="/posts/video-preview-on-mobile/desktop.png" className="shadow-md" height={900} width={900} />
+</div>
+
+The video tag is as follows:
+
+```html
+<div className="flex justify-center mb-4">
+    <video src="/posts/nime-w2-first-try/ableton.mov" controls autoplay playsinline preload="metadata" width={600} height={600}  />
+</div>
+```
+
+# Trying
+
+Initially, **adding the autoplay attribute** seemed to work. On mobile, due to stricter autoplay policies, the video pauses at the first frame, providing a sort of preview. This behavior also occurs on desktop, where Chrome’s autoplay policy pauses videos at the first frame.
+
+However, on desktop devices, as the [**Media Engagement Index (MEI)**](https://developer.chrome.com/blog/autoplay#media_engagement_index) increases, videos may start autoplaying unexpectedly, which leads to an inconsistent user experience. As a result, relying on autoplay is not an ideal solution.
+
+# Solution
+
+The solution lies in using [**Media Fragments**](https://www.w3.org/TR/media-frags/), a specification that allows for sharing specific parts of audio and video files through URL parameters. By loading and pausing the video at the first millisecond, you can achieve a proper video preview on both mobile and desktop.
+
+To implement this, append **#t=0.001** to the video URL:
+
+```html
+<div className="flex justify-center mb-4">
+    <video src="/posts/nime-w2-first-try/ableton.mov#t=0.001" controls autoplay playsinline preload="metadata" width={600} height={600}  />
+</div>
+```
+
+This method ensures that both mobile and desktop browsers display a preview without triggering unexpected autoplay behaviors.
+
+# Rerference
+
+- “Video Tag Not Showing Preview on iPhone.” [Apple Developer Forums](https://forums.developer.apple.com/forums/thread/129377). Accessed 24 Sept. 2024.
+
+- “Hack for iOS Safari to Display the HTML Video Thumbnail.” [Muffin Man Blog](https://muffinman.io/blog/hack-for-ios-safari-to-display-html-video-thumbnail/). Accessed 24 Sept. 2024.
