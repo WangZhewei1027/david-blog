@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Page() {
   return (
     <div>
@@ -17,7 +19,7 @@ export default function Page() {
 
       <h2>Blockquote</h2>
       <blockquote>
-        "This is a blockquote example to show the styling."
+        &quot;This is a blockquote example to show the styling.&quot;
       </blockquote>
 
       <h2>Code Block</h2>
