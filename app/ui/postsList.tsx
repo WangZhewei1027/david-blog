@@ -1,8 +1,17 @@
-import { formatDate, getBlogPosts } from "@/app/blog/utils";
 import Article from "@/app/ui/article";
 
-export function PostsList({ posts }: { posts: any[] }) {
-  let allBlogs = posts;
+interface Post {
+  slug: string;
+  metadata: {
+    title: string;
+    publishedAt: string;
+    summary: string;
+    tags: string[];
+  };
+}
+
+export function PostsList({ posts }: { posts: Post[] }) {
+  const allBlogs = posts;
 
   return (
     <div>

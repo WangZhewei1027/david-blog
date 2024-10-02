@@ -1,5 +1,4 @@
 import React from "react";
-import styles from "./two-columns.module.css";
 
 interface TwoColumnsProps {
   leftContent: React.ReactNode;
