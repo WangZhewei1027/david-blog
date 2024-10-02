@@ -1,13 +1,19 @@
 import Article from "@/app/ui/article";
 
+type Metadata = {
+  title: string;
+  publishedAt: string;
+  summary: string;
+  image?: string;
+  type: string;
+  pin?: boolean;
+  tags: string[];
+};
+
 interface Post {
+  metadata: Metadata;
   slug: string;
-  metadata: {
-    title: string;
-    publishedAt: string;
-    summary: string;
-    tags: string[];
-  };
+  content: string;
 }
 
 export function PostsList({ posts }: { posts: Post[] }) {

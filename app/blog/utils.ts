@@ -8,7 +8,7 @@ type Metadata = {
   image?: string;
   type: string;
   pin?: boolean;
-  tags?: string[];
+  tags: string[];
 };
 
 function parseFrontmatter(fileContent: string) {
