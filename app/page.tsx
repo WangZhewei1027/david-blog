@@ -1,7 +1,5 @@
 import Profile from "@/app/ui/profile";
-import Footer from "@/app/ui/footer";
 import Image from "next/image";
-import Article from "@/app/ui/article";
 import { getPinnedBlogPosts } from "@/app/blog/utils";
 import { PostsList } from "@/app/ui/postsList";
 

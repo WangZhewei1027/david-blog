@@ -1,59 +1,59 @@
 import { notFound } from "next/navigation";
 import { CustomMDX } from "@/components/mdx";
 import { formatDate, getBlogPosts } from "@/app/blog/utils";
-import { baseUrl } from "@/app/sitemap";
+// import { baseUrl } from "@/app/sitemap";
 import Container from "@/app/ui/container";
 
 export async function generateStaticParams() {
-  let posts = getBlogPosts();
+  const posts = getBlogPosts();
 
   return posts.map((post) => ({
     slug: post.slug,
   }));
 }
 
-export function generateMetadata({ params }) {
-  let post = getBlogPosts().find((post) => post.slug === params.slug);
-  if (!post) {
-    return;
-  }
-
-  let {
-    title,
-    publishedAt: publishedTime,
-    summary: description,
-    image,
-  } = post.metadata;
-  let ogImage = image
-    ? image
-    : `${baseUrl}/og?title=${encodeURIComponent(title)}`;
-
-  return {
-    title,
-    description,
-    openGraph: {
-      title,
-      description,
-      type: "article",
-      publishedTime,
-      url: `${baseUrl}/blog/${post.slug}`,
-      images: [
-        {
-          url: ogImage,
-        },
-      ],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title,
-      description,
-      images: [ogImage],
-    },
-  };
-}
+// export function generateMetadata({ params }) {
+//   const post = getBlogPosts().find((post) => post.slug === params.slug);
+//   if (!post) {
+//     return null;
+//   }
+//
+//   const {
+//     title,
+//     publishedAt: publishedTime,
+//     summary: description,
+//     image,
+//   } = post.metadata;
+//   const ogImage = image
+//     ? image
+//     : `${baseUrl}/og?title=${encodeURIComponent(title)}`;
+//
+//   return {
+//     title,
+//     description,
+//     openGraph: {
+//       title,
+//       description,
+//       type: "article",
+//       publishedTime,
+//       url: `${baseUrl}/blog/${post.slug}`,
+//       images: [
+//         {
+//           url: ogImage,
+//         },
+//       ],
+//     },
+//     twitter: {
+//       card: "summary_large_image",
+//       title,
+//       description,
+//       images: [ogImage],
+//     },
+//   };
+// }
 
 export default function Blog({ params }) {
-  let post = getBlogPosts().find((post) => post.slug === params.slug);
+  const post = getBlogPosts().find((post) => post.slug === params.slug);
 
   if (!post) {
     notFound();
