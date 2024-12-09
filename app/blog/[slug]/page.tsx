@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { CustomMDX } from "@/components/mdx";
 import { formatDate, getBlogPosts } from "@/app/blog/utils";
@@ -94,10 +95,16 @@ export default function Blog({ params }) {
       </div>
       {post.metadata.type === "article" && (
         <Container>
-          <CustomMDX source={post.content} />
+          <Suspense fallback={<div>Loading...</div>}>
+            <CustomMDX source={post.content} />
+          </Suspense>
         </Container>
       )}
-      {post.metadata.type === "special" && <CustomMDX source={post.content} />}
+      {post.metadata.type === "special" && (
+        <Suspense fallback={<div>Loading...</div>}>
+          <CustomMDX source={post.content} />
+        </Suspense>
+      )}
     </>
   );
 }

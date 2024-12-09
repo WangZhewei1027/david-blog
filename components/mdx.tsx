@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
 import { MDXRemote } from "next-mdx-remote";
@@ -107,7 +109,7 @@ const components = {
   TwoColumns,
 };
 
-export async function CustomMDX(props) {
+export function CustomMDX(props) {
   return (
     <MDXRemote
       {...props}
