@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { MDXRemote } from "next-mdx-remote/rsc";
+import { MDXRemote } from "next-mdx-remote";
 import { highlight } from "sugar-high";
 import React from "react";
 import Gallery from "./gallery";
@@ -107,7 +107,7 @@ const components = {
   TwoColumns,
 };
 
-export function CustomMDX(props) {
+export async function CustomMDX(props) {
   return (
     <MDXRemote
       {...props}
