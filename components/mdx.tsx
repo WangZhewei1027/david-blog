@@ -107,11 +107,11 @@ const components = {
   TwoColumns,
 };
 
-export function CustomMDX(props) {
-  return (
-    <MDXRemote
-      {...props}
-      components={{ ...components, ...(props.components || {}) }}
-    />
-  );
+export async function CustomMDX(props) {
+  const mdxContent = await MDXRemote({
+    ...props,
+    components: { ...components, ...(props.components || {}) },
+  });
+
+  return <>{mdxContent}</>;
 }
