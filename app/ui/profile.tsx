@@ -7,17 +7,38 @@ export default function Profile() {
 
   return (
     <section className="bg-white rounded-lg p-8 flex flex-col flex-1 break-words">
-      <Image
-        src={isHovered ? "/assets/david_smile.jpg" : "/assets/david.jpeg"}
-        alt="david's profile picture"
-        className="object-cover rounded-full w-full h-full mb-4 transition-all"
-        width={100}
-        height={100}
-        onMouseEnter={() => setIsHovered(true)}
-        onMouseLeave={() => setIsHovered(false)}
-      />
-      <div className="text-2xl font-bold text-gray-800 mb-0">David</div>
-      <div className="text-base text-gray-500">Zhewei Wang</div>
+      <div className="hidden md:block">
+        <Image
+          src={isHovered ? "/assets/david_smile.jpg" : "/assets/david.jpeg"}
+          alt="david's profile picture"
+          className="object-cover rounded-full w-full h-full mb-4 transition-all"
+          width={100}
+          height={100}
+          onMouseEnter={() => setIsHovered(true)}
+          onMouseLeave={() => setIsHovered(false)}
+        />
+        <div className="inline-block">
+          <div className="text-2xl font-bold text-gray-800 mb-0">David</div>
+          <div className="text-base text-gray-500">Zhewei Wang</div>
+        </div>
+      </div>
+      <div className="flex md:hidden">
+        <div className="block h-full md:hidden">
+          <Image
+            src={isHovered ? "/assets/david_smile.jpg" : "/assets/david.jpeg"}
+            alt="david's profile picture"
+            className="object-cover rounded-full w-full h-full transition-all"
+            width={50}
+            height={50}
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}
+          />
+        </div>
+        <div className="flex flex-col justify-end  ml-4">
+          <div className="text-2xl font-bold text-gray-800 mb-0">David</div>
+          <div className="text-base text-gray-500">Zhewei Wang</div>
+        </div>
+      </div>
 
       <div className="border-t my-4" />
 
