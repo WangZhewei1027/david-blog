@@ -11,15 +11,9 @@ tags: coding, frontend
 
 While working on a frontend project, I encountered an issue where the scroll bar on Mac appeared abnormal. Instead of the default style, it would randomly display an incorrect version, which was frustrating.
 
-<div className="flex flex-col justify-center mb-4">
-    <Image src="/posts/mac-scrolling-bar/normal.jpeg" className="shadow-lg" height={200} width={200} />
-    <p className="text-center italic">Beautiful Normal Scrolling Bar</p>
-</div>
+<Image src="/posts/mac-scrolling-bar/normal.jpeg" alt="Beautiful Normal Scrolling Bar" height={200} width={200} />
 
-<div className="flex flex-col justify-center mb-4">
-    <Image src="/posts/mac-scrolling-bar/abnormal.jpeg" className="shadow-lg" height={200} width={200} />
-    <p className="text-center italic">Ugly Abnormal Scrolling Bar</p>
-</div>
+<Image src="/posts/mac-scrolling-bar/abnormal.jpeg" alt="Ugly Abnormal Scrolling Bar" height={200} width={200} />
 
 This issue is particularly disruptive when working with dark-themed websites. The abnormal scroll bar becomes highly noticeable and can ruin the overall design aesthetic.
 
@@ -27,17 +21,11 @@ This issue is particularly disruptive when working with dark-themed websites. Th
 
 After observing the pattern, I noticed that this issue occurred across various browsers and Electron applications, suggesting it was a system-level problem. Upon further investigation, I discovered the issue stemmed from a compatibility problem in macOS settings. Specifically, the default scroll bar setting in macOS has issues when using third-party Bluetooth mice (other than the Magic Mouse). The scroll bar would appear abnormal whenever a third-party mouse was connected. This explained the inconsistency, as I don’t always use a mouse.
 
-<div className="flex flex-col justify-center mb-4">
-    <Image src="/posts/mac-scrolling-bar/default.png" className="shadow-lg" height={400} width={600} />
-    <p className="text-center italic">Default Option: "Automatically based on mouse or trackpad"</p>
-</div>
+<Image src="/posts/mac-scrolling-bar/default.png" alt={`Default Option: "Automatically based on mouse or trackpad"`} height={400} width={600} />
 
 Changing the setting to "When Scrolling" resolved the issue entirely.
 
-<div className="flex flex-col justify-center mb-4">
-    <Image src="/posts/mac-scrolling-bar/secondary_option.png" className="shadow-lg" height={400} width={600} />
-    <p className="text-center italic">Show scroll bars: "When Scrolling"</p>
-</div>
+<Image src="/posts/mac-scrolling-bar/secondary_option.png" alt={`Show scroll bars: "When Scrolling"`} height={400} width={600} />
 
 ## References
 
