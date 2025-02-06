@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { PostsList } from "@/app/ui/postsList";
-import { getBlogPostsByTag } from "@/app/blog/utils";
+import { getBlogPostsByTag } from "@/app/posts/utils";
 import Container from "@/app/ui/container";
 
 export default function Life() {
