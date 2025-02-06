@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { CustomMDX } from "@/components/mdx";
-import { formatDate, getBlogPosts } from "@/app/blog/utils";
+import { formatDate, getBlogPosts } from "@/app/posts/utils";
 import Container from "@/app/ui/container";
 
 export default function Blog({ params }) {

@@ -1,6 +1,6 @@
 import { PostsList } from "@/app/ui/postsList";
 import Container from "@/app/ui/container";
-import { getBlogPosts } from "@/app/blog/utils";
+import { getBlogPosts } from "@/app/posts/utils";
 import Image from "next/image";
 
 export default function Page() {

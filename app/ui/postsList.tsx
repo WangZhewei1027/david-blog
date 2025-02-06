@@ -37,7 +37,7 @@ export function PostsList({ posts }: { posts: Post[] }) {
             date={post.metadata.publishedAt}
             caption={post.metadata.summary}
             tags={post.metadata.tags}
-            link={`/blog/${post.slug}`}
+            link={`/posts/${post.slug}`}
           />
         ))}
     </div>

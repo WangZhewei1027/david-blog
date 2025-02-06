@@ -1,6 +1,6 @@
 import Profile from "@/app/ui/profile";
 import Image from "next/image";
-import { getPinnedBlogPosts } from "@/app/blog/utils";
+import { getPinnedBlogPosts } from "@/app/posts/utils";
 import { PostsList } from "@/app/ui/postsList";
 
 function MyCard() {
