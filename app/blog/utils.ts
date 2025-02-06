@@ -17,6 +17,7 @@ function parseFrontmatter(fileContent: string) {
   const frontMatterBlock = match![1];
   const content = fileContent.replace(frontmatterRegex, "").trim();
   const frontMatterLines = frontMatterBlock.trim().split("\n");
+
   const metadata: Partial<Metadata> = {};
 
   frontMatterLines.forEach((line) => {
