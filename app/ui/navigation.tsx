@@ -25,9 +25,9 @@ const Navbar = () => {
     "font-bold text-center py-2 text-xl md:text-left hover:text-gray-400";
 
   return (
-    <nav className="bg-gray/10 backdrop-blur-lg fixed w-full">
+    <nav className="bg-gray/10 backdrop-blur-lg fixed w-full print:hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-16 relative">
+        <div className="flex justify-between h-16 relative print:hidden">
           <div className="flex">
             <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 md:static md:translate-x-0 md:translate-y-0 md:content-center ">
               <a

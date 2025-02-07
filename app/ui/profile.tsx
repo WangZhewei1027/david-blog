@@ -74,7 +74,7 @@ export default function Profile() {
 
       <div className="border-t my-4" />
 
-      <h3 className="mb-2">About David</h3>
+      <h3 className="mb-2 font-bold">About Me</h3>
       <div className="text-gray-600">
         {`Hi! I'm David, a junior studying Computer Science. My passion lies
             in coding, web design, and all things tech-related. When I'm not in

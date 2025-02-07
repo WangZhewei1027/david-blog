@@ -95,104 +95,110 @@ body {
   }
 }
 
-/* Headers */
-h1 {
-  @apply text-3xl font-bold mb-4;
-}
+@layer components {
+  /* 让 `.blog-post` 作用于整个文章 */
+  /* .blog-post {
+    @apply max-w-3xl mx-auto;
+  } */
 
-h2 {
-  @apply text-2xl font-bold mb-3;
-}
+  /* 标题 */
+  .blog-post h1 {
+    @apply text-3xl font-bold mb-4;
+  }
+  
+  .blog-post h2 {
+    @apply text-2xl font-bold mb-3;
+  }
+  
+  .blog-post h3 {
+    @apply text-xl font-bold mb-2;
+  }
+  
+  .blog-post h4 {
+    @apply text-lg font-bold mb-1;
+  }
+  
+  /* 段落 */
+  .blog-post p {
+    @apply text-lg leading-8 text-gray-600 mb-7 font-serif text-pretty;
+  }
+  
+  /* 引用块 */
+  .blog-post blockquote {
+    @apply border-l-4 border-gray-300 pl-4 italic text-gray-600 my-4;
+  }
+  
+  /* 代码块 */
+  .blog-post pre {
+    @apply bg-gray-100 p-4 rounded-lg overflow-x-auto text-sm mb-7;
+  }
+  
+  .blog-post code {
+    @apply px-1 py-0.5 text-sm font-mono bg-gray-100 rounded;
+  }
+  
+  /* 行内代码 */
+  .blog-post p code {
+    @apply bg-gray-100 px-1 py-0.5 rounded text-sm font-mono;
+  }
+  
+  /* 列表 */
+  .blog-post ul {
+    @apply list-disc ml-6 mb-4;
+  }
+  
+  .blog-post ol {
+    @apply list-decimal ml-6 mb-4;
+  }
+  
+  .blog-post li {
+    @apply mb-1 text-gray-600;
+  }
+  
+  /* 链接 */
+  .blog-post a {
+    @apply underline text-blue-600 hover:text-blue-800 break-words;
+  }
+  
+  /* 表格 */
+  .blog-post table {
+    @apply w-full border-collapse mt-4;
+  }
+  
+  .blog-post th {
+    @apply bg-gray-100 font-bold text-left border border-gray-300 px-4 py-2;
+  }
 
-h3 {
-  @apply text-xl font-bold mb-2;
-}
-
-h4 {
-  @apply text-lg font-bold mb-1;
-}
-
-/* Paragraph */
-p {
-  @apply text-lg leading-8 text-gray-600 mb-7 font-serif text-pretty;
-}
-
-/* Blockquote */
-blockquote {
-  @apply border-l-4 border-gray-300 pl-4 italic text-gray-600 my-4;
-}
-
-/* Code Blocks */
-pre {
-  @apply bg-gray-100 p-4 rounded-lg overflow-x-auto text-sm mb-7;
-}
-
-code {
-  @apply px-1 py-0.5 text-sm font-mono;
-}
-
-/* Inline Code */
-p code {
-  @apply bg-gray-100 px-1 py-0.5 rounded text-sm font-mono;
-}
-
-/* Lists */
-ul {
-  @apply list-disc ml-6 mb-4;
-}
-
-ol {
-  @apply list-decimal ml-6 mb-4;
-}
-
-/* List Items */
-li {
-  @apply mb-1 text-gray-600;
-}
-
-/* Links */
-a {
-  @apply underline break-words;
-}
-
-/* Tables */
-table {
-  @apply w-full border-collapse mt-4;
-}
-
-th, td {
-  @apply border border-gray-300 px-4 py-2;
-}
-
-th {
-  @apply bg-gray-100 font-bold text-left;
-}
-
-tr:nth-child(even) {
-  @apply bg-gray-50;
-}
-
-/* Images */
-img {
-
-}
-
-/* Horizontal Rule */
-hr {
-  @apply border-t-2 border-gray-300 my-6;
-}
-
-/* Bold Text */
-strong {
-  @apply font-bold text-gray-600;
-}
-
-/* Italic Text */
-em {
-  @apply italic;
-}
-
-/* Strikethrough */
-del {
-  @apply line-through;
+  .blog-post td {
+    @apply border border-gray-300 px-4 py-2;
+  }
+  
+  .blog-post tr:nth-child(even) {
+    @apply bg-gray-50;
+  }
+  
+  /* 图片 */
+  /* .blog-post img {
+    @apply w-full rounded-lg shadow-md my-4;
+  } */
+  
+  /* 分割线 */
+  .blog-post hr {
+    @apply border-t-2 border-gray-300 my-6;
+  }
+  
+  /* 强调文本 */
+  .blog-post strong {
+    @apply font-bold text-gray-600;
+  }
+  
+  /* 斜体 */
+  .blog-post em {
+    @apply italic;
+  }
+  
+  /* 删除线 */
+  .blog-post del {
+    @apply line-through;
+  }
 }

@@ -11,7 +11,7 @@ export default function Blog({ params }) {
   }
 
   return (
-    <>
+    <div className="blog-post">
       <h1 className="text-center mt-8 mb-4 font-serif">
         {post.metadata.title}
       </h1>
@@ -24,6 +24,6 @@ export default function Blog({ params }) {
         </Container>
       )}
       {post.metadata.type === "special" && <CustomMDX source={post.content} />}
-    </>
+    </div>
   );
 }
