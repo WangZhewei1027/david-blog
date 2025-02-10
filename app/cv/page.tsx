@@ -7,7 +7,7 @@ export default function CV() {
       <Header />
 
       {/* 主容器 - 左右布局 */}
-      <div className="flex gap-6">
+      <div className="flex gap-6 mt-8">
         {/* 左侧主内容（占比 3） */}
         <div className="w-2/3 space-y-8">
           <Education />
@@ -30,17 +30,16 @@ export default function CV() {
 function Header() {
   return (
     <div className="flex justify-between items-start gap-6">
-      <div>
+      <div className="w-2/3">
         <h1 className="text-5xl font-serif mb-1">David Wang</h1>
-        <p className="text-lg mt-2">Full name: David Zhewei Wang</p>
-      </div>
-      <div className="w-1/3 text-right">
-        <p className="text-base m-0">+86 - 13636472690</p>
-        <p className="text-base font-bold text-blue-600 m-0">zw3636@nyu.edu</p>
-        <p className="m-0">
-          NYUSH 567 West Yangsi Road, Pudong New District, Shanghai, China
-          200124
+        <p className="text-base text-gray-500 mt-2">
+          Full name: David Zhewei Wang
         </p>
+      </div>
+      <div className="w-1/3 text-left">
+        <strong>Contact Info: </strong>
+        <p className="text-base">+86 - 13636472690</p>
+        <p className="text-base">zw3636@nyu.edu</p>
       </div>
     </div>
   );
@@ -50,19 +49,21 @@ function Header() {
 function Education() {
   return (
     <Section title="EDUCATION">
-      <h3 className="font-bold">New York University Shanghai</h3>
-      <p className="text-gray-600">September 2022 - May 2026</p>
-      <p>
-        <strong>Major:</strong> Computer Science
-        <br />
-        <strong>Minor:</strong> Interactive Media Arts
-        <br />
-        <strong>Relevant Coursework:</strong> Machine Learning, P5JS, Unity &
-        C#, Web Design (HTML, CSS, JS), Data Structures, Algorithms, Linear
-        Algebra, Calculus.
-        <br />
-        <strong>Cumulative GPA:</strong> 3.5/4.0
-      </p>
+      <div className="">
+        <h3 className="font-bold text-lg">New York University Shanghai</h3>
+        <p className="text-gray-600 !mt-0">September 2022 - May 2026</p>
+        <p className="mt-2">
+          <strong>Major:</strong> Computer Science
+          <br />
+          <strong>Minor:</strong> Interactive Media Arts
+          <br />
+          <strong>Relevant Coursework:</strong> Machine Learning, P5JS, Unity &
+          C#, Web Design (HTML, CSS, JS), Data Structures, Algorithms, Linear
+          Algebra, Calculus.
+          <br />
+          <strong>Cumulative GPA:</strong> 3.5/4.0
+        </p>
+      </div>
     </Section>
   );
 }
@@ -175,7 +176,7 @@ function Section({ title, children }) {
   return (
     <section>
       <h2 className="text-2xl font-semibold text-blue-600">{title}</h2>
-      <div className="mt-2 space-y-2">{children}</div>
+      <div className="mt-2 space-y-4">{children}</div>
     </section>
   );
 }
@@ -183,10 +184,12 @@ function Section({ title, children }) {
 /* ✅ 可复用的 `ExperienceItem` 组件 */
 function ExperienceItem({ role, date, bullets }) {
   return (
-    <div>
-      <h3 className="font-bold">{role}</h3>
-      <p className="text-gray-600">{date}</p>
-      <ul className="list-disc pl-5 text-base">
+    <div className="px-4 py-2 rounded-lg shadow">
+      <div className="">
+        <h3 className="font-bold text-lg">{role}</h3>
+        <p className="text-gray-600">{date}</p>
+      </div>
+      <ul className="list-disc pl-5 text-base mt-2">
         {bullets.map((bullet, index) => (
           <li key={index}>{bullet}</li>
         ))}

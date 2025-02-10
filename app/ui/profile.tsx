@@ -8,7 +8,7 @@ export default function Profile() {
   return (
     <section className="bg-white rounded-lg p-8 flex flex-col flex-1 break-words">
       <div className="hidden md:block">
-        <Image
+        {/* <Image
           src={isHovered ? "/assets/david_smile.jpg" : "/assets/david.jpeg"}
           alt="david's profile picture"
           className="object-cover rounded-full w-full h-full mb-4 transition-all"
@@ -16,6 +16,15 @@ export default function Profile() {
           height={100}
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
+        /> */}
+        <video
+          src={"/assets/david.mp4"}
+          muted
+          autoPlay={true}
+          loop={true}
+          className="object-cover rounded-full w-full h-full mb-4 transition-all"
+          width={100}
+          height={100}
         />
         <div className="inline-block">
           <div className="text-2xl font-bold text-gray-800 mb-0">David</div>
@@ -24,14 +33,24 @@ export default function Profile() {
       </div>
       <div className="flex md:hidden">
         <div className="block h-full md:hidden">
-          <Image
+          {/* <Image
             src={isHovered ? "/assets/david_smile.jpg" : "/assets/david.jpeg"}
+            src={"/assets/david.mp4"}
             alt="david's profile picture"
             className="object-cover rounded-full w-full h-full transition-all"
             width={50}
             height={50}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
+          /> */}
+          <video
+            src={"/assets/david.mp4"}
+            muted
+            autoPlay={true}
+            loop={true}
+            className="object-cover rounded-full transition-all"
+            width={50}
+            height={50}
           />
         </div>
         <div className="flex flex-col justify-end  ml-4">
