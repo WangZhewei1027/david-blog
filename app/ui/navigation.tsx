@@ -2,7 +2,6 @@
 
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
-import SplitText from "@/components/animations/SplitText/SplitText";
 
 import {
   Drawer,
