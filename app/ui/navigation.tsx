@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
+import SplitText from "@/components/animations/SplitText/SplitText";
 
 import {
   Drawer,
@@ -34,7 +35,7 @@ const Navbar = () => {
                 href="/"
                 className="text-xl font-bold text-gray-800 no-underline font-serif"
               >
-                {"David's Blog"}
+                {`David's Blog`}
               </a>
             </div>
             <div className="hidden md:ml-6 md:flex md:space-x-8">
