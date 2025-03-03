@@ -39,6 +39,18 @@ function Profile() {
       </div>
       <div className="ml-auto space-y-1">
         <div>
+          <span className="ml-2 align-bottom text-gray-700">
+            <strong>Position Applied:</strong> Frontend Intern
+          </span>
+        </div>
+        <div>
+          <span className="ml-2 align-bottom text-gray-700">
+            <strong>Internship Period:</strong> June 20, 2025 - August 20, 2025
+          </span>
+        </div>
+      </div>
+      <div className="ml-auto space-y-1">
+        <div>
           <MdLocalPhone className="inline-block h-6 w-6" />
           <span className="ml-2 align-bottom text-gray-700">
             +86 13636472690
@@ -106,16 +118,16 @@ function Experience() {
       >
         <ul className="list-disc list-inside text-gray-600">
           <li>
-            Facilitated the integration of freshmen students into college life
-            by guiding them through orientation activities.
+            Helped new students integrate into university life by guiding them
+            through orientation activities.
           </li>
           <li>
-            Successfully organized and executed diverse events and activities
-            over several months.
+            Successfully organized and executed a variety of orientation events
+            and projects over several months.
           </li>
           <li>
             Developed strong leadership, organizational, and communication
-            skills through active participation in the orientation program.
+            skills through active participation in orientation programs.
           </li>
         </ul>
       </Item>
@@ -170,11 +182,20 @@ function Experience() {
       >
         <ul className="list-disc list-inside text-gray-600">
           <li>
-            Researching the application of AI in digital heritage preservation.
+            Developed digital heritage experiences using Unity, successfully
+            reconstructing Zhenru Temple in AR glasses.
           </li>
           <li>
-            Contributing to the development of a digital archive for cultural
-            artifacts.
+            Designed an educational cultural experience, enabling users to
+            explore historical architecture interactively.
+          </li>
+          <li>
+            Integrated 3D modeling and real-time rendering, optimizing
+            performance for immersive AR applications.
+          </li>
+          <li>
+            Contributed to digital cultural preservation research, applying AR
+            technology to enhance heritage education.
           </li>
         </ul>
       </Item>
@@ -189,7 +210,20 @@ function Projects() {
       <Item
         time="Apr 2024 - Aug 2024"
         title="Sanxingdui Digital Museum"
-        subTitle="Deans' Undergraduate Research Fund (DURF), NYU Shanghai"
+        subTitle={
+          <>
+            <a
+              href="https://www.sanxingdui.online/"
+              className="underline"
+              target="_empty"
+            >
+              www.sanxingdui.online
+            </a>
+            <div>
+              {"Deans' Undergraduate Research Fund (DURF), NYU Shanghai"}
+            </div>
+          </>
+        }
       >
         <ul className="list-disc list-inside text-gray-600">
           <li>
@@ -253,42 +287,55 @@ function Skills() {
 
       <div className="flex flex-row space-x-8">
         <div className="w-1/2">
-          <h3 className="text-xl font-semibold">Tech Stack</h3>
-          <div className="py-1" />
+          <h3 className="text-2xl font-semibold">Tech Stack</h3>
+          <div className="py-2" />
           <div>
-            <h4 className="text-lg font-semibold">Programming Languages</h4>
+            <h4 className="text-base font-semibold">Programming Languages</h4>
             <ul className="list-disc list-inside text-gray-600">
-              <li>C++, C, Python, JavaScript (JS), C#</li>
-              <li>Strong understanding of algorithms and data structures.</li>
+              <li>C++, C#, C, Pascal, Python, JavaScript</li>
             </ul>
           </div>
-          <div className="py-4" />
+          <div className="py-1" />
           <div>
-            <h4 className="text-lg font-semibold">Web Development</h4>
+            <h4 className="text-base font-semibold">Web Development</h4>
             <ul className="list-disc list-inside text-gray-600">
               <li>
                 HTML, CSS, JS, TypeScript, P5JS, Supabase, React, Next.js,
                 TailwindCSS
               </li>
               <li>
+                Supabase, MUI, Shadcn, reactflow, P5JS, Three.js, and other
+                libraries
+              </li>
+              <li>
                 Proficient in building responsive and interactive web
-                applications.
+                applications
               </li>
             </ul>
           </div>
         </div>
         <div className="w-1/2">
-          <h3 className="text-xl font-semibold">Soft Skills</h3>
+          <h3 className="text-2xl font-semibold">Soft Skills</h3>
+          <div className="py-2" />
+          <div>
+            <h4 className="text-base font-semibold">Languages</h4>
+            <ul className="list-disc list-inside text-gray-600">
+              <li>Chinese (Native)</li>
+              <li>English (Fluent)</li>
+            </ul>
+          </div>
           <div className="py-1" />
           <div>
-            <h4 className="text-lg font-semibold">Languages</h4>
-            <p className="text-gray-600">Chinese (Native), English (Fluent)</p>
+            <h4 className="text-base font-semibold">Game Development</h4>
+            <ul className="list-disc list-inside text-gray-600">
+              <li>Unity and GameMaker</li>
+            </ul>
           </div>
-          <div className="py-4" />
+          <div className="py-1" />
           <div>
-            <h4 className="text-lg font-semibold">Interests</h4>
+            <h4 className="text-base font-semibold">Interests</h4>
             <p className="text-gray-600">
-              Professionally trained Jazz Musician. Multi-instrument player.
+              Professionally trained Jazz Musician. Multi-instruments player.
             </p>
           </div>
         </div>
@@ -307,7 +354,7 @@ function Divider() {
 
 export default function Resume() {
   return (
-    <div className="mx-auto p-8 space-y-8">
+    <div className="mx-auto p-8 space-y-8 max-w-[80vw] print:max-w-[100vw]">
       <Profile />
 
       <Divider />
