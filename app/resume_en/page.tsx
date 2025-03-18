@@ -43,11 +43,11 @@ function Profile() {
             <strong>Position Applied:</strong> Frontend Intern
           </span>
         </div>
-        <div>
+        {/* <div>
           <span className="ml-2 align-bottom text-gray-700">
             <strong>Internship Period:</strong> June 20, 2025 - August 20, 2025
           </span>
-        </div>
+        </div> */}
       </div>
       <div className="ml-auto space-y-1">
         <div>
@@ -273,6 +273,31 @@ function Projects() {
           </li>
           <li>
             Implemented responsive design for optimal viewing on all devices.
+          </li>
+        </ul>
+      </Item>
+
+      <Item
+        time="Dec 2024 - Present"
+        title="NYU GO"
+        subTitle={
+          <>
+            <div>React, Next.js, TailwindCSS, TypeScript, Zustand</div>
+          </>
+        }
+      >
+        <ul className="list-disc list-inside text-gray-600">
+          <li>
+            Built and deployed a PWA campus shuttle tracker with Next.js,
+            Tailwind CSS, and WebSocket for real-time updates.
+          </li>
+          <li>
+            Enhanced performance with SSR for faster loading and PWA features
+            for mobile access.
+          </li>
+          <li>
+            Successfully reduced passenger wait times and improved commuting
+            efficiency.
           </li>
         </ul>
       </Item>

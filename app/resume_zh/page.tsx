@@ -55,11 +55,11 @@ function Profile() {
             <strong>应聘职位：</strong>前端实习生
           </span>
         </div>
-        <div>
+        {/* <div>
           <span className="ml-2 align-bottom text-gray-700">
             <strong>实习时间：</strong>2025年6月20日 - 2025年8月20日
           </span>
-        </div>
+        </div> */}
       </div>
       <div className="ml-auto space-y-1">
         <div>
@@ -226,13 +226,37 @@ function Projects() {
             >
               www.davidzheweiwang.com
             </a>
-            <div>React, Next.js, TailwindCss, TypeScript</div>
+            <div>React, Next.js, TailwindCSS, TypeScript</div>
           </>
         }
       >
         <ul className="list-disc list-inside text-gray-600">
           <li>使用React, NextJS和Tailwind CSS开发了个人作品集网站。</li>
           <li>实现了响应式设计，以便在所有设备上获得最佳浏览体验。</li>
+        </ul>
+      </Item>
+
+      <Item
+        time="2024年12月 - 至今"
+        title="NYU GO"
+        subTitle={
+          <>
+            <div>React, Next.js, TailwindCSS, TypeScript, Zustand</div>
+          </>
+        }
+      >
+        <ul className="list-disc list-inside text-gray-600">
+          <li>
+            独立开发并部署了一款 PWA 校车追踪应用，使用 Next.js、Tailwind CSS 和
+            WebSocket，提供流畅的实时位置更新和预计到达时间。
+          </li>
+          <li>
+            优化了交互体验，采用 服务器端渲染（SSR） 提高加载速度，并通过 PWA
+            特性支持移动端便捷访问。
+          </li>
+          <li>
+            该应用已实际投入使用，有效减少乘客等待时间，提升通勤效率和用户体验。
+          </li>
         </ul>
       </Item>
     </div>

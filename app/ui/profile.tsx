@@ -1,6 +1,8 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
+import { IoDocumentOutline } from "react-icons/io5";
+import { MdOutlineDocumentScanner } from "react-icons/md";
 
 export default function Profile() {
   const [isHovered, setIsHovered] = useState(false);
@@ -89,6 +91,17 @@ export default function Profile() {
           height={24}
         />
         <div>zw3636@nyu.edu</div>
+      </div>
+
+      <div className="flex items-center space-x-2 my-1">
+        <MdOutlineDocumentScanner className="text-2xl text-gray-600" />
+        <a href="/resume_zh" className="underline">
+          简历
+        </a>
+        <span> / </span>
+        <a href="/resume_en" className="underline">
+          Resume
+        </a>
       </div>
 
       <div className="border-t my-4" />
