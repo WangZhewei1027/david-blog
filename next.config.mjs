@@ -1,4 +1,6 @@
 import createMDX from "@next/mdx";
+import remarkGfm from "remark-gfm";
+import { visit } from "unist-util-visit";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -8,7 +10,19 @@ const nextConfig = {
 };
 
 const withMDX = createMDX({
-  // Add markdown plugins here, as desired
+  remarkPlugins: [
+    remarkGfm,
+    () => (tree) => {
+      visit(tree, "paragraph", (node, index, parent) => {
+        if (
+          node.children.length === 1 &&
+          ["image"].includes(node.children[0].type)
+        ) {
+          parent.children[index] = node.children[0];
+        }
+      });
+    },
+  ],
 });
 
 // Merge MDX config with Next.js config

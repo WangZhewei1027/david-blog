@@ -6,8 +6,6 @@ import React from "react";
 import Gallery from "./gallery";
 import TwoColumns from "./two-columns";
 
-import path from "path";
-
 function Table({ data }) {
   const headers = data.headers.map((header, index) => (
     <th key={index}>{header}</th>
@@ -96,22 +94,18 @@ function Code({ children, ...props }) {
 // }
 
 function customImg(props) {
-  let src = props.src;
-
-  // 如果路径是相对路径（没有 http 开头），自动加上 "/posts/"
-  if (src && !src.startsWith("http")) {
-    const currentFolder = path.basename(__dirname); // 获取当前 MDX 目录
-    src = `/posts/${currentFolder}/${src}`;
-  }
-
   return (
-    <Image
-      {...props}
-      src={src}
-      width={600}
-      height={400}
-      alt={props.alt || "Image"}
-    />
+    <figure className="flex flex-col items-center mt-2 mb-8 space-y-4">
+      <Image
+        {...props}
+        alt={props.alt}
+        src={props.src}
+        className="shadow-lg"
+        width={400}
+        height={400}
+      />
+      <figcaption className="text-center italic">{props.alt}</figcaption>
+    </figure>
   );
 }
 

@@ -79,8 +79,6 @@ function getMDXFiles(dir: string): string[] {
     }
   });
 
-  //console.log(mdxFiles);
-
   return mdxFiles;
 }
 
@@ -91,15 +89,27 @@ function readMDXFile(filePath) {
 
 function getMDXData(dir) {
   const mdxFiles = getMDXFiles(dir);
-  //console.log(mdxFiles);
+
   return mdxFiles.map((file) => {
     const { metadata, content } = readMDXFile(file);
     const slug = path.basename(file, path.extname(file));
+    const postFolder = path.dirname(file).split(path.sep).pop(); // 获取当前文章的文件夹名称
+
+    // **🔹 替换 MDX 内的相对路径图片**
+    const fixedContent = content.replace(
+      /!\[.*?\]\(([^)]+)\)/g,
+      (match, src) => {
+        if (!src.startsWith("http") && !src.startsWith("/")) {
+          return match.replace(src, `/posts/${postFolder}/${src}`);
+        }
+        return match;
+      }
+    );
 
     return {
       metadata,
       slug,
-      content,
+      content: fixedContent, // 返回修正后的内容
     };
   });
 }
