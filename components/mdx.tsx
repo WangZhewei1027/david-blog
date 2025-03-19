@@ -101,8 +101,8 @@ function customImg(props) {
         alt={props.alt}
         src={props.src}
         className="shadow-lg"
-        width={400}
-        height={400}
+        width={500}
+        height={500}
       />
       <figcaption className="text-center italic">{props.alt}</figcaption>
     </figure>

@@ -93,7 +93,9 @@ function getMDXData(dir) {
   return mdxFiles.map((file) => {
     const { metadata, content } = readMDXFile(file);
     const slug = path.basename(file, path.extname(file));
-    const postFolder = path.dirname(file).split(path.sep).pop(); // 获取当前文章的文件夹名称
+    const postFolder = path
+      .relative(dir, path.dirname(file))
+      .replace(/\\/g, "/"); // 获取相对路径
 
     // **🔹 替换 MDX 内的相对路径图片**
     const fixedContent = content.replace(
