@@ -1,0 +1,172 @@
+{
+    "name": {
+        "chinese": "王哲玮",
+        "english": "David"
+    },
+    "profile": {
+        "photo": "David's profile photo",
+        "job_application": "前端实习生",
+        "phone": "+86 13636472690",
+        "email": "zw3636@nyu.edu",
+        "website": "www.davidzheweiwang.com",
+        "location": [
+            "上海",
+            "纽约"
+        ]
+    },
+    "education": [
+        {
+            "school": "上海纽约大学",
+            "degree": "理学学士",
+            "major": "计算机科学",
+            "minor": "互动媒体艺术",
+            "gpa": "3.5/4.0",
+            "period": "2024年9月 - 2026年5月",
+            "graduation": "2026年5月",
+            "courses": [
+                "机器学习",
+                "P5JS",
+                "Unity & C#",
+                "网页设计 (HTML, CSS, JS)",
+                "数据结构",
+                "算法",
+                "线性代数",
+                "微积分"
+            ]
+        }
+    ],
+    "work_experience": [
+        {
+            "role": "迎新大使",
+            "organization": "新生项目部，上海纽约大学",
+            "period": "2023年4月 - 2023年11月",
+            "details": [
+                "指导新生参加迎新活动，帮助新生融入大学生活",
+                "组织并执行多种迎新活动和项目，持续数月",
+                "培养了领导、组织和沟通能力"
+            ]
+        },
+        {
+            "role": "乐队负责人",
+            "organization": "上海纽约大学爵士乐团和学生乐队",
+            "period": "2023年8月 - 至今",
+            "details": [
+                "担任乐团负责人并兼任乐手",
+                "协调组织校内外演出，参加昆山杜克大学音乐节",
+                "展示组织能力，处理后勤工作促进演出顺利进行"
+            ]
+        },
+        {
+            "role": "审计实习生",
+            "organization": "Baker Tilly International, 上海",
+            "period": "2024年5月 - 2024年8月",
+            "details": [
+                "协助IT审计流程，支持客户IT系统、安全政策和合规措施审查",
+                "利用计算机科学背景支持数据处理、系统访问审查和自动化脚本",
+                "编写技术发现并协助起草IT审计报告"
+            ]
+        },
+        {
+            "role": "学生研究员",
+            "organization": "数字遗产实验室，上海纽约大学",
+            "period": "2024年5月 - 至今",
+            "details": [
+                "使用Unity开发数字遗产体验，在AR眼镜中重建真如寺",
+                "设计互动教育文化体验，集成3D建模和实时渲染",
+                "优化性能实现沉浸式AR应用，促进数字文化保护"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "三星堆数字博物馆",
+            "link": "www.sanxingdui.online",
+            "period": "2024年4月 - 2024年8月",
+            "details": [
+                "使用Three.js构建交互式3D博物馆，实现实时渲染",
+                "React与MUI开发，响应式与直观用户体验"
+            ]
+        },
+        {
+            "name": "交互式节点音乐系统",
+            "tech_stack": [
+                "React",
+                "Tone.js",
+                "React Flow",
+                "Zustand",
+                "Supabase",
+                "Next.js",
+                "TailwindCss",
+                "TypeScript"
+            ],
+            "period": "2024年9月 - 2024年12月",
+            "details": [
+                "实时交互音乐系统，用户可通过节点界面修改声音",
+                "集成Tone.js音频合成，使用Zustand状态管理"
+            ]
+        },
+        {
+            "name": "个人作品集网站",
+            "link": "www.davidzheweiwang.com",
+            "tech_stack": [
+                "React",
+                "Next.js",
+                "TailwindCSS",
+                "TypeScript"
+            ],
+            "period": "2024年9月 - 至今",
+            "details": [
+                "开发个人作品集网站，实现响应式设计优化浏览体验"
+            ]
+        },
+        {
+            "name": "NYU GO",
+            "tech_stack": [
+                "React",
+                "Next.js",
+                "TailwindCSS",
+                "TypeScript",
+                "Zustand"
+            ],
+            "period": "2024年12月 - 至今",
+            "details": [
+                "开发并部署PWA校车追踪应用，提供实时位置更新和预计到达时间",
+                "服务器端渲染(SSR)提高加载速度，优化用户体验"
+            ]
+        }
+    ],
+    "skills": {
+        "programming_languages": [
+            "C++",
+            "C#",
+            "C",
+            "Pascal",
+            "Python",
+            "JavaScript"
+        ],
+        "web_development": [
+            "HTML",
+            "CSS",
+            "JS",
+            "TypeScript",
+            "P5JS",
+            "Supabase",
+            "React",
+            "Next.js",
+            "TailwindCSS",
+            "MUI",
+            "Shadcn",
+            "reactflow",
+            "Three.js"
+        ],
+        "game_development": [
+            "Unity",
+            "GameMaker"
+        ],
+        "soft_skills": [
+            "中文 (母语)",
+            "英语 (流利)"
+        ]
+    },
+    "interests": "受过专业训练的爵士音乐人，多乐器演奏者。"
+}

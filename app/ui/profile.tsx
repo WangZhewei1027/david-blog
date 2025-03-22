@@ -41,7 +41,7 @@ export default function Profile() {
           <div className="text-base text-gray-500">Zhewei Wang</div>
         </div>
       </div>
-      <div className="flex md:hidden">
+      <div className="flex items-center md:hidden">
         <div className="block h-full md:hidden">
           {/* <Image
             src={isHovered ? "/assets/david_smile.jpg" : "/assets/david.jpeg"}
@@ -53,7 +53,7 @@ export default function Profile() {
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
           /> */}
-          <video
+          {/* <video
             src={"/assets/david.mp4"}
             muted
             autoPlay={true}
@@ -61,6 +61,13 @@ export default function Profile() {
             className="object-cover rounded-full transition-all"
             width={50}
             height={50}
+          /> */}
+          <Image
+            src="/assets/david.gif"
+            alt="david's profile picture"
+            className="object-cover rounded-full w-16 h-16 transition-all"
+            width={20}
+            height={20}
           />
         </div>
         <div className="flex flex-col justify-end  ml-4">

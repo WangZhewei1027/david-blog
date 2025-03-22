@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "ee52c681170c42ab",
+        "id": "f3360b33593c80be",
         "type": "tabs",
         "children": [
           {
-            "id": "2decc10ed186888d",
+            "id": "8664f193465a8c7e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "json",
               "state": {
-                "file": "posts/art/severance-and-friedrich/severance-and-friedrich.mdx",
-                "mode": "source",
-                "source": false
+                "file": "resume/resume_zh.json"
               },
               "icon": "lucide-file",
-              "title": "severance-and-friedrich"
+              "title": "resume_zh"
             }
           }
         ]
@@ -165,14 +163,17 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-import-json:JSON/CSV Importer": false
     }
   },
-  "active": "2decc10ed186888d",
+  "active": "8664f193465a8c7e",
   "lastOpenFiles": [
+    "resume/resume_zh.json",
+    "posts/art/severance-and-friedrich/severance-and-friedrich.mdx",
+    "resume",
     "assets/david.gif",
     "posts/cclab-project-b/cclab-project-b.mdx",
-    "posts/art/severance-and-friedrich/severance-and-friedrich.mdx",
     "posts/art/severance-and-friedrich/pic.jpeg",
     "posts/new-york-blue-sky-sunset-collection/new-york-blue-sky-sunset-collection.mdx",
     "posts/cclab-project-b/homepage.png",

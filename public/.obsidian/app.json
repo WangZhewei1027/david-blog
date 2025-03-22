@@ -1,5 +1,5 @@
 {
   "livePreview": true,
   "useMarkdownLinks": true,
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": false
 }
