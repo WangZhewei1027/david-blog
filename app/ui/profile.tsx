@@ -23,6 +23,7 @@ export default function Profile() {
           src={"/assets/david.mp4"}
           muted
           autoPlay={true}
+          playsInline
           loop={true}
           className="object-cover rounded-full w-full h-full mb-4 transition-all"
           width={100}

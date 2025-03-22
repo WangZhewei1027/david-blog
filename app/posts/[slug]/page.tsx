@@ -16,7 +16,7 @@ export default function Blog({ params }) {
         {post.metadata.title}
       </h1>
       <div className="text-center text-gray-400 mb-4 font-serif">
-        {formatDate(post.metadata.publishedAt)}
+        {formatDate(post.metadata.publishedAt || "")}
       </div>
       {post.metadata.type === "article" && (
         <Container>

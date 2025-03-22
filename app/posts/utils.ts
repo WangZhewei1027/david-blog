@@ -12,65 +12,37 @@ type Metadata = {
   tags: string[];
 };
 
-// function parseFrontmatter(fileContent: string) {
-//   const frontmatterRegex = /---\s*([\s\S]*?)\s*---/;
-//   const match = frontmatterRegex.exec(fileContent);
-//   const frontMatterBlock = match![1];
-//   const content = fileContent.replace(frontmatterRegex, "").trim();
-//   const frontMatterLines = frontMatterBlock.trim().split("\n");
-
-//   const metadata: Partial<Metadata> = {};
-
-//   frontMatterLines.forEach((line) => {
-//     const [key, ...valueArr] = line.split(": ");
-//     let value = valueArr.join(": ").trim();
-//     value = value.replace(/^['"](.*)['"]$/, "$1"); // Remove quotes
-
-//     switch (key.trim()) {
-//       case "title":
-//         metadata.title = value;
-//         break;
-//       case "publishedAt":
-//         metadata.publishedAt = value;
-//         break;
-//       case "summary":
-//         metadata.summary = value;
-//       case "type":
-//         metadata.type = value;
-//         break;
-//       case "image":
-//         metadata.image = value;
-//         break;
-//       case "pin":
-//         // Convert "true" or "false" to a boolean
-//         metadata.pin = value.toLowerCase() === "true";
-//         break;
-//       case "tags":
-//         // Split tags by comma and trim them
-//         metadata.tags = value
-//           ? value.split(",").map((item) => item.trim())
-//           : [];
-//         break;
-//       default:
-//         break;
-//     }
-//   });
-
-//   return { metadata: metadata as Metadata, content };
-// }
+type Post = {
+  metadata: Metadata;
+  slug: string;
+  content: string;
+};
 
 function parseFrontmatter(fileContent: string) {
   const frontmatterRegex = /---\s*([\s\S]*?)\s*---/;
   const match = frontmatterRegex.exec(fileContent);
-  if (!match) return { metadata: {}, content: fileContent.trim() };
+
+  if (!match) {
+    const defaultMetadata: Metadata = {
+      title: "",
+      publishedAt: "",
+      summary: "",
+      type: "",
+      image: "",
+      pin: false,
+      tags: [],
+    };
+    return { metadata: defaultMetadata, content: fileContent.trim() };
+  }
 
   const frontMatterBlock = match[1];
   const content = fileContent.replace(frontmatterRegex, "").trim();
 
   // 解析 YAML，使用 JSON_SCHEMA 保证日期保持为字符串
-  const metadata = yaml.load(frontMatterBlock, {
+  const loadedMetadata = yaml.load(frontMatterBlock, {
     schema: yaml.JSON_SCHEMA,
-  }) as Partial<Metadata>;
+  });
+  const metadata = (loadedMetadata || {}) as Partial<Metadata>;
 
   // Normalize tags field to always be an array of strings
   const tagsField: unknown = metadata.tags;
@@ -81,10 +53,28 @@ function parseFrontmatter(fileContent: string) {
   } else {
     metadata.tags = [];
   }
+  // Ensure required fields have default values to avoid undefined
+  metadata.title = metadata.title ?? "";
+  metadata.publishedAt = metadata.publishedAt ?? "";
+  metadata.summary = metadata.summary ?? "";
+  metadata.type = metadata.type ?? "";
+  // For optional fields, assign default values if undefined
+  metadata.image = metadata.image ?? "";
+  metadata.pin = metadata.pin ?? false;
 
   console.log("Parsed metadata:", metadata);
 
-  return { metadata, content };
+  const completeMetadata: Metadata = {
+    title: metadata.title ?? "",
+    publishedAt: metadata.publishedAt ?? "",
+    summary: metadata.summary ?? "",
+    type: metadata.type ?? "",
+    image: metadata.image ?? "",
+    pin: metadata.pin ?? false,
+    tags: metadata.tags ?? [],
+  };
+
+  return { metadata: completeMetadata, content };
 }
 
 function getMDXFiles(dir: string): string[] {
@@ -193,7 +183,9 @@ export function getBlogPostBySlug(slug: string) {
 export function getBlogPostsByTag(tag: string) {
   const posts = getBlogPosts();
   console.log(posts);
-  return posts.filter((post) => post.metadata.tags?.includes(tag));
+  return posts.filter(
+    (post) => post.metadata && post.metadata.tags?.includes(tag)
+  );
 }
 
 export function getPinnedBlogPosts() {
@@ -208,7 +200,8 @@ export function getRecentBlogPosts(limit: number) {
 
 export function getBlogPostsByTags(tags: string[]) {
   const posts = getBlogPosts();
-  return posts.filter((post) =>
-    post.metadata.tags?.some((tag) => tags.includes(tag))
+  return posts.filter(
+    (post) =>
+      post.metadata && post.metadata.tags?.some((tag) => tags.includes(tag))
   );
 }
