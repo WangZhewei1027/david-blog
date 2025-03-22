@@ -19,12 +19,19 @@ export default function Profile() {
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
         /> */}
-        <video
+        {/* <video
           src={"/assets/david.mp4"}
           muted
           autoPlay={true}
           playsInline
           loop={true}
+          className="object-cover rounded-full w-full h-full mb-4 transition-all"
+          width={100}
+          height={100}
+        /> */}
+        <Image
+          src="/assets/david.gif"
+          alt="david's profile picture"
           className="object-cover rounded-full w-full h-full mb-4 transition-all"
           width={100}
           height={100}
