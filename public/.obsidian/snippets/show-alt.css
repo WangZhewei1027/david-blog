@@ -1,0 +1,53 @@
+/* Reading mode */
+
+img {
+  display: block !important;
+
+  margin-left: auto !important;
+
+  margin-right: auto !important;
+}
+
+/* Source view and live preview */
+
+.markdown-source-view.mod-cm6 .cm-content > *,
+.markdown-preview-view .cm-content > * {
+  margin: auto auto !important;
+}
+
+/* Image captions in reading mode */
+
+.image-embed[alt]:after {
+  content: attr(alt);
+
+  display: block;
+
+  margin: 0.75rem 1rem 1rem 1rem;
+
+  font-size: 0.9em;
+
+  line-height: 2.5;
+
+  color: rgb(115, 115, 115);
+
+  text-align: center;
+}
+
+/* Image captions in source view and live preview */
+
+.markdown-source-view.mod-cm6 .image-embed[alt]:after,
+.markdown-preview-view .image-embed[alt]:after {
+  content: attr(alt);
+
+  display: block;
+
+  margin: 0.75rem 1rem 1rem 1rem;
+
+  font-size: 0.9em;
+
+  line-height: 1.5;
+
+  color: rgb(115, 115, 115);
+
+  text-align: center;
+}

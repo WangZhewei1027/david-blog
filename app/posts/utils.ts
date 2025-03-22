@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import yaml from "js-yaml";
 
 type Metadata = {
   title: string;
@@ -11,51 +12,79 @@ type Metadata = {
   tags: string[];
 };
 
+// function parseFrontmatter(fileContent: string) {
+//   const frontmatterRegex = /---\s*([\s\S]*?)\s*---/;
+//   const match = frontmatterRegex.exec(fileContent);
+//   const frontMatterBlock = match![1];
+//   const content = fileContent.replace(frontmatterRegex, "").trim();
+//   const frontMatterLines = frontMatterBlock.trim().split("\n");
+
+//   const metadata: Partial<Metadata> = {};
+
+//   frontMatterLines.forEach((line) => {
+//     const [key, ...valueArr] = line.split(": ");
+//     let value = valueArr.join(": ").trim();
+//     value = value.replace(/^['"](.*)['"]$/, "$1"); // Remove quotes
+
+//     switch (key.trim()) {
+//       case "title":
+//         metadata.title = value;
+//         break;
+//       case "publishedAt":
+//         metadata.publishedAt = value;
+//         break;
+//       case "summary":
+//         metadata.summary = value;
+//       case "type":
+//         metadata.type = value;
+//         break;
+//       case "image":
+//         metadata.image = value;
+//         break;
+//       case "pin":
+//         // Convert "true" or "false" to a boolean
+//         metadata.pin = value.toLowerCase() === "true";
+//         break;
+//       case "tags":
+//         // Split tags by comma and trim them
+//         metadata.tags = value
+//           ? value.split(",").map((item) => item.trim())
+//           : [];
+//         break;
+//       default:
+//         break;
+//     }
+//   });
+
+//   return { metadata: metadata as Metadata, content };
+// }
+
 function parseFrontmatter(fileContent: string) {
   const frontmatterRegex = /---\s*([\s\S]*?)\s*---/;
   const match = frontmatterRegex.exec(fileContent);
-  const frontMatterBlock = match![1];
+  if (!match) return { metadata: {}, content: fileContent.trim() };
+
+  const frontMatterBlock = match[1];
   const content = fileContent.replace(frontmatterRegex, "").trim();
-  const frontMatterLines = frontMatterBlock.trim().split("\n");
 
-  const metadata: Partial<Metadata> = {};
+  // 解析 YAML，使用 JSON_SCHEMA 保证日期保持为字符串
+  const metadata = yaml.load(frontMatterBlock, {
+    schema: yaml.JSON_SCHEMA,
+  }) as Partial<Metadata>;
 
-  frontMatterLines.forEach((line) => {
-    const [key, ...valueArr] = line.split(": ");
-    let value = valueArr.join(": ").trim();
-    value = value.replace(/^['"](.*)['"]$/, "$1"); // Remove quotes
+  // Normalize tags field to always be an array of strings
+  const tagsField: unknown = metadata.tags;
+  if (typeof tagsField === "string") {
+    metadata.tags = tagsField.split(",").map((tag) => tag.trim());
+  } else if (Array.isArray(tagsField)) {
+    metadata.tags = tagsField.map((tag) => String(tag).trim());
+  } else {
+    metadata.tags = [];
+  }
 
-    switch (key.trim()) {
-      case "title":
-        metadata.title = value;
-        break;
-      case "publishedAt":
-        metadata.publishedAt = value;
-        break;
-      case "summary":
-        metadata.summary = value;
-      case "type":
-        metadata.type = value;
-        break;
-      case "image":
-        metadata.image = value;
-        break;
-      case "pin":
-        // Convert "true" or "false" to a boolean
-        metadata.pin = value.toLowerCase() === "true";
-        break;
-      case "tags":
-        // Split tags by comma and trim them
-        metadata.tags = value
-          ? value.split(",").map((item) => item.trim())
-          : [];
-        break;
-      default:
-        break;
-    }
-  });
+  console.log("Parsed metadata:", metadata);
 
-  return { metadata: metadata as Metadata, content };
+  return { metadata, content };
 }
 
 function getMDXFiles(dir: string): string[] {

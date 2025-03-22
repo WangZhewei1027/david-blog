@@ -42,7 +42,7 @@ export default function Article({
             {title}
           </h2>
           <div className="inline-block">
-            {tags.map((tag) => (
+            {tags?.map((tag) => (
               <div key={tag} className="mx-1 inline-block">
                 <Tag>{tag}</Tag>
               </div>

@@ -1,0 +1,185 @@
+{
+  "main": {
+    "id": "406913276e698651",
+    "type": "split",
+    "children": [
+      {
+        "id": "ee52c681170c42ab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2decc10ed186888d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/art/severance-and-friedrich/severance-and-friedrich.mdx",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "severance-and-friedrich"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b79bc88d3395082d",
+    "type": "split",
+    "children": [
+      {
+        "id": "3718d50773fd060f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4b946f481c195f2c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "16cd5691c9334f32",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "70224fb1063656fd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f2a862faba008083",
+    "type": "split",
+    "children": [
+      {
+        "id": "6bef335a4a32a5c9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "70d73e90a9af7b47",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "posts/cclab-project-b/first_prototype.gif",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for first_prototype"
+            }
+          },
+          {
+            "id": "4b439d41e94ae80f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "posts/cclab-project-b/first_prototype.gif",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from first_prototype"
+            }
+          },
+          {
+            "id": "c88a225c82bf19f0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "20c5eb6d59b570c0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "posts/cclab-project-b/first_prototype.gif",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of first_prototype"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "2decc10ed186888d",
+  "lastOpenFiles": [
+    "posts/cclab-project-b/cclab-project-b.mdx",
+    "posts/art/severance-and-friedrich/severance-and-friedrich.mdx",
+    "posts/art/severance-and-friedrich/pic.jpeg",
+    "posts/new-york-blue-sky-sunset-collection/new-york-blue-sky-sunset-collection.mdx",
+    "posts/cclab-project-b/homepage.png",
+    "posts/cclab-project-b/main.png",
+    "posts/cclab-project-b/first_prototype.gif",
+    "posts/art/severance-and-friedrich/1.webp",
+    "2025-03-18.md",
+    "posts/mac-scrolling-bar/mac-scrolling-bar.mdx",
+    "posts/lets-jam/lets-jam.mdx"
+  ]
+}
