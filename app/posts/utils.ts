@@ -23,16 +23,18 @@ function parseFrontmatter(fileContent: string) {
   const match = frontmatterRegex.exec(fileContent);
 
   if (!match) {
-    const defaultMetadata: Metadata = {
-      title: "",
-      publishedAt: "",
-      summary: "",
-      type: "",
-      image: "",
-      pin: false,
-      tags: [],
-    };
-    return { metadata: defaultMetadata, content: fileContent.trim() };
+    // const defaultMetadata: Metadata = {
+    //   title: "",
+    //   publishedAt: "",
+    //   summary: "",
+    //   type: "",
+    //   image: "",
+    //   pin: false,
+    //   tags: [],
+    // };
+    // return { metadata: defaultMetadata, content: fileContent.trim() };
+
+    return null;
   }
 
   const frontMatterBlock = match[1];
@@ -92,7 +94,7 @@ function getMDXFiles(dir: string): string[] {
       mdxFiles = mdxFiles.concat(getMDXFiles(filePath));
     } else {
       // Filter to add only .mdx files
-      if (path.extname(file) === ".mdx") {
+      if (path.extname(file) === ".mdx" || path.extname(file) === ".md") {
         mdxFiles.push(filePath);
       }
     }
@@ -110,7 +112,10 @@ function getMDXData(dir) {
   const mdxFiles = getMDXFiles(dir);
 
   return mdxFiles.map((file) => {
-    const { metadata, content } = readMDXFile(file);
+    const parsed = readMDXFile(file);
+    if (!parsed || !parsed.metadata) return null;
+
+    const { metadata, content } = parsed;
     const slug = path.basename(file, path.extname(file));
     const postFolder = path
       .relative(dir, path.dirname(file))
@@ -136,7 +141,8 @@ function getMDXData(dir) {
 }
 
 export function getBlogPosts() {
-  return getMDXData(path.join(process.cwd(), "public", "posts"));
+  const mdxData = getMDXData(path.join(process.cwd(), "public", "posts"));
+  return mdxData.filter((post) => post !== null);
 }
 
 export function formatDate(date: string, includeRelative = false) {

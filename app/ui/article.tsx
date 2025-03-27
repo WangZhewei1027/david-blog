@@ -39,7 +39,7 @@ export default function Article({
       <a href={link} className="no-underline">
         <div>
           <h2 className="text-base font-bold mb-1 mr-2 sm:text-xl inline-flex">
-            {title}
+            {title ? title : "Untitled"}
           </h2>
           <div className="inline-block">
             {tags?.map((tag) => (
@@ -50,7 +50,7 @@ export default function Article({
           </div>
         </div>
         <p className="text-sm text-gray-500 m-0 sm:text-base">
-          {date} &nbsp;&nbsp;{caption}
+          {date ? date : "Unkown Updated Time"} &nbsp;&nbsp;{caption}
         </p>
       </a>
     </div>

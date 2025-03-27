@@ -95,12 +95,15 @@ function Code({ children, ...props }) {
 
 function customImg(props) {
   return (
-    <figure className="flex flex-col items-center mt-2 mb-8 space-y-4">
+    <figure
+      className="flex flex-col items-center mt-2 mb-8 space-y-4"
+      suppressHydrationWarning={true}
+    >
       <Image
         {...props}
         alt={props.alt}
         src={props.src}
-        className="shadow-lg"
+        className=""
         width={500}
         height={500}
       />
