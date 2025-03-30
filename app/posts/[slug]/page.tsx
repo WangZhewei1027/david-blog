@@ -1,29 +1,27 @@
-import { notFound } from "next/navigation";
-import { CustomMDX } from "@/components/mdx";
-import { formatDate, getBlogPosts } from "@/app/posts/utils";
+import { getCompiledPost } from "../posts";
 import Container from "@/app/ui/container";
+import { formatDate } from "@/app/posts/utils";
 
-export default function Blog({ params }) {
-  const post = getBlogPosts().find((post) => post.slug === params.slug);
+export default async function Page({ params }) {
+  const decodedSlug = decodeURIComponent(params.slug);
+  const post = await getCompiledPost(decodedSlug);
+  if (!post) return <div>404 - Post not found</div>;
 
-  if (!post) {
-    notFound();
-  }
+  const date = formatDate(
+    post.metadata.publishedAt || post.metadata.updatedAt || ""
+  );
 
   return (
-    <div className="blog-post">
-      <h1 className="text-center mt-8 mb-4 font-serif">
-        {post.metadata.title}
-      </h1>
-      <div className="text-center text-gray-400 mb-4 font-serif">
-        {formatDate(post.metadata.publishedAt || "")}
-      </div>
-      {post.metadata.type === "article" && (
-        <Container>
-          <CustomMDX source={post.content} />
-        </Container>
-      )}
-      {post.metadata.type === "special" && <CustomMDX source={post.content} />}
-    </div>
+    <Container>
+      <article className="prose blog-post">
+        <h1 className="mx-auto text-center !mb-4">{post.metadata.title}</h1>
+        {date && (
+          <div className="text-center text-gray-400 mb-8 font-serif">
+            {date}
+          </div>
+        )}
+        {post.content}
+      </article>
+    </Container>
   );
 }

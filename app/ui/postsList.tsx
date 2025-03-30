@@ -1,19 +1,13 @@
 import Article from "@/app/ui/article";
 
 type Metadata = {
-  title: string;
-  publishedAt: string;
-  summary: string;
-  image?: string;
-  type: string;
-  pin?: boolean;
-  tags: string[];
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  [key: string]: any;
 };
 
 interface Post {
   metadata: Metadata;
   slug: string;
-  content: string;
 }
 
 export function PostsList({ posts }: { posts: Post[] }) {
@@ -34,7 +28,7 @@ export function PostsList({ posts }: { posts: Post[] }) {
           <Article
             key={post.slug}
             title={post.metadata.title}
-            date={post.metadata.publishedAt}
+            date={post.metadata.updatedAt || post.metadata.publishedAt}
             caption={post.metadata.summary}
             tags={post.metadata.tags}
             link={`/posts/${post.slug}`}

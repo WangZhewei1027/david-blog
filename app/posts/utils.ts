@@ -64,7 +64,7 @@ function parseFrontmatter(fileContent: string) {
   metadata.image = metadata.image ?? "";
   metadata.pin = metadata.pin ?? false;
 
-  console.log("Parsed metadata:", metadata);
+  //console.log("Parsed metadata:", metadata);
 
   const completeMetadata: Metadata = {
     title: metadata.title ?? "",
@@ -145,12 +145,18 @@ export function getBlogPosts() {
   return mdxData.filter((post) => post !== null);
 }
 
-export function formatDate(date: string, includeRelative = false) {
-  const currentDate = new Date();
-  if (!date.includes("T")) {
-    date = `${date}T00:00:00`;
-  }
+export function formatDate(
+  date: string,
+  includeRelative = false
+): string | null {
   const targetDate = new Date(date);
+
+  // 如果日期无效，返回 null
+  if (isNaN(targetDate.getTime())) {
+    return null;
+  }
+
+  const currentDate = new Date();
 
   const yearsAgo = currentDate.getFullYear() - targetDate.getFullYear();
   const monthsAgo = currentDate.getMonth() - targetDate.getMonth();
@@ -174,11 +180,7 @@ export function formatDate(date: string, includeRelative = false) {
     year: "numeric",
   });
 
-  if (!includeRelative) {
-    return fullDate;
-  }
-
-  return `${fullDate} (${formattedDate})`;
+  return includeRelative ? `${fullDate} (${formattedDate})` : fullDate;
 }
 
 export function getBlogPostBySlug(slug: string) {
@@ -188,7 +190,7 @@ export function getBlogPostBySlug(slug: string) {
 
 export function getBlogPostsByTag(tag: string) {
   const posts = getBlogPosts();
-  console.log(posts);
+  //console.log(posts);
   return posts.filter(
     (post) => post.metadata && post.metadata.tags?.includes(tag)
   );

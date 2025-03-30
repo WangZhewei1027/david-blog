@@ -4,7 +4,9 @@ publishedAt: 2025-03-22
 summary: 纽约华人电召出租车的运营模式以及生存现状
 type: article
 pin: true
-tags:
+tags: 
+createdAt: 2025-03-22
+updatedAt: 2025-03-22
 ---
 ## 什么是华人电召？
 

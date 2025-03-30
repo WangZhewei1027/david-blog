@@ -60,65 +60,32 @@ function Code({ children, ...props }) {
   return <code dangerouslySetInnerHTML={{ __html: codeHTML }} {...props} />;
 }
 
-// function slugify(str) {
-//   return str
-//     .toString()
-//     .toLowerCase()
-//     .trim() // Remove whitespace from both ends of a string
-//     .replace(/\s+/g, "-") // Replace spaces with -
-//     .replace(/&/g, "-and-") // Replace & with 'and'
-//     .replace(/[^\w\-]+/g, "") // Remove all non-word characters except for -
-//     .replace(/\-\-+/g, "-"); // Replace multiple - with single -
-// }
-
-// function createHeading(level) {
-//   const Heading = ({ children }) => {
-//     const slug = slugify(children);
-//     return React.createElement(
-//       `h${level}`,
-//       { id: slug },
-//       [
-//         React.createElement("a", {
-//           href: `#${slug}`,
-//           key: `link-${slug}`,
-//           className: "anchor",
-//         }),
-//       ],
-//       children
-//     );
-//   };
-
-//   Heading.displayName = `Heading${level}`;
-
-//   return Heading;
-// }
-
 function customImg(props) {
   return (
-    <figure
-      className="flex flex-col items-center mt-2 mb-8 space-y-4"
-      suppressHydrationWarning={true}
-    >
+    <span className="flex flex-col items-center mt-2 mb-8 space-y-4">
       <Image
         {...props}
         alt={props.alt}
         src={props.src}
-        className=""
-        width={500}
-        height={500}
+        width={0}
+        height={0}
+        sizes="100vw"
+        className="h-auto object-contain
+          w-full max-w-full
+          md:max-w-[100%] 
+          [aspect-ratio:auto]
+          [max-height:80vh]
+          [max-width:66%]
+          portrait:max-w-[400px]"
       />
-      <figcaption className="text-center italic">{props.alt}</figcaption>
-    </figure>
+      {props.alt && (
+        <span className="text-center italic block">{props.alt}</span>
+      )}
+    </span>
   );
 }
 
-const components = {
-  // h1: createHeading(1),
-  // h2: createHeading(2),
-  // h3: createHeading(3),
-  // h4: createHeading(4),
-  // h5: createHeading(5),
-  // h6: createHeading(6),
+export const components = {
   img: customImg,
   Image: RoundedImage,
   a: CustomLink,

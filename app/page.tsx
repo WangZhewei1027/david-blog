@@ -2,8 +2,12 @@ import Profile from "@/app/ui/profile";
 import Image from "next/image";
 import { getPinnedBlogPosts } from "@/app/posts/utils";
 import { PostsList } from "@/app/ui/postsList";
+import { getPosts } from "./posts/posts";
 
-function MyCard() {
+async function MyCard() {
+  const posts = await getPosts();
+  const pinnedPosts = posts.filter((post) => post.metadata.pin === true);
+
   return (
     <section className="bg-white p-8 rounded-lg h-full w-full break-words">
       <div className="flex flex-row space-x-2 items-center">
@@ -19,7 +23,7 @@ function MyCard() {
 
       <div className="mt-4 border-t border-gray-200" />
 
-      <PostsList posts={getPinnedBlogPosts()} />
+      <PostsList posts={pinnedPosts} />
     </section>
   );
 }

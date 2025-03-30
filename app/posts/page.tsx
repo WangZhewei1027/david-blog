@@ -2,9 +2,12 @@ import { PostsList } from "@/app/ui/postsList";
 import Container from "@/app/ui/container";
 import { getBlogPosts } from "@/app/posts/utils";
 import Image from "next/image";
+import { getPosts } from "./posts";
 
-export default function Page() {
-  const posts = getBlogPosts();
+export default async function Page() {
+  // const posts = getBlogPosts();
+
+  const posts = await getPosts();
 
   return (
     <Container>

@@ -1,23 +1,12 @@
+import Link from "next/link";
+
 type ArticleProps = {
   title: string;
-  date: string;
+  date: string | Date;
   caption: string;
   link: string;
   tags: string[];
 };
-
-// export default function Article({ title, date, caption, link }: ArticleProps) {
-//   return (
-//     <div className="hover:bg-gray-100 py-6 px-2 border-b transition-all sm:p-8">
-//       <a href={link} className="no-underline">
-//         <h2 className="text-base font-bold mb-1 sm:text-xl">{title}</h2>
-//         <p className="text-sm text-gray-500 m-0 sm:text-base">
-//           {date} &nbsp;&nbsp;{caption}
-//         </p>
-//       </a>
-//     </div>
-//   );
-// }
 
 function Tag({ children }: { children: React.ReactNode }) {
   return (
@@ -34,9 +23,16 @@ export default function Article({
   tags,
   link,
 }: ArticleProps) {
+  const formattedDate =
+    typeof date === "string"
+      ? date
+      : date instanceof Date && !isNaN(date.getTime())
+      ? date.toISOString().split("T")[0]
+      : "Unknown Updated Time";
+
   return (
     <div className="hover:bg-gray-100 py-6 px-2 border-b transition-all sm:p-8">
-      <a href={link} className="no-underline">
+      <Link href={link} className="no-underline">
         <div>
           <h2 className="text-base font-bold mb-1 mr-2 sm:text-xl inline-flex">
             {title ? title : "Untitled"}
@@ -50,9 +46,10 @@ export default function Article({
           </div>
         </div>
         <p className="text-sm text-gray-500 m-0 sm:text-base">
-          {date ? date : "Unkown Updated Time"} &nbsp;&nbsp;{caption}
+          {formattedDate ? formattedDate : "Unknown Updated Time"} &nbsp;&nbsp;
+          {caption}
         </p>
-      </a>
+      </Link>
     </div>
   );
 }
