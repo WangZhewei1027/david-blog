@@ -82,6 +82,7 @@ function fixRelativeImagePaths(content: string, filePath: string): string {
         const normalizedSrc = encodeURI(decodeURIComponent(src));
         // 构造本地引用路径
         let localUrl = `/posts/${relativeFolder}/${normalizedSrc}`;
+        localUrl = decodeURIComponent(localUrl);
         // 如果 JSON 映射中存在，则使用 Cloudinary 链接
         if (mediaMapping["public" + localUrl]) {
           localUrl = mediaMapping["public" + localUrl];
@@ -101,6 +102,7 @@ function fixRelativeImagePaths(content: string, filePath: string): string {
       if (!src.startsWith("http") && !src.startsWith("/")) {
         const normalizedSrc = encodeURI(decodeURIComponent(src));
         let localUrl = `/posts/${relativeFolder}/${normalizedSrc}`;
+        localUrl = decodeURIComponent(localUrl);
         if (mediaMapping["public" + localUrl]) {
           localUrl = mediaMapping["public" + localUrl];
           console.log("Using Cloudinary URL:", localUrl);
