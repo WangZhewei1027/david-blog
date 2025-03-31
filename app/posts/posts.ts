@@ -9,6 +9,7 @@ import rehypeUnwrapImages from "rehype-unwrap-images";
 import remarkMath from "remark-math";
 import { components } from "@/components/mdx";
 import type { MDXComponents } from "mdx/types"; // 来自 @mdx-js/react 的类型定义
+import mediaMapping from "../../media-mapping.json"; // 自动生成的 JSON 映射
 
 const POSTS_DIR = path.join(process.cwd(), "public", "posts");
 
@@ -68,6 +69,7 @@ async function findFileBySlug(
 
 // 修正图片路径和链接路径：./file.md => /posts/subfolder/file.md，自动解码 %20 等特殊字符
 function fixRelativeImagePaths(content: string, filePath: string): string {
+  // 计算相对于 public/posts 的目录路径
   const relativeFolder = encodeURI(
     path.relative(POSTS_DIR, path.dirname(filePath)).replace(/\\/g, "/")
   );
@@ -78,7 +80,15 @@ function fixRelativeImagePaths(content: string, filePath: string): string {
     (match, alt, src) => {
       if (!src.startsWith("http") && !src.startsWith("/")) {
         const normalizedSrc = encodeURI(decodeURIComponent(src));
-        return `![${alt}](/posts/${relativeFolder}/${normalizedSrc})`;
+        // 构造本地引用路径
+        let localUrl = `/posts/${relativeFolder}/${normalizedSrc}`;
+        // 如果 JSON 映射中存在，则使用 Cloudinary 链接
+        if (mediaMapping["public" + localUrl]) {
+          localUrl = mediaMapping["public" + localUrl];
+        } else {
+          console.warn("No mapping found for:", localUrl);
+        }
+        return `![${alt}](${localUrl})`;
       }
       return match;
     }
@@ -90,7 +100,14 @@ function fixRelativeImagePaths(content: string, filePath: string): string {
     (match, src) => {
       if (!src.startsWith("http") && !src.startsWith("/")) {
         const normalizedSrc = encodeURI(decodeURIComponent(src));
-        return `src="/posts/${relativeFolder}/${normalizedSrc}"`;
+        let localUrl = `/posts/${relativeFolder}/${normalizedSrc}`;
+        if (mediaMapping["public" + localUrl]) {
+          localUrl = mediaMapping["public" + localUrl];
+          console.log("Using Cloudinary URL:", localUrl);
+        } else {
+          console.warn("No mapping found for:", localUrl);
+        }
+        return `src="${localUrl}"`;
       }
       return match;
     }

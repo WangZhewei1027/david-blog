@@ -9,7 +9,8 @@ createdAt: 2025-03-18
 updatedAt: 2025-03-18
 ---
 
-![A painting in Severance, Season 1, Episode 4, “The You You Are” recalls Caspar David Friedrich’s “Wanderer above the Sea of Fog” (1818)](1.webp)
+
+
 **摘要：** 本文探讨《人生切割术》（_Severance_）这部剧与德国浪漫主义画家**卡斯帕·大卫·弗里德里希**（Caspar David Friedrich）作品中共同的主题——**孤独与存在主义**。
 
 ![asdfasd](pic.jpeg)
