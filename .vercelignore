@@ -1,0 +1,11 @@
+# 忽略 public/posts 下所有图片、视频和音频文件
+public/posts/**/*.jpg
+public/posts/**/*.jpeg
+public/posts/**/*.png
+public/posts/**/*.gif
+public/posts/**/*.mp4
+public/posts/**/*.mov
+public/posts/**/*.webm
+public/posts/**/*.mp3
+public/posts/**/*.wav
+public/posts/**/*.ogg
