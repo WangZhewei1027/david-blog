@@ -10,7 +10,16 @@ tags:
   - York
 createdAt: 2024-09-15
 updatedAt: 2024-09-15
+noAlt: true
 ---
 
-
-<Gallery slug="new-york-blue-sky-sunset-collection" />
+![](IMG_6778.jpeg)
+![](IMG_6580.jpeg)
+![](IMG_6663.jpeg)
+![](IMG_6724.jpeg)
+![](IMG_6730.jpeg)
+![](IMG_6744.jpeg)
+![](IMG_6746.jpeg)
+![](IMG_6762.jpeg)
+![](IMG_6768.jpeg)
+![](IMG_6774.jpeg)

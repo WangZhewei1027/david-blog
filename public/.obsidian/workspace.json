@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/video-preview-on-mobile/video-preview-on-mobile.mdx",
-                "mode": "preview",
-                "source": true
+                "file": "posts/new-york-blue-sky-sunset-collection/new-york-blue-sky-sunset-collection.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "video-preview-on-mobile"
+              "title": "new-york-blue-sky-sunset-collection"
             }
           },
           {
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/video-preview-on-mobile/video-preview-on-mobile.mdx",
+                "file": "posts/new-york-blue-sky-sunset-collection/new-york-blue-sky-sunset-collection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for video-preview-on-mobile"
+              "title": "Backlinks for new-york-blue-sky-sunset-collection"
             }
           },
           {
@@ -152,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/video-preview-on-mobile/video-preview-on-mobile.mdx",
+                "file": "posts/new-york-blue-sky-sunset-collection/new-york-blue-sky-sunset-collection.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of video-preview-on-mobile"
+              "title": "Outline of new-york-blue-sky-sunset-collection"
             }
           }
         ],
@@ -180,11 +180,23 @@
   },
   "active": "b6dc084d3def751d",
   "lastOpenFiles": [
+    "posts/new-york-blue-sky-sunset-collection/IMG_6778.jpeg",
+    "posts/new-york-blue-sky-sunset-collection/new-york-blue-sky-sunset-collection.md",
+    "posts/new-york-blue-sky-sunset-collection/IMG_6580.jpeg",
+    "posts/nime-w1-imaginary-instrument/nime-w1-imaginary-instrument.mdx",
+    "posts/new-york-blue-sky-sunset-collection/IMG_6774.jpeg",
+    "posts/new-york-blue-sky-sunset-collection/IMG_6768.jpeg",
+    "posts/new-york-blue-sky-sunset-collection/IMG_6762.jpeg",
+    "posts/new-york-blue-sky-sunset-collection/IMG_6746.jpeg",
+    "posts/new-york-blue-sky-sunset-collection/IMG_6744.jpeg",
+    "posts/new-york-blue-sky-sunset-collection/IMG_6730.jpeg",
+    "posts/new-york-blue-sky-sunset-collection/IMG_6724.jpeg",
+    "posts/new-york-blue-sky-sunset-collection/IMG_6663.jpeg",
+    "posts/video-preview-on-mobile/video-preview-on-mobile.mdx",
     "posts/mac-scrolling-bar/mac-scrolling-bar.mdx",
     "posts/random/why-are-bananas-curved.md",
     "posts/art/severance-and-friedrich/severance-and-friedrich.md",
     "posts/lets-jam/lets-jam.mdx",
-    "posts/lets-jam/early_version.png",
     "posts/lets-jam/final_performance.mp4",
     "posts/lets-jam/final_performance(1).mp4",
     "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project B - Live Music Visualization 00a591152d07417dbb65491e2cbb7fd5.md",
@@ -199,23 +211,11 @@
     "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W1 - Transfrom da0aa74c93b24a80957a56ba0818189d.md",
     "posts/random/nyc-chinese-taxi.md",
     "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4.md",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W1 - Transfrom da0aa74c93b24a80957a56ba0818189d/1.png",
     "templates/template-post.md",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project B - Live Music Visualization 00a591152d07417dbb65491e2cbb7fd5/Untitled.png",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project B - Live Music Visualization 00a591152d07417dbb65491e2cbb7fd5/DSCF4329.jpg",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project B - Live Music Visualization 00a591152d07417dbb65491e2cbb7fd5/DSCF4259.jpg",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project B - Live Music Visualization 00a591152d07417dbb65491e2cbb7fd5/DSCF4229.jpg",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project B - Live Music Visualization 00a591152d07417dbb65491e2cbb7fd5/DSCF4196.jpg",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project B - Live Music Visualization 00a591152d07417dbb65491e2cbb7fd5/DSCF4189.jpg",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project B - Live Music Visualization 00a591152d07417dbb65491e2cbb7fd5/DSCF4181.jpg",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project B - Live Music Visualization 00a591152d07417dbb65491e2cbb7fd5/DSCF4160.jpg",
     "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project B - Live Music Visualization 00a591152d07417dbb65491e2cbb7fd5",
     "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project A - Purest 95b578434f3d4afaa3ada4eb38400c01/%E5%BD%95%E5%B1%8F2024-03-16_19.49.24.mov",
     "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project A - Purest 95b578434f3d4afaa3ada4eb38400c01/%E5%BD%95%E5%B1%8F2024-03-16_16.31.50.mov",
     "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project A - Purest 95b578434f3d4afaa3ada4eb38400c01/%E5%BD%95%E5%B1%8F2024-03-16_16.31.50 1.mov",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project A - Purest 95b578434f3d4afaa3ada4eb38400c01/%E5%BD%95%E5%B1%8F2024-03-16_15.22.36.mov",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project A - Purest 95b578434f3d4afaa3ada4eb38400c01",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W9 - Infinite Numbers e3954bc3a7b04a30a575cd0f6f876647",
     "posts/NOC/poject-b/noc-project-b.md",
     "posts/test/test-md/test-md.md",
     "post页的工作方式.md",
@@ -224,7 +224,6 @@
     "posts/NOC/poject-b/Project B - Live Music Visualization 00a591152d07417dbb65491e2cbb7fd5.md",
     "posts/NOC/Untitled.md",
     "posts/NOC/project-b/project-b.md",
-    "截屏2024-05-02.md",
-    "md.md"
+    "截屏2024-05-02.md"
   ]
 }

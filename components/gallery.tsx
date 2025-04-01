@@ -16,7 +16,7 @@ function getFiles(dir: string): string[] {
       mdxFiles = mdxFiles.concat(getFiles(filePath));
     } else {
       if ([".jpeg", ".jpg", ".png", ".gif"].includes(path.extname(file))) {
-        mdxFiles.push(`/posts/${dir.split("public/posts/")[1]}/${file}`);
+        mdxFiles.push(`${file}`);
       }
     }
   });
