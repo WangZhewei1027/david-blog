@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project B - Live Music Visualization 00a591152d07417dbb65491e2cbb7fd5.md",
+                "file": "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 7 70098f2ac916486fa97c0dc84d33e90f.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Project B - Live Music Visualization 00a591152d07417dbb65491e2cbb7fd5"
+              "title": "Week 7 70098f2ac916486fa97c0dc84d33e90f"
             }
           },
           {
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project B - Live Music Visualization 00a591152d07417dbb65491e2cbb7fd5.md",
+                "file": "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 7 70098f2ac916486fa97c0dc84d33e90f.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Project B - Live Music Visualization 00a591152d07417dbb65491e2cbb7fd5"
+              "title": "Backlinks for Week 7 70098f2ac916486fa97c0dc84d33e90f"
             }
           },
           {
@@ -152,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project B - Live Music Visualization 00a591152d07417dbb65491e2cbb7fd5.md",
+                "file": "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 7 70098f2ac916486fa97c0dc84d33e90f.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Project B - Live Music Visualization 00a591152d07417dbb65491e2cbb7fd5"
+              "title": "Outline of Week 7 70098f2ac916486fa97c0dc84d33e90f"
             }
           }
         ],
@@ -178,53 +178,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b6dc084d3def751d",
+  "active": "4b946f481c195f2c",
   "lastOpenFiles": [
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project A - Purest 95b578434f3d4afaa3ada4eb38400c01.md",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W10 - Ants 7133aa319d1f4010a17444199bf658b3.md",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W9 - Infinite Numbers e3954bc3a7b04a30a575cd0f6f876647.md",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W6 - NNNNNNNet b03261434e4c47738bc7fd2ed6e27cf0.md",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W5 - DNA Structure ef722794580543ddbb6d89c3bd4238ab.md",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W4 - Fish&SeaWeeds a61d11d1ba2542caad17dfa19677bff8.md",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W3 - Snowflakes 3e3db323392a482191f1106d909fb036.md",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W2 - Vector e3288b33dabf4c77bf70894b4a06dbc9.md",
+    "posts/nime",
+    "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 6 e23de1f5478042fca51175c571dacbd2.md",
+    "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Final Project - Future Journalist 8b9b5ff8c3414fecb5394723f6bed3da.md",
+    "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 10 51f12cb3d8344302a5366412a9f56ca1.md",
+    "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 9 fc95de5547b74843987a4a06e0a6ff9f.md",
+    "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 8 71b55bd7eb304c369d16f69437fd97c7.md",
+    "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 7 70098f2ac916486fa97c0dc84d33e90f.md",
+    "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 5 10c5d892a07a4c8ea9e4fb917f17eb0b.md",
+    "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 4 49164b7a3d864e41af0ad685efc4cdc6.md",
+    "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 3 f04f3c031cbd485483d4022d66141037.md",
+    "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 2 31cfbec8d9a4459789b6f210b35794ae.md",
+    "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 1 2de93ed922064c5eac53cabd304d2b72.md",
     "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W1 - Transfrom da0aa74c93b24a80957a56ba0818189d.md",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4.md",
-    "templates/template-noalt.md",
+    "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815.md",
     "templates/template-post.md",
-    "posts/new-york-blue-sky-sunset-collection/new-york-blue-sky-sunset-collection.md",
-    "posts/new-york-blue-sky-sunset-collection/IMG_6778.jpeg",
-    "posts/new-york-blue-sky-sunset-collection/IMG_6580.jpeg",
-    "posts/nime-w1-imaginary-instrument/nime-w1-imaginary-instrument.mdx",
-    "posts/new-york-blue-sky-sunset-collection/IMG_6774.jpeg",
-    "posts/new-york-blue-sky-sunset-collection/IMG_6768.jpeg",
-    "posts/new-york-blue-sky-sunset-collection/IMG_6762.jpeg",
-    "posts/new-york-blue-sky-sunset-collection/IMG_6746.jpeg",
-    "posts/new-york-blue-sky-sunset-collection/IMG_6744.jpeg",
-    "posts/new-york-blue-sky-sunset-collection/IMG_6730.jpeg",
-    "posts/new-york-blue-sky-sunset-collection/IMG_6724.jpeg",
-    "posts/new-york-blue-sky-sunset-collection/IMG_6663.jpeg",
-    "posts/video-preview-on-mobile/video-preview-on-mobile.mdx",
-    "posts/mac-scrolling-bar/mac-scrolling-bar.mdx",
-    "posts/random/why-are-bananas-curved.md",
-    "posts/art/severance-and-friedrich/severance-and-friedrich.md",
-    "posts/lets-jam/lets-jam.mdx",
-    "posts/lets-jam/final_performance.mp4",
-    "posts/lets-jam/final_performance(1).mp4",
     "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project B - Live Music Visualization 00a591152d07417dbb65491e2cbb7fd5.md",
-    "posts/random/nyc-chinese-taxi.md",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project B - Live Music Visualization 00a591152d07417dbb65491e2cbb7fd5",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project A - Purest 95b578434f3d4afaa3ada4eb38400c01/%E5%BD%95%E5%B1%8F2024-03-16_19.49.24.mov",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project A - Purest 95b578434f3d4afaa3ada4eb38400c01/%E5%BD%95%E5%B1%8F2024-03-16_16.31.50.mov",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project A - Purest 95b578434f3d4afaa3ada4eb38400c01/%E5%BD%95%E5%B1%8F2024-03-16_16.31.50 1.mov",
-    "posts/NOC/poject-b/noc-project-b.md",
-    "posts/test/test-md/test-md.md",
-    "post页的工作方式.md",
-    "2025-03-18.md",
-    "截屏2024-05-12.md",
-    "posts/NOC/poject-b/Project B - Live Music Visualization 00a591152d07417dbb65491e2cbb7fd5.md",
-    "posts/NOC/Untitled.md",
-    "posts/NOC/project-b/project-b.md",
-    "截屏2024-05-02.md"
+    "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 9 fc95de5547b74843987a4a06e0a6ff9f/Untitled.gif",
+    "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 9 fc95de5547b74843987a4a06e0a6ff9f/Change_the_facial_expression.gif",
+    "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 9 fc95de5547b74843987a4a06e0a6ff9f/Change_the_background.gif",
+    "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 8 71b55bd7eb304c369d16f69437fd97c7/7271698586057_.pic.jpg",
+    "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 8 71b55bd7eb304c369d16f69437fd97c7/00058-3634638291.png",
+    "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 8 71b55bd7eb304c369d16f69437fd97c7/5231698585472_.pic.jpg",
+    "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 8 71b55bd7eb304c369d16f69437fd97c7/00057-2526083100.png",
+    "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 8 71b55bd7eb304c369d16f69437fd97c7/%E6%88%AA%E5%B1%8F2023-10-30_13.09.27.png",
+    "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 8 71b55bd7eb304c369d16f69437fd97c7/%E6%88%AA%E5%B1%8F2023-10-30_13.05.44.png",
+    "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 8 71b55bd7eb304c369d16f69437fd97c7/%E6%88%AA%E5%B1%8F2023-10-30_12.59.57.png",
+    "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 9 fc95de5547b74843987a4a06e0a6ff9f",
+    "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 8 71b55bd7eb304c369d16f69437fd97c7",
+    "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 6 e23de1f5478042fca51175c571dacbd2",
+    "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 3 f04f3c031cbd485483d4022d66141037",
+    "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Final Project - Future Journalist 8b9b5ff8c3414fecb5394723f6bed3da",
+    "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Course Reflection b496c841d60e429b8d5334dfb561e252.md",
+    "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815",
+    "posts/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815.md",
+    "posts/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 9 fc95de5547b74843987a4a06e0a6ff9f.md",
+    "posts/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 9 fc95de5547b74843987a4a06e0a6ff9f",
+    "posts/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 8 71b55bd7eb304c369d16f69437fd97c7.md",
+    "posts/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 8 71b55bd7eb304c369d16f69437fd97c7",
+    "posts/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 7 70098f2ac916486fa97c0dc84d33e90f.md",
+    "posts/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 6 e23de1f5478042fca51175c571dacbd2.md",
+    "posts/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 6 e23de1f5478042fca51175c571dacbd2",
+    "posts/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 5 10c5d892a07a4c8ea9e4fb917f17eb0b.md",
+    "posts/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 4 49164b7a3d864e41af0ad685efc4cdc6.md",
+    "posts/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 3 f04f3c031cbd485483d4022d66141037.md",
+    "posts/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 3 f04f3c031cbd485483d4022d66141037",
+    "posts/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 2 31cfbec8d9a4459789b6f210b35794ae.md"
   ]
 }

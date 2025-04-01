@@ -13,7 +13,7 @@ const nextConfig = {
 };
 
 const withMDX = createMDX({
-  remarkPlugins: [],
+  remarkPlugins: [remarkGfm],
 });
 
 // Merge MDX config with Next.js config

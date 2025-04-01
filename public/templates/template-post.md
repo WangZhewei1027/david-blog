@@ -1,7 +1,6 @@
 ---
 title: Post Title
 summary: Summary of ths post
-type: article
 pin: true
 tags:
   - NOC

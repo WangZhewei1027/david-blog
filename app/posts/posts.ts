@@ -10,6 +10,7 @@ import remarkMath from "remark-math";
 import { components } from "@/components/mdx";
 import type { MDXComponents } from "mdx/types"; // 来自 @mdx-js/react 的类型定义
 import mediaMapping from "../../media-mapping.json"; // 自动生成的 JSON 映射
+import remarkGfm from "remark-gfm";
 
 const POSTS_DIR = path.join(process.cwd(), "public", "posts");
 
@@ -31,7 +32,7 @@ export async function getCompiledPost(slug: string) {
     components: components as MDXComponents,
     options: {
       mdxOptions: {
-        remarkPlugins: [remarkMath],
+        remarkPlugins: [remarkMath, remarkGfm],
         rehypePlugins: [[rehypeKatex, { strict: true }], rehypeUnwrapImages],
       },
     },

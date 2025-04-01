@@ -643,34 +643,6 @@
     "size": 4304352,
     "modifiedTime": "2024-12-22T19:34:55.493Z"
   },
-  "public/posts/nime-w1-imaginary-instrument/bottle.jpeg": {
-    "url": "https://res.cloudinary.com/dn5vbb8mi/image/upload/v1743484787/jnwoqqgd3vclcoiybxbo.jpg",
-    "public_id": "jnwoqqgd3vclcoiybxbo",
-    "resource_type": "image",
-    "size": 352015,
-    "modifiedTime": "2024-12-22T19:34:55.494Z"
-  },
-  "public/posts/nime-w2-first-try/ableton.mov": {
-    "url": "https://res.cloudinary.com/dn5vbb8mi/video/upload/v1743484788/unsaqie91qlanagdnr9q.mov",
-    "public_id": "unsaqie91qlanagdnr9q",
-    "resource_type": "video",
-    "size": 16221173,
-    "modifiedTime": "2024-12-22T19:34:55.516Z"
-  },
-  "public/posts/nime-w2-first-try/board.jpeg": {
-    "url": "https://res.cloudinary.com/dn5vbb8mi/image/upload/v1743484790/eju74wucxekia4fio3rb.jpg",
-    "public_id": "eju74wucxekia4fio3rb",
-    "resource_type": "image",
-    "size": 370454,
-    "modifiedTime": "2024-12-22T19:34:55.518Z"
-  },
-  "public/posts/nime-w2-first-try/interaction.mp4": {
-    "url": "https://res.cloudinary.com/dn5vbb8mi/video/upload/v1743484792/idsrov2b15un9bobrhnn.mp4",
-    "public_id": "idsrov2b15un9bobrhnn",
-    "resource_type": "video",
-    "size": 17285829,
-    "modifiedTime": "2024-12-23T20:29:12.143Z"
-  },
   "public/posts/video-preview-on-mobile/desktop.png": {
     "url": "https://res.cloudinary.com/dn5vbb8mi/image/upload/v1743484793/aakazv66lnqps2rkzxdq.png",
     "public_id": "aakazv66lnqps2rkzxdq",
@@ -684,5 +656,152 @@
     "resource_type": "image",
     "size": 52136,
     "modifiedTime": "2024-12-22T19:34:55.522Z"
+  },
+  "public/posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Final Project - Future Journalist 8b9b5ff8c3414fecb5394723f6bed3da/%E6%88%AA%E5%B1%8F2023-12-13_01.45.41.png": {
+    "url": "https://res.cloudinary.com/dn5vbb8mi/image/upload/v1743486428/f1tkkqqc5botnra0iklf.png",
+    "public_id": "f1tkkqqc5botnra0iklf",
+    "resource_type": "image",
+    "size": 676225,
+    "modifiedTime": "2025-04-01T09:40:02.000Z"
+  },
+  "public/posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Final Project - Future Journalist 8b9b5ff8c3414fecb5394723f6bed3da/3A0BC488-B7D6-447C-BA25-160EFA9B08CD_1_105_c.jpeg": {
+    "url": "https://res.cloudinary.com/dn5vbb8mi/image/upload/v1743486429/h5cfkgz1r7xswcbukj3y.jpg",
+    "public_id": "h5cfkgz1r7xswcbukj3y",
+    "resource_type": "image",
+    "size": 121719,
+    "modifiedTime": "2025-04-01T09:40:02.000Z"
+  },
+  "public/posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Final Project - Future Journalist 8b9b5ff8c3414fecb5394723f6bed3da/C89FBBA8-36AE-471F-B335-B29A263594FD_1_105_c.jpeg": {
+    "url": "https://res.cloudinary.com/dn5vbb8mi/image/upload/v1743486430/ncpwpctwhubngxwqjjyl.jpg",
+    "public_id": "ncpwpctwhubngxwqjjyl",
+    "resource_type": "image",
+    "size": 192109,
+    "modifiedTime": "2025-04-01T09:40:02.000Z"
+  },
+  "public/posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 3 f04f3c031cbd485483d4022d66141037/%E6%9C%AA%E5%91%BD%E5%90%8D%E8%8D%89%E7%A8%BF.jpg": {
+    "url": "https://res.cloudinary.com/dn5vbb8mi/image/upload/v1743486431/bewjm8oniu0wiuddauo2.jpg",
+    "public_id": "bewjm8oniu0wiuddauo2",
+    "resource_type": "image",
+    "size": 1404459,
+    "modifiedTime": "2025-04-01T09:39:58.000Z"
+  },
+  "public/posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 6 e23de1f5478042fca51175c571dacbd2/%E6%88%AA%E5%B1%8F2023-10-15_21.17.54.png": {
+    "url": "https://res.cloudinary.com/dn5vbb8mi/image/upload/v1743486432/dobbcu0vxzds98bvaulz.png",
+    "public_id": "dobbcu0vxzds98bvaulz",
+    "resource_type": "image",
+    "size": 1537743,
+    "modifiedTime": "2025-04-01T09:39:58.000Z"
+  },
+  "public/posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 8 71b55bd7eb304c369d16f69437fd97c7/%E6%88%AA%E5%B1%8F2023-10-30_12.18.05.png": {
+    "url": "https://res.cloudinary.com/dn5vbb8mi/image/upload/v1743486433/erenqrtuszjteyrff5al.png",
+    "public_id": "erenqrtuszjteyrff5al",
+    "resource_type": "image",
+    "size": 2081747,
+    "modifiedTime": "2025-04-01T09:39:58.000Z"
+  },
+  "public/posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 8 71b55bd7eb304c369d16f69437fd97c7/%E6%88%AA%E5%B1%8F2023-10-30_12.29.19.png": {
+    "url": "https://res.cloudinary.com/dn5vbb8mi/image/upload/v1743486434/t8apza7kopys1gzhipke.png",
+    "public_id": "t8apza7kopys1gzhipke",
+    "resource_type": "image",
+    "size": 1785719,
+    "modifiedTime": "2025-04-01T09:39:58.000Z"
+  },
+  "public/posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 8 71b55bd7eb304c369d16f69437fd97c7/%E6%88%AA%E5%B1%8F2023-10-30_12.59.57.png": {
+    "url": "https://res.cloudinary.com/dn5vbb8mi/image/upload/v1743486435/x3kwqbyxplskpwfvk0gl.png",
+    "public_id": "x3kwqbyxplskpwfvk0gl",
+    "resource_type": "image",
+    "size": 1649989,
+    "modifiedTime": "2025-04-01T09:39:58.000Z"
+  },
+  "public/posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 8 71b55bd7eb304c369d16f69437fd97c7/%E6%88%AA%E5%B1%8F2023-10-30_13.05.44.png": {
+    "url": "https://res.cloudinary.com/dn5vbb8mi/image/upload/v1743486435/fgqzue3izbvy9nsqbqmp.png",
+    "public_id": "fgqzue3izbvy9nsqbqmp",
+    "resource_type": "image",
+    "size": 2457313,
+    "modifiedTime": "2025-04-01T09:40:00.000Z"
+  },
+  "public/posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 8 71b55bd7eb304c369d16f69437fd97c7/%E6%88%AA%E5%B1%8F2023-10-30_13.09.27.png": {
+    "url": "https://res.cloudinary.com/dn5vbb8mi/image/upload/v1743486436/iqs7ckldnl1tgozodbmf.png",
+    "public_id": "iqs7ckldnl1tgozodbmf",
+    "resource_type": "image",
+    "size": 2321114,
+    "modifiedTime": "2025-04-01T09:40:00.000Z"
+  },
+  "public/posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 8 71b55bd7eb304c369d16f69437fd97c7/00057-2526083100.png": {
+    "url": "https://res.cloudinary.com/dn5vbb8mi/image/upload/v1743486438/pyk14kjbomq78kli67ac.png",
+    "public_id": "pyk14kjbomq78kli67ac",
+    "resource_type": "image",
+    "size": 2497522,
+    "modifiedTime": "2025-04-01T09:40:00.000Z"
+  },
+  "public/posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 8 71b55bd7eb304c369d16f69437fd97c7/00058-3634638291.png": {
+    "url": "https://res.cloudinary.com/dn5vbb8mi/image/upload/v1743486439/yxnbivr5wvlatcub8jc1.png",
+    "public_id": "yxnbivr5wvlatcub8jc1",
+    "resource_type": "image",
+    "size": 1593504,
+    "modifiedTime": "2025-04-01T09:40:00.000Z"
+  },
+  "public/posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 8 71b55bd7eb304c369d16f69437fd97c7/5231698585472_.pic.jpg": {
+    "url": "https://res.cloudinary.com/dn5vbb8mi/image/upload/v1743486439/vbckefmyqcn1jdwsrwf5.jpg",
+    "public_id": "vbckefmyqcn1jdwsrwf5",
+    "resource_type": "image",
+    "size": 581741,
+    "modifiedTime": "2025-04-01T09:39:58.000Z"
+  },
+  "public/posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 8 71b55bd7eb304c369d16f69437fd97c7/7271698586057_.pic.jpg": {
+    "url": "https://res.cloudinary.com/dn5vbb8mi/image/upload/v1743486440/pmujzgdwazhgpcmsplsc.jpg",
+    "public_id": "pmujzgdwazhgpcmsplsc",
+    "resource_type": "image",
+    "size": 399659,
+    "modifiedTime": "2025-04-01T09:39:58.000Z"
+  },
+  "public/posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 9 fc95de5547b74843987a4a06e0a6ff9f/Change_the_background.gif": {
+    "url": "https://res.cloudinary.com/dn5vbb8mi/image/upload/v1743486440/gzsb0aopgqp0oo58jehc.gif",
+    "public_id": "gzsb0aopgqp0oo58jehc",
+    "resource_type": "image",
+    "size": 2607338,
+    "modifiedTime": "2025-04-01T09:40:00.000Z"
+  },
+  "public/posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 9 fc95de5547b74843987a4a06e0a6ff9f/Change_the_facial_expression.gif": {
+    "url": "https://res.cloudinary.com/dn5vbb8mi/image/upload/v1743486442/pujdg7fq9vyvyub4y2rw.gif",
+    "public_id": "pujdg7fq9vyvyub4y2rw",
+    "resource_type": "image",
+    "size": 2573002,
+    "modifiedTime": "2025-04-01T09:40:00.000Z"
+  },
+  "public/posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 9 fc95de5547b74843987a4a06e0a6ff9f/Untitled.gif": {
+    "url": "https://res.cloudinary.com/dn5vbb8mi/image/upload/v1743486442/vc68i5c6ivgb3vbteozw.gif",
+    "public_id": "vc68i5c6ivgb3vbteozw",
+    "resource_type": "image",
+    "size": 2118584,
+    "modifiedTime": "2025-04-01T09:40:00.000Z"
+  },
+  "public/posts/nime/nime-w1-imaginary-instrument/bottle.jpeg": {
+    "url": "https://res.cloudinary.com/dn5vbb8mi/image/upload/v1743488009/jcc04brrlxyzuctdm0iu.jpg",
+    "public_id": "jcc04brrlxyzuctdm0iu",
+    "resource_type": "image",
+    "size": 352015,
+    "modifiedTime": "2024-12-22T19:34:55.494Z"
+  },
+  "public/posts/nime/nime-w2-first-try/ableton.mov": {
+    "url": "https://res.cloudinary.com/dn5vbb8mi/video/upload/v1743488011/sw8nesqhs6jbuxl1avbk.mov",
+    "public_id": "sw8nesqhs6jbuxl1avbk",
+    "resource_type": "video",
+    "size": 16221173,
+    "modifiedTime": "2024-12-22T19:34:55.516Z"
+  },
+  "public/posts/nime/nime-w2-first-try/board.jpeg": {
+    "url": "https://res.cloudinary.com/dn5vbb8mi/image/upload/v1743488013/silvqrhxsm7vu4d6ovju.jpg",
+    "public_id": "silvqrhxsm7vu4d6ovju",
+    "resource_type": "image",
+    "size": 370454,
+    "modifiedTime": "2024-12-22T19:34:55.518Z"
+  },
+  "public/posts/nime/nime-w2-first-try/interaction.mp4": {
+    "url": "https://res.cloudinary.com/dn5vbb8mi/video/upload/v1743488015/sh0jsmbytchejrxz3o2m.mp4",
+    "public_id": "sh0jsmbytchejrxz3o2m",
+    "resource_type": "video",
+    "size": 17285829,
+    "modifiedTime": "2024-12-23T20:29:12.143Z"
   }
 }
