@@ -84,10 +84,12 @@ function fixRelativeImagePaths(content: string, filePath: string): string {
         let localUrl = `/posts/${relativeFolder}/${normalizedSrc}`;
         localUrl = decodeURIComponent(localUrl);
         // 如果 JSON 映射中存在，则使用 Cloudinary 链接
-        if (mediaMapping["public" + localUrl]) {
-          localUrl = mediaMapping["public" + localUrl];
+        const publicUrl = "public" + localUrl;
+        if (mediaMapping[publicUrl]) {
+          localUrl = mediaMapping[publicUrl];
+          console.log("Using Cloudinary URL:", localUrl);
         } else {
-          console.warn("No mapping found for:", localUrl);
+          console.warn("No mapping found for:", publicUrl);
         }
         return `![${alt}](${localUrl})`;
       }
@@ -103,11 +105,12 @@ function fixRelativeImagePaths(content: string, filePath: string): string {
         const normalizedSrc = encodeURI(decodeURIComponent(src));
         let localUrl = `/posts/${relativeFolder}/${normalizedSrc}`;
         localUrl = decodeURIComponent(localUrl);
-        if (mediaMapping["public" + localUrl]) {
-          localUrl = mediaMapping["public" + localUrl];
+        const publicUrl = "public" + localUrl;
+        if (mediaMapping[publicUrl]) {
+          localUrl = mediaMapping[publicUrl];
           console.log("Using Cloudinary URL:", localUrl);
         } else {
-          console.warn("No mapping found for:", localUrl);
+          console.warn("No mapping found for:", publicUrl);
         }
         return `src="${localUrl}"`;
       }
