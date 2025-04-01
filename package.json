@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prebuild": "node --loader ts-node/esm scripts/uploadMedia.ts public/posts"
+    "upload": "node --loader ts-node/esm scripts/uploadMedia.ts public/posts"
   },
   "dependencies": {
     "@mdx-js/loader": "^3.0.1",
