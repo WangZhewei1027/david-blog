@@ -112,8 +112,10 @@ function fixRelativeImagePaths(content: string, filePath: string): string {
         } else {
           console.warn("No mapping found for:", publicUrl);
         }
+        console.log("Replacing:", src, "→", localUrl);
         return `src="${localUrl}"`;
       }
+      console.log("Ignoring:", src);
       return match;
     }
   );
