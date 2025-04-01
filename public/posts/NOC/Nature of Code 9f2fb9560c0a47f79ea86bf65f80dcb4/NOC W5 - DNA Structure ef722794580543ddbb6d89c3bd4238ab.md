@@ -1,3 +1,6 @@
+---
+noAlt: true
+---
 # NOC W5 - DNA Structure
 
 A 3D interactive DNA Structure model. 

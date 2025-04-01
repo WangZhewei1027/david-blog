@@ -1,3 +1,6 @@
+---
+noAlt: true
+---
 # NOC W9 - Infinite Numbers
 
 # **Final Version:** 

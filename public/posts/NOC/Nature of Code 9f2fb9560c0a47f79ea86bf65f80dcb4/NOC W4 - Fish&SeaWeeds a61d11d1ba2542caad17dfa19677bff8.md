@@ -1,3 +1,6 @@
+---
+noAlt: true
+---
 # NOC W4 - Fish&SeaWeeds
 
 **Final Version: [https://editor.p5js.org/WangZhewei1027/sketches/xBHhopTw2](https://editor.p5js.org/WangZhewei1027/sketches/xBHhopTw2)**

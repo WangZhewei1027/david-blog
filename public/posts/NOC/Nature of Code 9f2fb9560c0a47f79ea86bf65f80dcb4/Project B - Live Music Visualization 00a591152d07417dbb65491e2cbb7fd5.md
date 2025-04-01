@@ -1,3 +1,6 @@
+---
+noAlt: true
+---
 # Project B - Live Music Visualization
 
 # Elevator Pitch

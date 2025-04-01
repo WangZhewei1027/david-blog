@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/new-york-blue-sky-sunset-collection/new-york-blue-sky-sunset-collection.md",
+                "file": "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project B - Live Music Visualization 00a591152d07417dbb65491e2cbb7fd5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "new-york-blue-sky-sunset-collection"
+              "title": "Project B - Live Music Visualization 00a591152d07417dbb65491e2cbb7fd5"
             }
           },
           {
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/new-york-blue-sky-sunset-collection/new-york-blue-sky-sunset-collection.md",
+                "file": "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project B - Live Music Visualization 00a591152d07417dbb65491e2cbb7fd5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for new-york-blue-sky-sunset-collection"
+              "title": "Backlinks for Project B - Live Music Visualization 00a591152d07417dbb65491e2cbb7fd5"
             }
           },
           {
@@ -152,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/new-york-blue-sky-sunset-collection/new-york-blue-sky-sunset-collection.md",
+                "file": "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project B - Live Music Visualization 00a591152d07417dbb65491e2cbb7fd5.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of new-york-blue-sky-sunset-collection"
+              "title": "Outline of Project B - Live Music Visualization 00a591152d07417dbb65491e2cbb7fd5"
             }
           }
         ],
@@ -180,8 +180,20 @@
   },
   "active": "b6dc084d3def751d",
   "lastOpenFiles": [
-    "posts/new-york-blue-sky-sunset-collection/IMG_6778.jpeg",
+    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project A - Purest 95b578434f3d4afaa3ada4eb38400c01.md",
+    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W10 - Ants 7133aa319d1f4010a17444199bf658b3.md",
+    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W9 - Infinite Numbers e3954bc3a7b04a30a575cd0f6f876647.md",
+    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W6 - NNNNNNNet b03261434e4c47738bc7fd2ed6e27cf0.md",
+    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W5 - DNA Structure ef722794580543ddbb6d89c3bd4238ab.md",
+    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W4 - Fish&SeaWeeds a61d11d1ba2542caad17dfa19677bff8.md",
+    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W3 - Snowflakes 3e3db323392a482191f1106d909fb036.md",
+    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W2 - Vector e3288b33dabf4c77bf70894b4a06dbc9.md",
+    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W1 - Transfrom da0aa74c93b24a80957a56ba0818189d.md",
+    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4.md",
+    "templates/template-noalt.md",
+    "templates/template-post.md",
     "posts/new-york-blue-sky-sunset-collection/new-york-blue-sky-sunset-collection.md",
+    "posts/new-york-blue-sky-sunset-collection/IMG_6778.jpeg",
     "posts/new-york-blue-sky-sunset-collection/IMG_6580.jpeg",
     "posts/nime-w1-imaginary-instrument/nime-w1-imaginary-instrument.mdx",
     "posts/new-york-blue-sky-sunset-collection/IMG_6774.jpeg",
@@ -200,18 +212,7 @@
     "posts/lets-jam/final_performance.mp4",
     "posts/lets-jam/final_performance(1).mp4",
     "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project B - Live Music Visualization 00a591152d07417dbb65491e2cbb7fd5.md",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project A - Purest 95b578434f3d4afaa3ada4eb38400c01.md",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W10 - Ants 7133aa319d1f4010a17444199bf658b3.md",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W9 - Infinite Numbers e3954bc3a7b04a30a575cd0f6f876647.md",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W6 - NNNNNNNet b03261434e4c47738bc7fd2ed6e27cf0.md",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W5 - DNA Structure ef722794580543ddbb6d89c3bd4238ab.md",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W4 - Fish&SeaWeeds a61d11d1ba2542caad17dfa19677bff8.md",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W3 - Snowflakes 3e3db323392a482191f1106d909fb036.md",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W2 - Vector e3288b33dabf4c77bf70894b4a06dbc9.md",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W1 - Transfrom da0aa74c93b24a80957a56ba0818189d.md",
     "posts/random/nyc-chinese-taxi.md",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4.md",
-    "templates/template-post.md",
     "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project B - Live Music Visualization 00a591152d07417dbb65491e2cbb7fd5",
     "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project A - Purest 95b578434f3d4afaa3ada4eb38400c01/%E5%BD%95%E5%B1%8F2024-03-16_19.49.24.mov",
     "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project A - Purest 95b578434f3d4afaa3ada4eb38400c01/%E5%BD%95%E5%B1%8F2024-03-16_16.31.50.mov",

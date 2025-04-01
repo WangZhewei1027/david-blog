@@ -1,3 +1,6 @@
+---
+noAlt: true
+---
 # NOC W6 - NNNNNNNet
 
 # Final Version

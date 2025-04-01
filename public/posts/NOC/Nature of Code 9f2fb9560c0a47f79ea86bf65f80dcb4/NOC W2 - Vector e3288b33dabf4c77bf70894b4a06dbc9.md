@@ -1,3 +1,6 @@
+---
+noAlt: true
+---
 # NOC W2 - Vector
 
 **Final Version:** [https://editor.p5js.org/WangZhewei1027/sketches/WUoAulwBl](https://editor.p5js.org/WangZhewei1027/sketches/WUoAulwBl)

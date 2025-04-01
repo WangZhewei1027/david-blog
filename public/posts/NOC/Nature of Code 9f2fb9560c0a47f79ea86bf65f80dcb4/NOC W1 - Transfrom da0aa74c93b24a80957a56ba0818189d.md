@@ -1,3 +1,6 @@
+---
+noAlt: true
+---
 # NOC W1 - Transform
 
 P5 LINK: [https://editor.p5js.org/WangZhewei1027/sketches/bcJN1Gmwi](https://editor.p5js.org/WangZhewei1027/sketches/bcJN1Gmwi)

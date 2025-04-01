@@ -1,3 +1,6 @@
+---
+noAlt: true
+---
 # Project A - Purest
 
 "Project A - Purest" is about blending music with visuals using a MIDI keyboard. It started simple and grew to include 3D images and camera movements that change on their own. This project shows how combining music and visuals can create something beautiful and complex, reflecting a journey of learning and creativity.
