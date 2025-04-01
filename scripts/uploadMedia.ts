@@ -1,5 +1,6 @@
 import fs from "fs/promises";
 import path from "path";
+import crypto from "crypto"; // 可选，如果以后需要用哈希做键
 import { v2 as cloudinary } from "cloudinary";
 import dotenv from "dotenv";
 dotenv.config();
@@ -45,14 +46,16 @@ async function scanFiles(dir: string): Promise<string[]> {
 }
 
 /**
- * 上传文件到 Cloudinary，并返回上传后的 URL
+ * 上传文件到 Cloudinary，并返回一个包含 secure_url 和 public_id 的对象
  */
-async function uploadFile(filePath: string): Promise<string> {
+async function uploadFile(
+  filePath: string
+): Promise<{ url: string; public_id: string }> {
   try {
     const result = await cloudinary.uploader.upload(filePath, {
       resource_type: "auto", // 自动根据文件类型处理
     });
-    return result.secure_url;
+    return { url: result.secure_url, public_id: result.public_id };
   } catch (error) {
     console.error(`Error uploading ${filePath}:`, error);
     throw error;
@@ -64,11 +67,10 @@ async function uploadFile(filePath: string): Promise<string> {
  */
 async function loadExistingMapping(
   mappingPath: string
-): Promise<Record<string, string>> {
+): Promise<Record<string, { url: string; public_id: string }>> {
   try {
     const data = await fs.readFile(mappingPath, "utf-8");
     return JSON.parse(data);
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
   } catch (error: any) {
     if (error.code === "ENOENT") {
       return {};
@@ -79,7 +81,19 @@ async function loadExistingMapping(
 }
 
 /**
- * 主函数：扫描目录、上传文件、生成映射 JSON
+ * 删除 Cloudinary 上的资源，resource_type 为 auto
+ */
+async function deleteCloudinaryResource(public_id: string): Promise<void> {
+  try {
+    await cloudinary.uploader.destroy(public_id, { resource_type: "auto" });
+    console.log(`Deleted Cloudinary resource: ${public_id}`);
+  } catch (error) {
+    console.error(`Error deleting resource ${public_id}:`, error);
+  }
+}
+
+/**
+ * 主函数：扫描目录、上传文件、更新映射、删除不再存在的文件
  */
 async function main() {
   const targetDir = process.argv[2];
@@ -88,19 +102,21 @@ async function main() {
     process.exit(1);
   }
 
-  // 定义映射文件路径
+  // 定义映射文件路径（存放在项目根目录）
   const mappingPath = path.join(process.cwd(), "media-mapping.json");
-  // 尝试加载已存在的映射
+  // 加载已有映射，格式： { [filePath]: { url, public_id } }
   const existingMapping = await loadExistingMapping(mappingPath);
 
   // 扫描目录下所有媒体文件
   const files = await scanFiles(targetDir);
   console.log(`Found ${files.length} media files.`);
 
-  // 新的映射记录（与已存在的映射合并）
-  const mapping: Record<string, string> = { ...existingMapping };
+  // 新的映射记录（以文件路径为键）
+  const mapping: Record<string, { url: string; public_id: string }> = {
+    ...existingMapping,
+  };
 
-  // 遍历文件并上传（如果映射中已有则跳过）
+  // 遍历扫描到的文件
   for (const file of files) {
     if (mapping[file]) {
       console.log(`Skipping ${file} (already uploaded).`);
@@ -108,17 +124,31 @@ async function main() {
     }
     console.log(`Uploading ${file}...`);
     try {
-      const url = await uploadFile(file);
-      mapping[file] = url;
+      const { url, public_id } = await uploadFile(file);
+      mapping[file] = { url, public_id };
       console.log(`Uploaded: ${file} -> ${url}`);
     } catch (error) {
       console.error(`Failed to upload ${file}`);
     }
   }
 
-  // 将映射写入 JSON 文件
+  // 找出在现有映射中但此次扫描未碰到的文件，即“失效文件”
+  const currentFilesSet = new Set(files);
+  for (const storedFile in mapping) {
+    if (!currentFilesSet.has(storedFile)) {
+      console.log(
+        `File ${storedFile} no longer exists. Deleting its Cloudinary resource...`
+      );
+      // 删除 Cloudinary 上的资源
+      await deleteCloudinaryResource(mapping[storedFile].public_id);
+      // 删除映射中的记录
+      delete mapping[storedFile];
+    }
+  }
+
+  // 写回更新后的映射
   await fs.writeFile(mappingPath, JSON.stringify(mapping, null, 2), "utf-8");
-  console.log(`Media mapping saved to ${mappingPath}`);
+  console.log(`Media mapping updated and saved to ${mappingPath}`);
 }
 
 main().catch((err) => {
