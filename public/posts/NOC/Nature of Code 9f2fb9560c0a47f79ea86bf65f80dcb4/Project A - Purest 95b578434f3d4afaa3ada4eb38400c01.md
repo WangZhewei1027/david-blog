@@ -30,13 +30,13 @@ The first three version I learn how to use midi keyboard to control parameters.
 
 Version 4: [https://editor.p5js.org/WangZhewei1027/sketches/NcR_Ff1zi](https://editor.p5js.org/WangZhewei1027/sketches/NcR_Ff1zi)
 
-[录屏2024-03-16 15.22.36.mov](Project%20A%20-%20Purest%2095b578434f3d4afaa3ada4eb38400c01/%25E5%25BD%2595%25E5%25B1%258F2024-03-16_15.22.36.mov)
+![录屏2024-03-16 15.22.36.mov](Project%20A%20-%20Purest%2095b578434f3d4afaa3ada4eb38400c01/%25E5%25BD%2595%25E5%25B1%258F2024-03-16_15.22.36.mov)
 
 Version 5: [https://editor.p5js.org/WangZhewei1027/sketches/FOOB96XWt](https://editor.p5js.org/WangZhewei1027/sketches/FOOB96XWt)
 
-[录屏2024-03-16 19.49.24.mov](Project%20A%20-%20Purest%2095b578434f3d4afaa3ada4eb38400c01/%25E5%25BD%2595%25E5%25B1%258F2024-03-16_19.49.24.mov)
+![录屏2024-03-16 19.49.24.mov](Project%20A%20-%20Purest%2095b578434f3d4afaa3ada4eb38400c01/%25E5%25BD%2595%25E5%25B1%258F2024-03-16_19.49.24.mov)
 
-[录屏2024-03-16 16.31.50.mov](Project%20A%20-%20Purest%2095b578434f3d4afaa3ada4eb38400c01/%25E5%25BD%2595%25E5%25B1%258F2024-03-16_16.31.50.mov)
+![录屏2024-03-16 16.31.50.mov](Project%20A%20-%20Purest%2095b578434f3d4afaa3ada4eb38400c01/%25E5%25BD%2595%25E5%25B1%258F2024-03-16_16.31.50.mov)
 
 In order to have the strength control of keys, as well as the global volume, I write this code:
 
@@ -55,7 +55,7 @@ Version 6: Start to develop locally
 
 As the code the is growing longer, I need VS Code to help handle all the codes.
 
-[录屏2024-03-16 16.31.50.mov](Project%20A%20-%20Purest%2095b578434f3d4afaa3ada4eb38400c01/%25E5%25BD%2595%25E5%25B1%258F2024-03-16_16.31.50%201.mov)
+![录屏2024-03-16 16.31.50.mov](Project%20A%20-%20Purest%2095b578434f3d4afaa3ada4eb38400c01/%25E5%25BD%2595%25E5%25B1%258F2024-03-16_16.31.50%201.mov)
 
 Version 8:
 

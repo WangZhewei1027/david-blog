@@ -22,6 +22,7 @@ const allowedExtensions = new Set([
   ".mp3",
   ".wav",
   ".ogg",
+  ".mov",
 ]);
 
 /**

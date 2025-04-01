@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4.md",
+                "file": "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project A - Purest 95b578434f3d4afaa3ada4eb38400c01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4"
+              "title": "Project A - Purest 95b578434f3d4afaa3ada4eb38400c01"
             }
           },
           {
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#frontend",
+                "query": "tag:#TeamSeas",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4.md",
+                "file": "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project A - Purest 95b578434f3d4afaa3ada4eb38400c01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4"
+              "title": "Backlinks for Project A - Purest 95b578434f3d4afaa3ada4eb38400c01"
             }
           },
           {
@@ -152,17 +152,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4.md",
+                "file": "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project A - Purest 95b578434f3d4afaa3ada4eb38400c01.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4"
+              "title": "Outline of Project A - Purest 95b578434f3d4afaa3ada4eb38400c01"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -180,8 +180,10 @@
   },
   "active": "b6dc084d3def751d",
   "lastOpenFiles": [
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W1 - Transfrom da0aa74c93b24a80957a56ba0818189d.md",
+    "posts/lets-jam/lets-jam.mdx",
+    "posts/random/nyc-chinese-taxi.md",
     "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4.md",
+    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W1 - Transfrom da0aa74c93b24a80957a56ba0818189d.md",
     "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W1 - Transfrom da0aa74c93b24a80957a56ba0818189d/1.png",
     "templates/template-post.md",
     "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project B - Live Music Visualization 00a591152d07417dbb65491e2cbb7fd5/Untitled.png",
@@ -214,7 +216,6 @@
     "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W10 - Ants 7133aa319d1f4010a17444199bf658b3.md",
     "posts/art/severance-and-friedrich/severance-and-friedrich.md",
     "posts/random/why-are-bananas-curved.md",
-    "posts/random/nyc-chinese-taxi.md",
     "posts/NOC/poject-b/noc-project-b.md",
     "posts/test/test-md/test-md.md",
     "post页的工作方式.md",

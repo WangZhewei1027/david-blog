@@ -61,6 +61,35 @@ function Code({ children, ...props }) {
 }
 
 function customImg(props) {
+  const isVideo = /\.(mp4|webm|ogg|mov)$/i.test(props.src);
+
+  if (isVideo) {
+    return (
+      <span className="flex flex-col items-center mt-2 mb-8 space-y-4">
+        <video
+          {...props}
+          controls
+          className="h-auto object-contain
+            w-full max-w-full
+            md:max-w-[100%] 
+            [aspect-ratio:auto]
+            [max-height:80vh]
+            [max-width:66%]
+            portrait:max-w-[400px]"
+        >
+          <source
+            src={props.src}
+            type={`video/${props.src.split(".").pop()}`}
+          />
+          Your browser does not support the video tag.
+        </video>
+        {props.alt && (
+          <span className="text-center italic block">{props.alt}</span>
+        )}
+      </span>
+    );
+  }
+
   return (
     <span className="flex flex-col items-center mt-2 mb-8 space-y-4">
       <Image

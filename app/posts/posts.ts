@@ -86,7 +86,7 @@ function fixRelativeImagePaths(content: string, filePath: string): string {
         // 如果 JSON 映射中存在，则使用 Cloudinary 链接
         const publicUrl = "public" + localUrl;
         if (mediaMapping[publicUrl]) {
-          localUrl = mediaMapping[publicUrl];
+          localUrl = mediaMapping[publicUrl].url;
           console.log("Using Cloudinary URL:", localUrl);
         } else {
           console.warn("No mapping found for:", publicUrl);
@@ -107,7 +107,7 @@ function fixRelativeImagePaths(content: string, filePath: string): string {
         localUrl = decodeURIComponent(localUrl);
         const publicUrl = "public" + localUrl;
         if (mediaMapping[publicUrl]) {
-          localUrl = mediaMapping[publicUrl];
+          localUrl = mediaMapping[publicUrl].url;
           console.log("Using Cloudinary URL:", localUrl);
         } else {
           console.warn("No mapping found for:", publicUrl);
