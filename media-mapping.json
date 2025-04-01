@@ -386,5 +386,9 @@
   "public/posts/video-preview-on-mobile/mobile.jpeg": {
     "url": "https://res.cloudinary.com/dn5vbb8mi/image/upload/v1743471904/vcpkafkpaobzf14bpcrx.jpg",
     "public_id": "vcpkafkpaobzf14bpcrx"
+  },
+  "public/posts/lets-jam/final_performance.mp4": {
+    "url": "https://res.cloudinary.com/dn5vbb8mi/video/upload/v1743474393/xmyu2ichaz4y3tujkecp.mp4",
+    "public_id": "xmyu2ichaz4y3tujkecp"
   }
 }

@@ -18,29 +18,35 @@ My intention is to make some strings and ropes.
 
 ![ezgif-5-c591b93bbc.gif](NOC%20W6%20-%20NNNNNNNet%20b03261434e4c47738bc7fd2ed6e27cf0/ezgif-5-c591b93bbc.gif)
 
-**Version3:** [https://editor.p5js.org/WangZhewei1027/sketches/9haQVDDX3](https://editor.p5js.org/WangZhewei1027/sketches/9haQVDDX3)
-
-![ezgif-5-5d9646897d.gif](NOC%20W6%20-%20NNNNNNNet%20b03261434e4c47738bc7fd2ed6e27cf0/ezgif-5-5d9646897d.gif)
-
-**Version5:** [https://editor.p5js.org/WangZhewei1027/sketches/lwceUt3Ll](https://editor.p5js.org/WangZhewei1027/sketches/lwceUt3Ll)
-
-![ezgif-5-c8a1c84e3d.gif](NOC%20W6%20-%20NNNNNNNet%20b03261434e4c47738bc7fd2ed6e27cf0/ezgif-5-c8a1c84e3d.gif)
-
-**Version7:** [https://editor.p5js.org/WangZhewei1027/sketches/E9xNlG2u6](https://editor.p5js.org/WangZhewei1027/sketches/LC1b0s0YK)
-
 **Version2:** [https://editor.p5js.org/WangZhewei1027/sketches/7yhlZcZ_i](https://editor.p5js.org/WangZhewei1027/sketches/7yhlZcZ_i)
 
 ![ezgif-5-84f6e091cc.gif](NOC%20W6%20-%20NNNNNNNet%20b03261434e4c47738bc7fd2ed6e27cf0/ezgif-5-84f6e091cc.gif)
+
+**Version3:** [https://editor.p5js.org/WangZhewei1027/sketches/9haQVDDX3](https://editor.p5js.org/WangZhewei1027/sketches/9haQVDDX3)
+
+![ezgif-5-5d9646897d.gif](NOC%20W6%20-%20NNNNNNNet%20b03261434e4c47738bc7fd2ed6e27cf0/ezgif-5-5d9646897d.gif)
 
 **Version4:** [https://editor.p5js.org/WangZhewei1027/sketches/_lj70mCgy](https://editor.p5js.org/WangZhewei1027/sketches/_lj70mCgy)
 
 ![ezgif-5-0b8e43e517.gif](NOC%20W6%20-%20NNNNNNNet%20b03261434e4c47738bc7fd2ed6e27cf0/ezgif-5-0b8e43e517.gif)
 
+**Version5:** [https://editor.p5js.org/WangZhewei1027/sketches/lwceUt3Ll](https://editor.p5js.org/WangZhewei1027/sketches/lwceUt3Ll)
+
+![ezgif-5-c8a1c84e3d.gif](NOC%20W6%20-%20NNNNNNNet%20b03261434e4c47738bc7fd2ed6e27cf0/ezgif-5-c8a1c84e3d.gif)
+
 **Version6:** [https://editor.p5js.org/WangZhewei1027/sketches/E9xNlG2u6](https://editor.p5js.org/WangZhewei1027/sketches/E9xNlG2u6)
 
 ![ezgif-5-5802571681.gif](NOC%20W6%20-%20NNNNNNNet%20b03261434e4c47738bc7fd2ed6e27cf0/ezgif-5-5802571681.gif)
 
+
+
+**Version7:** [https://editor.p5js.org/WangZhewei1027/sketches/E9xNlG2u6](https://editor.p5js.org/WangZhewei1027/sketches/LC1b0s0YK)
+
+
 ![ezgif-3-e23ed8fc88.gif](NOC%20W6%20-%20NNNNNNNet%20b03261434e4c47738bc7fd2ed6e27cf0/ezgif-3-e23ed8fc88.gif)
+
+
+
 
 # Reflection
 

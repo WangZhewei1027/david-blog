@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project A - Purest 95b578434f3d4afaa3ada4eb38400c01.md",
-                "mode": "source",
-                "source": false
+                "file": "posts/lets-jam/lets-jam.mdx",
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Project A - Purest 95b578434f3d4afaa3ada4eb38400c01"
+              "title": "lets-jam"
             }
           },
           {
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project A - Purest 95b578434f3d4afaa3ada4eb38400c01.md",
+                "file": "posts/lets-jam/lets-jam.mdx",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Project A - Purest 95b578434f3d4afaa3ada4eb38400c01"
+              "title": "Backlinks for lets-jam"
             }
           },
           {
@@ -152,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project A - Purest 95b578434f3d4afaa3ada4eb38400c01.md",
+                "file": "posts/lets-jam/lets-jam.mdx",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Project A - Purest 95b578434f3d4afaa3ada4eb38400c01"
+              "title": "Outline of lets-jam"
             }
           }
         ],
@@ -178,12 +178,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b6dc084d3def751d",
+  "active": "4b946f481c195f2c",
   "lastOpenFiles": [
+    "posts/lets-jam/final_performance.mp4",
+    "posts/lets-jam/final_performance(1).mp4",
+    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project B - Live Music Visualization 00a591152d07417dbb65491e2cbb7fd5.md",
+    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project A - Purest 95b578434f3d4afaa3ada4eb38400c01.md",
+    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W10 - Ants 7133aa319d1f4010a17444199bf658b3.md",
+    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W9 - Infinite Numbers e3954bc3a7b04a30a575cd0f6f876647.md",
+    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W6 - NNNNNNNet b03261434e4c47738bc7fd2ed6e27cf0.md",
+    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W5 - DNA Structure ef722794580543ddbb6d89c3bd4238ab.md",
+    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W4 - Fish&SeaWeeds a61d11d1ba2542caad17dfa19677bff8.md",
+    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W3 - Snowflakes 3e3db323392a482191f1106d909fb036.md",
+    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W2 - Vector e3288b33dabf4c77bf70894b4a06dbc9.md",
+    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W1 - Transfrom da0aa74c93b24a80957a56ba0818189d.md",
     "posts/lets-jam/lets-jam.mdx",
     "posts/random/nyc-chinese-taxi.md",
     "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4.md",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W1 - Transfrom da0aa74c93b24a80957a56ba0818189d.md",
     "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W1 - Transfrom da0aa74c93b24a80957a56ba0818189d/1.png",
     "templates/template-post.md",
     "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project B - Live Music Visualization 00a591152d07417dbb65491e2cbb7fd5/Untitled.png",
@@ -196,24 +207,13 @@
     "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project B - Live Music Visualization 00a591152d07417dbb65491e2cbb7fd5/DSCF4160.jpg",
     "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project B - Live Music Visualization 00a591152d07417dbb65491e2cbb7fd5/%E6%88%AA%E5%B1%8F2024-05-12_17.29.08.png",
     "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project B - Live Music Visualization 00a591152d07417dbb65491e2cbb7fd5",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project B - Live Music Visualization 00a591152d07417dbb65491e2cbb7fd5.md",
     "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project A - Purest 95b578434f3d4afaa3ada4eb38400c01/%E5%BD%95%E5%B1%8F2024-03-16_19.49.24.mov",
     "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project A - Purest 95b578434f3d4afaa3ada4eb38400c01/%E5%BD%95%E5%B1%8F2024-03-16_16.31.50.mov",
     "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project A - Purest 95b578434f3d4afaa3ada4eb38400c01/%E5%BD%95%E5%B1%8F2024-03-16_16.31.50 1.mov",
     "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project A - Purest 95b578434f3d4afaa3ada4eb38400c01/%E5%BD%95%E5%B1%8F2024-03-16_15.22.36.mov",
     "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project A - Purest 95b578434f3d4afaa3ada4eb38400c01",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/Project A - Purest 95b578434f3d4afaa3ada4eb38400c01.md",
     "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W9 - Infinite Numbers e3954bc3a7b04a30a575cd0f6f876647",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W9 - Infinite Numbers e3954bc3a7b04a30a575cd0f6f876647.md",
     "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W6 - NNNNNNNet b03261434e4c47738bc7fd2ed6e27cf0",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W6 - NNNNNNNet b03261434e4c47738bc7fd2ed6e27cf0.md",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W5 - DNA Structure ef722794580543ddbb6d89c3bd4238ab",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W5 - DNA Structure ef722794580543ddbb6d89c3bd4238ab.md",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W4 - Fish&SeaWeeds a61d11d1ba2542caad17dfa19677bff8",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W4 - Fish&SeaWeeds a61d11d1ba2542caad17dfa19677bff8.md",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W3 - Snowflakes 3e3db323392a482191f1106d909fb036.md",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W2 - Vector e3288b33dabf4c77bf70894b4a06dbc9.md",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W10 - Ants 7133aa319d1f4010a17444199bf658b3.md",
     "posts/art/severance-and-friedrich/severance-and-friedrich.md",
     "posts/random/why-are-bananas-curved.md",
     "posts/NOC/poject-b/noc-project-b.md",
