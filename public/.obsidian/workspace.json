@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 7 70098f2ac916486fa97c0dc84d33e90f.md",
+                "file": "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W6 - NNNNNNNet b03261434e4c47738bc7fd2ed6e27cf0.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 7 70098f2ac916486fa97c0dc84d33e90f"
+              "title": "NOC W6 - NNNNNNNet b03261434e4c47738bc7fd2ed6e27cf0"
             }
           },
           {
@@ -166,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 242.5
+    "width": 408.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,15 +178,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4b946f481c195f2c",
+  "active": "b6dc084d3def751d",
   "lastOpenFiles": [
+    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4.md",
+    "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 7 70098f2ac916486fa97c0dc84d33e90f.md",
     "posts/nime",
     "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 6 e23de1f5478042fca51175c571dacbd2.md",
     "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Final Project - Future Journalist 8b9b5ff8c3414fecb5394723f6bed3da.md",
     "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 10 51f12cb3d8344302a5366412a9f56ca1.md",
     "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 9 fc95de5547b74843987a4a06e0a6ff9f.md",
     "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 8 71b55bd7eb304c369d16f69437fd97c7.md",
-    "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 7 70098f2ac916486fa97c0dc84d33e90f.md",
     "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 5 10c5d892a07a4c8ea9e4fb917f17eb0b.md",
     "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 4 49164b7a3d864e41af0ad685efc4cdc6.md",
     "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 3 f04f3c031cbd485483d4022d66141037.md",
@@ -224,7 +225,6 @@
     "posts/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 5 10c5d892a07a4c8ea9e4fb917f17eb0b.md",
     "posts/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 4 49164b7a3d864e41af0ad685efc4cdc6.md",
     "posts/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 3 f04f3c031cbd485483d4022d66141037.md",
-    "posts/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 3 f04f3c031cbd485483d4022d66141037",
     "posts/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 2 31cfbec8d9a4459789b6f210b35794ae.md"
   ]
 }

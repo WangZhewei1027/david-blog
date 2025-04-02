@@ -5,7 +5,7 @@ noAlt: true
 
 # Final Version
 
- ****[https://editor.p5js.org/WangZhewei1027/sketches/E9xNlG2u6](https://editor.p5js.org/WangZhewei1027/sketches/LC1b0s0YK)
+ [https://editor.p5js.org/WangZhewei1027/sketches/E9xNlG2u6](https://editor.p5js.org/WangZhewei1027/sketches/LC1b0s0YK)
 
 ![ezgif-3-e23ed8fc88.gif](NOC%20W6%20-%20NNNNNNNet%20b03261434e4c47738bc7fd2ed6e27cf0/ezgif-3-e23ed8fc88.gif)
 
@@ -41,15 +41,9 @@ My intention is to make some strings and ropes.
 
 ![ezgif-5-5802571681.gif](NOC%20W6%20-%20NNNNNNNet%20b03261434e4c47738bc7fd2ed6e27cf0/ezgif-5-5802571681.gif)
 
-
-
 **Version7:** [https://editor.p5js.org/WangZhewei1027/sketches/E9xNlG2u6](https://editor.p5js.org/WangZhewei1027/sketches/LC1b0s0YK)
 
-
 ![ezgif-3-e23ed8fc88.gif](NOC%20W6%20-%20NNNNNNNet%20b03261434e4c47738bc7fd2ed6e27cf0/ezgif-3-e23ed8fc88.gif)
-
-
-
 
 # Reflection
 
