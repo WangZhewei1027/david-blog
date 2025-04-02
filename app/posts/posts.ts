@@ -92,10 +92,6 @@ function fixRelativeImagePaths(content: string, filePath: string): string {
         } else {
           console.warn("No mapping found for:", publicUrl);
         }
-        // 如果文件是视频，则在 URL 末尾添加 #t=0.001
-        if (/\.(mp4|mov|webm)$/i.test(localUrl)) {
-          localUrl += "#t=0.001";
-        }
         return `![${alt}](${localUrl})`;
       }
       return match;

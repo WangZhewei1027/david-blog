@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W6 - NNNNNNNet b03261434e4c47738bc7fd2ed6e27cf0.md",
+                "file": "posts/nime/nime-w2-first-try/nime-w2-fist-try.mdx",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "NOC W6 - NNNNNNNet b03261434e4c47738bc7fd2ed6e27cf0"
+              "title": "nime-w2-fist-try"
             }
           },
           {
@@ -180,6 +180,8 @@
   },
   "active": "b6dc084d3def751d",
   "lastOpenFiles": [
+    "posts/lets-jam/lets-jam.mdx",
+    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W6 - NNNNNNNet b03261434e4c47738bc7fd2ed6e27cf0.md",
     "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4.md",
     "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 7 70098f2ac916486fa97c0dc84d33e90f.md",
     "posts/nime",
@@ -223,8 +225,6 @@
     "posts/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 6 e23de1f5478042fca51175c571dacbd2.md",
     "posts/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 6 e23de1f5478042fca51175c571dacbd2",
     "posts/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 5 10c5d892a07a4c8ea9e4fb917f17eb0b.md",
-    "posts/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 4 49164b7a3d864e41af0ad685efc4cdc6.md",
-    "posts/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 3 f04f3c031cbd485483d4022d66141037.md",
-    "posts/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 2 31cfbec8d9a4459789b6f210b35794ae.md"
+    "posts/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 4 49164b7a3d864e41af0ad685efc4cdc6.md"
   ]
 }
