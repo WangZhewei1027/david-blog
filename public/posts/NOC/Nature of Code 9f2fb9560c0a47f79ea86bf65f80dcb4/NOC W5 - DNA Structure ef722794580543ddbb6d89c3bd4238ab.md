@@ -23,7 +23,7 @@ The version 1 code experimented with how to utilize sin() in the 3D world.
 
 The version 2 code experimented with the basic structure of DNA.
 
-![ezgif-1-4506b92748 (1).gif](NOC%20W5%20-%20DNA%20Structure%20ef722794580543ddbb6d89c3bd4238ab/ezgif-1-4506b92748_(1).gif)
+![ezgif-1-4506b92748 (1).gif](NOC%20W5%20-%20DNA%20Structure%20ef722794580543ddbb6d89c3bd4238ab/ezgif-1-4506b92748_%281%29.gif)
 
 **Version 3: [https://editor.p5js.org/WangZhewei1027/sketches/7sFeltx0A](https://editor.p5js.org/WangZhewei1027/sketches/7sFeltx0A)**
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/nime/nime-w2-first-try/nime-w2-fist-try.mdx",
-                "mode": "source",
+                "file": "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W5 - DNA Structure ef722794580543ddbb6d89c3bd4238ab.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "nime-w2-fist-try"
+              "title": "NOC W5 - DNA Structure ef722794580543ddbb6d89c3bd4238ab"
             }
           },
           {
@@ -180,6 +180,7 @@
   },
   "active": "b6dc084d3def751d",
   "lastOpenFiles": [
+    "posts/nime/nime-w2-first-try/nime-w2-fist-try.mdx",
     "locales/zh/resume.json",
     "locales/zh",
     "locales/en/resume.json",
@@ -190,7 +191,6 @@
     "locales/resume.json",
     "locales/en.json",
     "locales",
-    "langs/zh/resume.json",
     "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W6 - NNNNNNNet b03261434e4c47738bc7fd2ed6e27cf0.md",
     "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4.md",
     "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 7 70098f2ac916486fa97c0dc84d33e90f.md",
