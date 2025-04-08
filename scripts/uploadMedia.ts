@@ -122,6 +122,7 @@ async function loadExistingMapping(mappingPath: string): Promise<
   try {
     const data = await fs.readFile(mappingPath, "utf-8");
     return JSON.parse(data);
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
   } catch (error: any) {
     if (error.code === "ENOENT") {
       return {};

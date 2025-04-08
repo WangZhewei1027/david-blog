@@ -1,0 +1,172 @@
+{
+    "name": {
+        "chinese": "Zhewei Wang",
+        "english": "David"
+    },
+    "profile": {
+        "photo": "David's profile photo",
+        "job_application": "Frontend Intern",
+        "phone": "+86 13636472690",
+        "email": "zw3636@nyu.edu",
+        "website": "www.davidzheweiwang.com",
+        "location": [
+            "Shanghai",
+            "New York"
+        ]
+    },
+    "education": [
+        {
+            "school": "NYU Shanghai",
+            "degree": "Bachelor of Science",
+            "major": "Computer Science",
+            "minor": "Interactive Media Arts",
+            "gpa": "3.5/4.0",
+            "period": "Sep 2024 - May 2026",
+            "graduation": "May 2026",
+            "courses": [
+                "Machine Learning",
+                "P5JS",
+                "Unity & C#",
+                "Web Design (HTML, CSS, JS)",
+                "Data Structures",
+                "Algorithms",
+                "Linear Algebra",
+                "Calculus"
+            ]
+        }
+    ],
+    "work_experience": [
+        {
+            "role": "Orientation Ambassador",
+            "organization": "First Year Programs, NYU Shanghai",
+            "period": "Apr 2023 - Nov 2023",
+            "details": [
+                "Guided freshmen through orientation events to help them integrate into college life",
+                "Organized and executed various long-term orientation events and programs",
+                "Developed leadership, organizational, and communication skills"
+            ]
+        },
+        {
+            "role": "Band Leader",
+            "organization": "NYU Shanghai Jazz Ensemble & Student Bands",
+            "period": "Aug 2023 - Present",
+            "details": [
+                "Served as both leader and performer of the ensemble",
+                "Coordinated campus and off-campus performances, including Kunshan Duke Music Festival",
+                "Demonstrated strong organizational and logistical coordination abilities"
+            ]
+        },
+        {
+            "role": "Audit Intern",
+            "organization": "Baker Tilly International, Shanghai",
+            "period": "May 2024 - Aug 2024",
+            "details": [
+                "Assisted IT audit processes, supporting review of client IT systems, security policies, and compliance measures",
+                "Applied computer science background in data processing, system access review, and automation scripting",
+                "Documented technical findings and contributed to drafting IT audit reports"
+            ]
+        },
+        {
+            "role": "Student Researcher",
+            "organization": "Digital Heritage Lab, NYU Shanghai",
+            "period": "May 2024 - Present",
+            "details": [
+                "Developed digital heritage experiences using Unity to reconstruct Zhenru Temple on AR glasses",
+                "Designed interactive educational cultural experiences by integrating 3D modeling and real-time rendering",
+                "Optimized performance for immersive AR applications, promoting digital cultural preservation"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "Sanxingdui Digital Museum",
+            "link": "www.sanxingdui.online",
+            "period": "Apr 2024 - Aug 2024",
+            "details": [
+                "Built an interactive 3D museum with Three.js for real-time rendering",
+                "Developed with React and MUI for responsive and intuitive user experience"
+            ]
+        },
+        {
+            "name": "Interactive Node-Based Music System",
+            "tech_stack": [
+                "React",
+                "Tone.js",
+                "React Flow",
+                "Zustand",
+                "Supabase",
+                "Next.js",
+                "TailwindCss",
+                "TypeScript"
+            ],
+            "period": "Sep 2024 - Dec 2024",
+            "details": [
+                "Real-time interactive music system allowing users to modify sounds through a node-based interface",
+                "Integrated Tone.js for audio synthesis and Zustand for state management"
+            ]
+        },
+        {
+            "name": "Personal Portfolio Website",
+            "link": "www.davidzheweiwang.com",
+            "tech_stack": [
+                "React",
+                "Next.js",
+                "TailwindCSS",
+                "TypeScript"
+            ],
+            "period": "Sep 2024 - Present",
+            "details": [
+                "Developed a personal portfolio website with responsive design for optimal browsing experience"
+            ]
+        },
+        {
+            "name": "NYU GO",
+            "tech_stack": [
+                "React",
+                "Next.js",
+                "TailwindCSS",
+                "TypeScript",
+                "Zustand"
+            ],
+            "period": "Dec 2024 - Present",
+            "details": [
+                "Developed and deployed a PWA bus tracking app providing real-time locations and estimated arrival times",
+                "Implemented server-side rendering (SSR) to improve loading speed and optimize user experience"
+            ]
+        }
+    ],
+    "skills": {
+        "programming_languages": [
+            "C++",
+            "C#",
+            "C",
+            "Pascal",
+            "Python",
+            "JavaScript"
+        ],
+        "web_development": [
+            "HTML",
+            "CSS",
+            "JS",
+            "TypeScript",
+            "P5JS",
+            "Supabase",
+            "React",
+            "Next.js",
+            "TailwindCSS",
+            "MUI",
+            "Shadcn",
+            "reactflow",
+            "Three.js"
+        ],
+        "game_development": [
+            "Unity",
+            "GameMaker"
+        ],
+        "soft_skills": [
+            "Chinese (Native)",
+            "English (Fluent)"
+        ]
+    },
+    "interests": "Professionally trained jazz musician and multi-instrumentalist."
+}

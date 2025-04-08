@@ -1,0 +1,20 @@
+{
+  "alias": "Alias",
+  "cumulative-gpa": "Cumulative GPA",
+  "education": "Education",
+  "expected-graduation": "Expected Graduation",
+  "game-development": "Game Development",
+  "interests": "Interests",
+  "languages": "Languages",
+  "major": "Major",
+  "minor": "Minor",
+  "position-applying-for": "Position Applying For",
+  "programming-languages": "Programming Languages",
+  "projects": "Projects",
+  "relevant-coursework": "Relevant Coursework",
+  "skills": "Skills",
+  "soft-skills": "Soft Skills",
+  "tech-stack": "Tech Stack",
+  "web-development": "Web Development",
+  "work-experience": "Work Experience"
+}

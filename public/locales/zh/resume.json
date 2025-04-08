@@ -1,0 +1,20 @@
+{
+  "alias": "英语名",
+  "cumulative-gpa": "累计GPA",
+  "education": "教育背景",
+  "expected-graduation": "预计毕业时间",
+  "game-development": "游戏开发",
+  "interests": "兴趣爱好",
+  "languages": "语言",
+  "major": "主修",
+  "minor": "辅修",
+  "position-applying-for": "应聘职位",
+  "programming-languages": "编程语言",
+  "projects": "项目经历",
+  "relevant-coursework": "相关课程",
+  "skills": "技能",
+  "soft-skills": "软技能",
+  "tech-stack": "技术栈",
+  "web-development": "Web开发",
+  "work-experience": "工作经验"
+}

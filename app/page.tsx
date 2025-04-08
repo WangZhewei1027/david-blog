@@ -9,8 +9,8 @@ async function MyCard() {
   const pinnedPosts = posts.filter((post) => post.metadata.pin === true);
 
   return (
-    <section className="bg-white p-8 rounded-lg h-full w-full break-words">
-      <div className="flex flex-row space-x-2 items-center">
+    <section className="h-full w-full break-words rounded-lg bg-white p-4 md:p-8">
+      <div className="flex flex-row items-center space-x-2">
         <Image
           src="/icons/push_pin_24dp_5F6368.svg"
           alt="pin"
@@ -30,8 +30,8 @@ async function MyCard() {
 
 export default function Home() {
   return (
-    <main className="bg-gray-50 flex flex-col justify-center items-center">
-      <div className="flex flex-col w-full max-w-7xl mx-auto pr-4 md:flex-row ">
+    <main className="flex flex-col items-center justify-center bg-gray-50">
+      <div className="mx-auto flex w-full max-w-7xl flex-col pr-4 md:flex-row">
         <div className="flex-1 basis-0 pl-4 pt-4 md:basis-1/3">
           <Profile />
         </div>

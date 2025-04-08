@@ -8,7 +8,7 @@ export default function Profile() {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <section className="bg-white rounded-lg p-8 flex flex-col flex-1 break-words">
+    <section className="flex flex-1 flex-col break-words rounded-lg bg-white p-6 md:p-8">
       <div className="hidden md:block">
         {/* <Image
           src={isHovered ? "/assets/david_smile.jpg" : "/assets/david.jpeg"}
@@ -32,12 +32,12 @@ export default function Profile() {
         <Image
           src="/assets/david.gif"
           alt="david's profile picture"
-          className="object-cover rounded-full w-full h-full mb-4 transition-all"
+          className="mb-4 h-full w-full rounded-full object-cover transition-all"
           width={100}
           height={100}
         />
         <div className="inline-block">
-          <div className="text-2xl font-bold text-gray-800 mb-0">David</div>
+          <div className="mb-0 text-2xl font-bold text-gray-800">David</div>
           <div className="text-base text-gray-500">Zhewei Wang</div>
         </div>
       </div>
@@ -65,20 +65,20 @@ export default function Profile() {
           <Image
             src="/assets/david.gif"
             alt="david's profile picture"
-            className="object-cover rounded-full w-16 h-16 transition-all"
+            className="h-16 w-16 rounded-full object-cover transition-all"
             width={20}
             height={20}
           />
         </div>
-        <div className="flex flex-col justify-end  ml-4">
-          <div className="text-2xl font-bold text-gray-800 mb-0">David</div>
+        <div className="ml-4 flex flex-col justify-end">
+          <div className="mb-0 text-2xl font-bold text-gray-800">David</div>
           <div className="text-base text-gray-500">Zhewei Wang</div>
         </div>
       </div>
 
-      <div className="border-t my-4" />
+      <div className="my-4 border-t" />
 
-      <div className="flex items-center space-x-2 my-1">
+      <div className="my-1 flex items-center space-x-2">
         <Image
           src="/icons/school_24dp_5F6368.svg"
           alt="school"
@@ -88,7 +88,7 @@ export default function Profile() {
         <div>NYU Shanghai</div>
       </div>
 
-      <div className="flex items-center space-x-2 my-1">
+      <div className="my-1 flex items-center space-x-2">
         <Image
           src="/icons/place_24dp_5F6368.svg"
           alt="location"
@@ -98,7 +98,7 @@ export default function Profile() {
         <div>New York / Shanghai</div>
       </div>
 
-      <div className="flex items-center space-x-2 my-1">
+      <div className="my-1 flex items-center space-x-2">
         <Image
           src="/icons/email_24dp_5F6368.svg"
           alt="email"
@@ -108,18 +108,18 @@ export default function Profile() {
         <div>zw3636@nyu.edu</div>
       </div>
 
-      <div className="flex items-center space-x-2 my-1">
+      <div className="my-1 flex items-center space-x-2">
         <MdOutlineDocumentScanner className="text-2xl text-gray-600" />
-        <a href="/resume_zh" className="underline">
+        <a href="/resume?lang=zh" className="underline">
           简历
         </a>
         <span> / </span>
-        <a href="/resume_en" className="underline">
+        <a href="/resume?lang=en" className="underline">
           Resume
         </a>
       </div>
 
-      <div className="border-t my-4" />
+      <div className="my-4 border-t" />
 
       <h3 className="mb-2 font-bold">About Me</h3>
       <div className="text-gray-600">
