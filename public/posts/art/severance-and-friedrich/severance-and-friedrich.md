@@ -2,7 +2,7 @@
 title: From Severance to the Paintings of Caspar David Friedrich
 summary: 从《人生切割术》到卡斯帕·大卫·弗里德里希的画作
 type: article
-pin: true
+pin: false
 tags:
   - life
 createdAt: 2025-03-18
