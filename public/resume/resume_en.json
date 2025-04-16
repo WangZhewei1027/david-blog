@@ -37,23 +37,13 @@
     ],
     "work_experience": [
         {
-            "role": "Orientation Ambassador",
-            "organization": "First Year Programs, NYU Shanghai",
-            "period": "Apr 2023 - Nov 2023",
+            "role": "Student Researcher",
+            "organization": "Digital Heritage Lab, NYU Shanghai",
+            "period": "May 2024 - Present",
             "details": [
-                "Guided freshmen through orientation events to help them integrate into college life",
-                "Organized and executed various long-term orientation events and programs",
-                "Developed leadership, organizational, and communication skills"
-            ]
-        },
-        {
-            "role": "Band Leader",
-            "organization": "NYU Shanghai Jazz Ensemble & Student Bands",
-            "period": "Aug 2023 - Present",
-            "details": [
-                "Served as both leader and performer of the ensemble",
-                "Coordinated campus and off-campus performances, including Kunshan Duke Music Festival",
-                "Demonstrated strong organizational and logistical coordination abilities"
+                "Developed digital heritage experiences using Unity to reconstruct Zhenru Temple on AR glasses",
+                "Designed interactive educational cultural experiences by integrating 3D modeling and real-time rendering",
+                "Optimized performance for immersive AR applications, promoting digital cultural preservation"
             ]
         },
         {
@@ -67,13 +57,13 @@
             ]
         },
         {
-            "role": "Student Researcher",
-            "organization": "Digital Heritage Lab, NYU Shanghai",
-            "period": "May 2024 - Present",
+            "role": "Orientation Ambassador",
+            "organization": "First Year Programs, NYU Shanghai",
+            "period": "Apr 2023 - Nov 2023",
             "details": [
-                "Developed digital heritage experiences using Unity to reconstruct Zhenru Temple on AR glasses",
-                "Designed interactive educational cultural experiences by integrating 3D modeling and real-time rendering",
-                "Optimized performance for immersive AR applications, promoting digital cultural preservation"
+                "Guided freshmen through orientation events to help them integrate into college life",
+                "Organized and executed various long-term orientation events and programs",
+                "Developed leadership, organizational, and communication skills"
             ]
         }
     ],
@@ -81,6 +71,9 @@
         {
             "name": "Sanxingdui Digital Museum",
             "link": "www.sanxingdui.online",
+            "tech_stack": [
+                "Deans' Undergraduate Research Fund (DURF), NYU Shanghai"
+            ],
             "period": "Apr 2024 - Aug 2024",
             "details": [
                 "Built an interactive 3D museum with Three.js for real-time rendering",
@@ -89,6 +82,7 @@
         },
         {
             "name": "Interactive Node-Based Music System",
+            "link": "https://www.davidzheweiwang.com/posts/lets-jam",
             "tech_stack": [
                 "React",
                 "Tone.js",
@@ -130,8 +124,9 @@
             ],
             "period": "Dec 2024 - Present",
             "details": [
-                "Developed and deployed a PWA bus tracking app providing real-time locations and estimated arrival times",
-                "Implemented server-side rendering (SSR) to improve loading speed and optimize user experience"
+                "Independently developed and deployed a PWA shuttle bus tracking app using Next.js, Tailwind CSS, and WebSocket to provide smooth real-time location updates and estimated arrival times.",
+                "Optimized user interaction by implementing Server-Side Rendering (SSR) for faster loading, and enhanced mobile accessibility through PWA features.",
+                "The app is actively in use, effectively reducing passenger wait times and improving commuting efficiency and user experience."
             ]
         }
     ],

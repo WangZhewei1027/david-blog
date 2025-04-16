@@ -229,8 +229,8 @@ function Projects({
           time={proj.period}
           title={proj.name}
           subTitle={
-            proj.link ? (
-              <>
+            <>
+              {proj.link && (
                 <a
                   href={
                     proj.link.startsWith("http")
@@ -243,15 +243,16 @@ function Projects({
                 >
                   {proj.link}
                 </a>
-                {proj.tech_stack && (
-                  <div>
-                    {Array.isArray(proj.tech_stack)
-                      ? proj.tech_stack.join(", ")
-                      : proj.tech_stack}
-                  </div>
-                )}
-              </>
-            ) : null
+              )}
+
+              {proj.tech_stack && (
+                <div>
+                  {Array.isArray(proj.tech_stack)
+                    ? proj.tech_stack.join(", ")
+                    : proj.tech_stack}
+                </div>
+              )}
+            </>
           }
         >
           <ul className="list-inside list-disc text-gray-600">
@@ -363,7 +364,7 @@ export default function Resume({
   i18n.changeLanguage(lang);
 
   return (
-    <div className="mx-auto min-h-screen max-w-5xl justify-center space-y-8 px-4 py-4 pt-8 sm:px-6 sm:pt-10 lg:px-8">
+    <div className="mx-auto min-h-screen max-w-5xl justify-center space-y-8 px-4 py-4 pt-8 sm:px-6 sm:pt-10 lg:px-8 print:max-w-none print:p-0">
       <Profile
         name={resumeData.name}
         profile={resumeData.profile}
@@ -372,9 +373,9 @@ export default function Resume({
       <Divider />
       <Education education={resumeData.education} />
       <Divider />
-      <Experience work_experience={resumeData.work_experience} />
-      <Divider />
       <Projects projects={resumeData.projects} />
+      <Divider />
+      <Experience work_experience={resumeData.work_experience} />
       <Divider />
       <Skills skills={resumeData.skills} interests={resumeData.interests} />
     </div>
