@@ -20,7 +20,7 @@
             "degree": "Bachelor of Science",
             "major": "Computer Science",
             "minor": "Interactive Media Arts",
-            "gpa": "3.5/4.0",
+            "gpa": "3.6/4.0",
             "period": "Sep 2024 - May 2026",
             "graduation": "May 2026",
             "courses": [
@@ -41,9 +41,9 @@
             "organization": "Digital Heritage Lab, NYU Shanghai",
             "period": "May 2024 - Present",
             "details": [
-                "Developed digital heritage experiences using Unity to reconstruct Zhenru Temple on AR glasses",
-                "Designed interactive educational cultural experiences by integrating 3D modeling and real-time rendering",
-                "Optimized performance for immersive AR applications, promoting digital cultural preservation"
+                "Led the development of an AR application using Unity to reconstruct the historical architecture of Zhenru Temple on AR glasses, creating an immersive experience that enhances cultural heritage transmission.",
+                "Integrated 3D modeling, material mapping, and lighting techniques to build a highly realistic and interactive educational scene.",
+                "Optimized rendering performance and spatial tracking to ensure stable operation on AR hardware, contributing to the dissemination and preservation of digital cultural heritage."
             ]
         },
         {
@@ -51,9 +51,9 @@
             "organization": "Baker Tilly International, Shanghai",
             "period": "May 2024 - Aug 2024",
             "details": [
-                "Assisted IT audit processes, supporting review of client IT systems, security policies, and compliance measures",
-                "Applied computer science background in data processing, system access review, and automation scripting",
-                "Documented technical findings and contributed to drafting IT audit reports"
+                "Participated in IT audit projects, assisting in the analysis of client IT system security policies, access control, and compliance metrics.",
+                "Used programming skills to help develop automation scripts for data filtering and processing, improving audit efficiency.",
+                "Drafted technical documentation and audit findings to support formal reporting and initial drafts."
             ]
         },
         {
@@ -61,13 +61,30 @@
             "organization": "First Year Programs, NYU Shanghai",
             "period": "Apr 2023 - Nov 2023",
             "details": [
-                "Guided freshmen through orientation events to help them integrate into college life",
-                "Organized and executed various long-term orientation events and programs",
-                "Developed leadership, organizational, and communication skills"
+                "Served as a student guide during the orientation period, answering common questions and offering life and academic advice to help new students integrate quickly into the university community.",
+                "Planned and coordinated multiple orientation events including campus tours, cultural lectures, and social gatherings to boost first-year engagement.",
+                "Strengthened communication and organizational skills in a fast-paced, multitasking environment."
             ]
         }
     ],
     "projects": [
+        {
+            "name": "NYU GO",
+            "tech_stack": [
+                "React",
+                "Next.js",
+                "TailwindCSS",
+                "TypeScript",
+                "Zustand"
+            ],
+            "period": "Dec 2024 - Present",
+            "details": [
+                "Developed a real-time school bus tracking app to address commuting delays that caused students to miss classes.",
+                "Built a lightweight, responsive PWA with live location tracking and ETA display.",
+                "Independently used Next.js and Tailwind CSS for the frontend, integrated WebSocket for real-time updates, SSR for faster loading, and Zustand for consistent state management.",
+                "Now actively used on campus with 100+ daily visits, significantly reducing wait times and receiving positive feedback."
+            ]
+        },
         {
             "name": "Sanxingdui Digital Museum",
             "link": "www.sanxingdui.online",
@@ -76,8 +93,10 @@
             ],
             "period": "Apr 2024 - Aug 2024",
             "details": [
-                "Built an interactive 3D museum with Three.js for real-time rendering",
-                "Developed with React and MUI for responsive and intuitive user experience"
+                "Lead developer for a DURF-funded web-based digital museum showcasing the Sanxingdui cultural heritage.",
+                "Created an interactive 3D virtual exhibition to engage the public with digital cultural artifacts.",
+                "Implemented real-time 3D rendering with Three.js and built a responsive UI using React and MUI, ensuring a smooth experience across devices; also contributed to content planning for historical accuracy.",
+                "The site attracted thousands of visitors, received praise from faculty and the public, and was featured as an exemplary student research project."
             ]
         },
         {
@@ -95,8 +114,10 @@
             ],
             "period": "Sep 2024 - Dec 2024",
             "details": [
-                "Real-time interactive music system allowing users to modify sounds through a node-based interface",
-                "Integrated Tone.js for audio synthesis and Zustand for state management"
+                "Designed an interactive online system to explore the intersection of music and programming, encouraging creative expression.",
+                "Built a visual node-based music platform enabling users to create sounds in real time without any musical background.",
+                "Developed the UI with React and React Flow for modular audio blocks; integrated Tone.js for synthesis and playback, Zustand for responsive state management, and Supabase for user sessions and data storage.",
+                "Well received by peers and instructors, the project was selected as one of the best course demos and featured in my personal portfolio."
             ]
         },
         {
@@ -110,23 +131,9 @@
             ],
             "period": "Sep 2024 - Present",
             "details": [
-                "Developed a personal portfolio website with responsive design for optimal browsing experience"
-            ]
-        },
-        {
-            "name": "NYU GO",
-            "tech_stack": [
-                "React",
-                "Next.js",
-                "TailwindCSS",
-                "TypeScript",
-                "Zustand"
-            ],
-            "period": "Dec 2024 - Present",
-            "details": [
-                "Independently developed and deployed a PWA shuttle bus tracking app using Next.js, Tailwind CSS, and WebSocket to provide smooth real-time location updates and estimated arrival times.",
-                "Optimized user interaction by implementing Server-Side Rendering (SSR) for faster loading, and enhanced mobile accessibility through PWA features.",
-                "The app is actively in use, effectively reducing passenger wait times and improving commuting efficiency and user experience."
+                "Independently designed and developed a personal portfolio website to showcase projects and skills.",
+                "Built with React, Next.js, and Tailwind CSS for component-based development and responsive design.",
+                "Optimized for both mobile and desktop devices, ensuring fast load times and easy maintenance."
             ]
         }
     ],

@@ -7,6 +7,7 @@ import {
   MdLocalPhone,
   MdArrowOutward,
 } from "react-icons/md";
+import { FaGithub } from "react-icons/fa";
 import resumeDataZh from "@/public/resume/resume_zh.json";
 import resumeDataEn from "@/public/resume/resume_en.json";
 import i18n from "@/app/i18n";
@@ -110,6 +111,17 @@ function Profile({
             rel="noopener noreferrer"
           >
             {profile.website}
+          </a>
+        </div>
+        <div>
+          <FaGithub className="inline-block h-6 w-6" />
+          <a
+            className="ml-2 align-bottom text-gray-700 underline"
+            href={`https://github.com/WangZhewei1027`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {"github.com/WangZhewei1027"}
           </a>
         </div>
         <div>
