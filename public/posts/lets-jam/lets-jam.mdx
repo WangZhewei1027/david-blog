@@ -11,6 +11,15 @@ createdAt: 2024-12-01
 updatedAt: 2024-12-01
 ---
 
+
+A collaborative, real‑time web platform where a host can perform live and an audience can interact musically through their phones—no downloads required.
+
+---
+
+## 🚀 Elevator Pitch
+
+> **Let’s Jam** transforms any browser into a collaborative music studio. Performers stream live audio and sequences via Tone.js, while audience members use their phones to trigger beats, harmonies, or effects in real time. Whether you’re hosting an online jam session, teaching a class, or just hanging out with friends, Let’s Jam delivers low‑latency, synchronized music interaction—all powered by WebSockets and modern web technologies.
+
 ## Final Performance
 
 ![](final_performance.mp4)
@@ -35,3 +44,42 @@ The early version of the synthesizer
 ![](early_version3.png)
 
 ![](early_version4.png)
+
+---
+
+## 🎯 Features
+
+- **Live Performance Streaming**  
+  Host streams sequences or synth patches via Tone.js.
+- **Audience Interaction**  
+  Viewers tap buttons on their phones to trigger sounds or effects.
+- **Modular Audio Graph**  
+  Drag‑and‑drop nodes (oscillators, filters, envelopes) with React Flow.
+- **Low‑Latency Sync**  
+  WebSocket backbone ensures sub‑200 ms round‑trip time.
+- **Responsive Design**  
+  Built with Tailwind CSS for seamless desktop & mobile experiences.
+- **State Management**  
+  Zustand store for shared UI state (e.g., current patch, active clients).
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer          | Technology        |
+| -------------- | ----------------- |
+| Frontend       | React, React Flow |
+| Audio Engine   | Tone.js           |
+| State Mgmt     | Zustand           |
+| Communication  | WebSocket (ws)    |
+| Styling        | Tailwind CSS      |
+| Deployment     | Vercel            |
+
+---
+
+## 🏗️ Architecture Overview
+
+```txt
+[Host Browser] ⇄ WebSocket Server ⇄ [Audience Browsers]
+    │                                     │
+    └── Tone.js Audio Graph               └── Trigger UI Events
