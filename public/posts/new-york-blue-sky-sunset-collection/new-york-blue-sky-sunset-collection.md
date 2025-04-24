@@ -6,8 +6,6 @@ pin: true
 tags:
   - life
   - photography
-  - New
-  - York
 createdAt: 2024-09-15
 updatedAt: 2024-09-15
 noAlt: true

@@ -45,7 +45,7 @@ noAlt: true
 
 ### Shaders
 
-[Coding Water Ripples with Shaders and p5.js #TeamSeas](https://www.youtube.com/watch?v=5lIl5F1hpTE&t=993s)
+[Coding Water Ripples with Shaders and p5.js](https://www.youtube.com/watch?v=5lIl5F1hpTE&t=993s)
 
 # Inspirations
 

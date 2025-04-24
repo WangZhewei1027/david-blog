@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/lets-jam/lets-jam.mdx",
+                "file": "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 1 2de93ed922064c5eac53cabd304d2b72.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lets-jam"
+              "title": "Week 1 2de93ed922064c5eac53cabd304d2b72"
             }
           },
           {
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#TeamSeas",
+                "query": "tag:#photography",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +84,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -152,13 +153,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/lets-jam/lets-jam.mdx",
+                "file": "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 1 2de93ed922064c5eac53cabd304d2b72.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of lets-jam"
+              "title": "Outline of Week 1 2de93ed922064c5eac53cabd304d2b72"
             }
           }
         ],
@@ -178,8 +179,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b6dc084d3def751d",
+  "active": "16cd5691c9334f32",
   "lastOpenFiles": [
+    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4.md",
+    "posts/new-york-blue-sky-sunset-collection/new-york-blue-sky-sunset-collection.md",
+    "posts/lets-jam/lets-jam.mdx",
     "posts/art/severance-and-friedrich/severance-and-friedrich.md",
     "posts/cclab-project-b/cclab-project-b.mdx",
     "posts/random/nyc-chinese-taxi.md",
@@ -194,9 +198,7 @@
     "locales/en/zh/resume.json",
     "locales/en/zh",
     "locales/en",
-    "locales/zh.json",
     "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4/NOC W6 - NNNNNNNet b03261434e4c47738bc7fd2ed6e27cf0.md",
-    "posts/NOC/Nature of Code 9f2fb9560c0a47f79ea86bf65f80dcb4.md",
     "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 7 70098f2ac916486fa97c0dc84d33e90f.md",
     "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Week 6 e23de1f5478042fca51175c571dacbd2.md",
     "posts/ml-for-artists/Machine Learning for Artists & Designers b20759b0973e4c4681f3630d838cc815/Final Project - Future Journalist 8b9b5ff8c3414fecb5394723f6bed3da.md",
