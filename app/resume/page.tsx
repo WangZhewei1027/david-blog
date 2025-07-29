@@ -12,17 +12,20 @@ import resumeDataZh from "@/public/resume/resume_zh.json";
 import resumeDataEn from "@/public/resume/resume_en.json";
 import i18n from "@/app/i18n";
 import { Trans } from "react-i18next";
+import { t } from "i18next";
 
 function Item({
   children,
   time,
   title,
   subTitle,
+  techStack,
 }: {
   children?: React.ReactNode;
   time: string;
   title: string;
   subTitle?: string | React.ReactNode;
+  techStack?: string[];
 }) {
   return (
     <div className={`flex flex-col md:flex-row`}>
@@ -35,6 +38,11 @@ function Item({
           {time}
         </div>
         {subTitle && <div className="text-lg text-gray-950">{subTitle}</div>}
+        {techStack && (
+          <div className="text-lg italic text-gray-950">
+            {techStack.join(", ")}
+          </div>
+        )}
         <div className="py-1" />
         {children}
       </div>
@@ -192,6 +200,7 @@ function Experience({
   work_experience: Array<{
     role: string;
     organization: string;
+    tech_stack?: string[];
     period: string;
     details: string[];
   }>;
@@ -207,6 +216,7 @@ function Experience({
           time={exp.period}
           title={exp.role}
           subTitle={exp.organization}
+          techStack={exp.tech_stack}
         >
           <ul className="list-inside list-disc text-gray-600">
             {exp.details.map((detail, idx) => (
@@ -256,16 +266,9 @@ function Projects({
                   {proj.link}
                 </a>
               )}
-
-              {proj.tech_stack && (
-                <div>
-                  {Array.isArray(proj.tech_stack)
-                    ? proj.tech_stack.join(", ")
-                    : proj.tech_stack}
-                </div>
-              )}
             </>
           }
+          techStack={proj.tech_stack}
         >
           <ul className="list-inside list-disc text-gray-600">
             {proj.details.map((detail, idx) => (
@@ -385,9 +388,9 @@ export default function Resume({
       <Divider />
       <Education education={resumeData.education} />
       <Divider />
-      <Projects projects={resumeData.projects} />
-      <Divider />
       <Experience work_experience={resumeData.work_experience} />
+      <Divider />
+      <Projects projects={resumeData.projects} />
       <Divider />
       <Skills skills={resumeData.skills} interests={resumeData.interests} />
     </div>

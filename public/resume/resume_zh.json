@@ -1,174 +1,152 @@
 {
-    "name": {
-        "chinese": "王哲玮",
-        "english": "David"
+  "name": {
+    "chinese": "王哲玮",
+    "english": "David"
+  },
+  "profile": {
+    "photo": "David's profile photo",
+    "job_application": "前端实习生",
+    "phone": "+86 13636472690",
+    "email": "zw3636@nyu.edu",
+    "website": "www.davidzheweiwang.com",
+    "location": ["上海", "纽约"]
+  },
+  "education": [
+    {
+      "school": "纽约大学 (2025 QS排名 第43)",
+      "degree": "理学学士",
+      "major": "计算机科学",
+      "minor": "互动媒体艺术",
+      "gpa": "3.6/4.0",
+      "period": "2024年9月 - 2026年5月",
+      "graduation": "2026年5月",
+      "courses": [
+        "机器学习",
+        "P5JS",
+        "Unity & C#",
+        "网页设计 (HTML, CSS, JS)",
+        "数据结构",
+        "算法",
+        "线性代数",
+        "微积分"
+      ]
+    }
+  ],
+  "work_experience": [
+    {
+      "role": "前端研发实习生",
+      "organization": "国际化事业部，北京嘀嘀无限科技发展有限公司",
+      "period": "2025年6月 - 2025年8月",
+      "tech_stack": ["Vue3", "Vue2", "TypeScript"],
+      "details": [
+        "参与前端项目的需求分析与技术方案设计，独立与产品、设计、后端、数仓、财务、测试、语言等部门对接，高质量按时交付需求。",
+        "参与基于微前端框架的业务开发和功能迭代。参与基于Electron和H5的跨平台桌面及移动应用开发。",
+        "优化国家化场景下的前端用户体验，提高了用户满意度和产品易用性，在职期间用户总量提升12%。"
+      ]
     },
-    "profile": {
-        "photo": "David's profile photo",
-        "job_application": "前端实习生",
-        "phone": "+86 13636472690",
-        "email": "zw3636@nyu.edu",
-        "website": "www.davidzheweiwang.com",
-        "location": [
-            "上海",
-            "纽约"
-        ]
+    {
+      "role": "学生研究员",
+      "organization": "数字遗产实验室，上海纽约大学",
+      "period": "2024年5月 - 至今",
+      "tech_stack": ["Unity", "Three.js", "TypeScript", "React", "Next.js"],
+      "details": [
+        "主导开发了一款基于Unity的AR应用，通过AR眼镜重建真如寺的历史建筑，打造沉浸式体验。",
+        "基于Three.js与React构建了一个数字博物馆网站，展示真如寺的历史与文化，提升公众对数字文化遗产的接触。",
+        "优化渲染性能与空间追踪，确保各类硬件上运行稳定，促进数字文化遗产的传承与保护。"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "NYU GO",
+      "tech_stack": [
+        "React",
+        "Next.js",
+        "TailwindCSS",
+        "TypeScript",
+        "Zustand"
+      ],
+      "period": "2024年12月 - 至今",
+      "details": [
+        "在校园通勤效率低、学生常因校车延误而错过课程的背景下，着手开发一款实时校车追踪应用。",
+        "目标是在网页端实现一个轻量级、响应迅速的PWA系统，具备实时位置跟踪、预计到达时间展示等功能。",
+        "独立使用 Next.js 和 Tailwind CSS 构建前端界面，集成 WebSocket 实现实时校车数据更新；使用 SSR 提高首屏加载速度，增强移动端体验；采用 Zustand 管理应用状态，确保组件响应一致。",
+        "该应用已正式投入校园使用，日均访问量过百，显著减少学生等待时间，广获好评。"
+      ]
     },
-    "education": [
-        {
-            "school": "纽约大学 (2025 QS排名 第43)",
-            "degree": "理学学士",
-            "major": "计算机科学",
-            "minor": "互动媒体艺术",
-            "gpa": "3.6/4.0",
-            "period": "2024年9月 - 2026年5月",
-            "graduation": "2026年5月",
-            "courses": [
-                "机器学习",
-                "P5JS",
-                "Unity & C#",
-                "网页设计 (HTML, CSS, JS)",
-                "数据结构",
-                "算法",
-                "线性代数",
-                "微积分"
-            ]
-        }
-    ],
-    "work_experience": [
-        {
-            "role": "学生研究员",
-            "organization": "数字遗产实验室，上海纽约大学",
-            "period": "2024年5月 - 至今",
-            "details": [
-                "主导开发了一款基于Unity的AR应用，通过AR眼镜重建真如寺的历史建筑，打造沉浸式体验，助力文化遗产的传播。",
-                "融合3D建模、材质贴图与灯光技术，构建高度真实且具互动性的教学场景。",
-                "优化渲染性能与空间追踪，确保AR硬件上运行稳定，促进数字文化遗产的传承与保护。"
-            ]
-        },
-        {
-            "role": "审计实习生",
-            "organization": "Baker Tilly International, 上海",
-            "period": "2024年5月 - 2024年8月",
-            "details": [
-                "参与IT审计项目，协助分析客户的IT系统安全策略、访问控制及合规性指标。",
-                "运用编程技能协助开发数据筛选与处理的自动化脚本，提升审计效率。",
-                "撰写技术文档和审计发现内容，用于支持正式报告与初稿撰写工作。"
-            ]
-        },
-        {
-            "role": "迎新大使",
-            "organization": "新生项目部，上海纽约大学",
-            "period": "2023年4月 - 2023年11月",
-            "details": [
-                "在迎新期间担任学生引导员，解答常见问题，并提供生活与学术建议，帮助新生快速融入大学社区。",
-                "策划并协调多项迎新活动，包括校园导览、文化讲座和社交聚会，以提升一年级学生的参与度。",
-                "在节奏快速、任务繁多的环境中提升了沟通与组织协调能力。"
-            ]
-        }
-    ],
-    "projects": [
-        {
-            "name": "NYU GO",
-            "tech_stack": [
-                "React",
-                "Next.js",
-                "TailwindCSS",
-                "TypeScript",
-                "Zustand"
-            ],
-            "period": "2024年12月 - 至今",
-            "details": [
-                "在校园通勤效率低、学生常因校车延误而错过课程的背景下，着手开发一款实时校车追踪应用。",
-                "目标是在网页端实现一个轻量级、响应迅速的PWA系统，具备实时位置跟踪、预计到达时间展示等功能。",
-                "独立使用 Next.js 和 Tailwind CSS 构建前端界面，集成 WebSocket 实现实时校车数据更新；使用 SSR 提高首屏加载速度，增强移动端体验；采用 Zustand 管理应用状态，确保组件响应一致。",
-                "该应用已正式投入校园使用，日均访问量过百，显著减少学生等待时间，广获好评。"
-            ]
-        },
-        {
-            "name": "三星堆数字博物馆",
-            "link": "www.sanxingdui.online",
-            "tech_stack": [
-                "院长本科生研究基金 (DURF)，上海纽约大学"
-            ],
-            "period": "2024年4月 - 2024年8月",
-            "details": [
-                "作为项目的主要开发者，负责构建一个基于Web的数字博物馆，以展示三星堆文化遗产。",
-                "在网页中重建一个可交互、可浏览的3D展厅，提升公众对数字文化遗产的接触与兴趣。",
-                "使用Three.js实现了高性能实时3D模型渲染，并通过React与MUI构建了响应式用户界面，优化用户在不同设备上的体验；同时参与内容策划，确保展示内容与历史准确性一致。",
-                "项目成功上线，网站访问量达数千人次，获得师生及公众一致好评，并被列为学校优秀学生科研项目展示范例。"
-            ]
-        },
-        {
-            "name": "交互式节点音乐系统",
-            "link": "https://www.davidzheweiwang.com/posts/lets-jam",
-            "tech_stack": [
-                "React",
-                "Tone.js",
-                "React Flow",
-                "Zustand",
-                "Supabase",
-                "Next.js",
-                "TailwindCss",
-                "TypeScript"
-            ],
-            "period": "2024年9月 - 2024年12月",
-            "details": [
-                "在互动艺术课程中，希望探索音乐与编程结合的可能性，设计一个鼓励自由创作的在线系统。",
-                "构建一个可视化节点音乐合成平台，让用户无需音乐基础即可通过拖拽节点实时创作声音。",
-                "使用React与React Flow开发图形界面，实现音频模块的节点化表示；集成Tone.js进行音频合成与播放，采用Zustand管理状态以提升性能和交互响应；借助Supabase实现用户会话和作品存储。",
-                "项目上线后受到师生积极反馈，被评为课程最佳展示项目之一，并收录于个人网站作品集中。"
-            ]
-        },
-        {
-            "name": "个人作品集网站",
-            "link": "www.davidzheweiwang.com",
-            "tech_stack": [
-                "React",
-                "Next.js",
-                "TailwindCSS",
-                "TypeScript"
-            ],
-            "period": "2024年9月 - 至今",
-            "details": [
-                "独立设计并开发了个人作品集网站，系统展示项目成果与技能。",
-                "使用React、Next.js与Tailwind CSS实现组件化开发和响应式布局，兼顾美观与性能。",
-                "支持自适应浏览，优化移动端与桌面端体验，提升访问速度与可维护性。"
-            ]
-        }
-    ],
-    "skills": {
-        "programming_languages": [
-            "C++",
-            "C#",
-            "C",
-            "Pascal",
-            "Python",
-            "JavaScript"
-        ],
-        "web_development": [
-            "HTML",
-            "CSS",
-            "JS",
-            "TypeScript",
-            "P5JS",
-            "Supabase",
-            "React",
-            "Next.js",
-            "TailwindCSS",
-            "MUI",
-            "Shadcn",
-            "reactflow",
-            "Three.js"
-        ],
-        "game_development": [
-            "Unity",
-            "GameMaker"
-        ],
-        "soft_skills": [
-            "中文 (母语)",
-            "英语 (流利)"
-        ]
+    {
+      "name": "三星堆数字博物馆",
+      "link": "www.sanxingdui.online",
+      "tech_stack": ["院长本科生研究基金 (DURF)，上海纽约大学"],
+      "period": "2024年4月 - 2024年8月",
+      "details": [
+        "作为项目的主要开发者，负责构建一个基于Web的数字博物馆，以展示三星堆文化遗产。",
+        "在网页中重建一个可交互、可浏览的3D展厅，提升公众对数字文化遗产的接触与兴趣。",
+        "使用Three.js实现了高性能实时3D模型渲染，并通过React与MUI构建了响应式用户界面，优化用户在不同设备上的体验；同时参与内容策划，确保展示内容与历史准确性一致。",
+        "项目成功上线，网站访问量达数千人次，获得师生及公众一致好评，并被列为学校优秀学生科研项目展示范例。"
+      ]
     },
-    "interests": "受过专业训练的爵士音乐人，多乐器演奏者。"
+    {
+      "name": "交互式节点音乐系统",
+      "link": "https://www.davidzheweiwang.com/posts/lets-jam",
+      "tech_stack": [
+        "React",
+        "Tone.js",
+        "React Flow",
+        "Zustand",
+        "Supabase",
+        "Next.js",
+        "TailwindCss",
+        "TypeScript"
+      ],
+      "period": "2024年9月 - 2024年12月",
+      "details": [
+        "在互动艺术课程中，希望探索音乐与编程结合的可能性，设计一个鼓励自由创作的在线系统。",
+        "构建一个可视化节点音乐合成平台，让用户无需音乐基础即可通过拖拽节点实时创作声音。",
+        "使用React与React Flow开发图形界面，实现音频模块的节点化表示；集成Tone.js进行音频合成与播放，采用Zustand管理状态以提升性能和交互响应；借助Supabase实现用户会话和作品存储。",
+        "项目上线后受到师生积极反馈，被评为课程最佳展示项目之一，并收录于个人网站作品集中。"
+      ]
+    },
+    {
+      "name": "个人作品集网站",
+      "link": "www.davidzheweiwang.com",
+      "tech_stack": ["React", "Next.js", "TailwindCSS", "TypeScript"],
+      "period": "2024年9月 - 至今",
+      "details": [
+        "独立设计并开发了个人作品集网站，利用Markdown解析HTML的技术，定期快速更新技术博客。",
+        "使用React、Next.js与Tailwind CSS实现组件化开发和响应式布局，兼顾美观与性能。",
+        "支持自适应浏览，优化移动端与桌面端体验，提升访问速度与可维护性。"
+      ]
+    }
+  ],
+  "skills": {
+    "programming_languages": [
+      "C++",
+      "C#",
+      "C",
+      "Pascal",
+      "Python",
+      "JavaScript"
+    ],
+    "web_development": [
+      "HTML",
+      "CSS",
+      "JS",
+      "TypeScript",
+      "P5JS",
+      "Supabase",
+      "React",
+      "Next.js",
+      "Vue2",
+      "Vue3",
+      "TailwindCSS",
+      "MUI",
+      "Shadcn",
+      "reactflow",
+      "Three.js"
+    ],
+    "game_development": ["Unity", "GameMaker"],
+    "soft_skills": ["中文 (母语)", "英语 (流利)"]
+  },
+  "interests": "受过专业训练的爵士音乐人，多乐器演奏者。"
 }
