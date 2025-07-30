@@ -287,7 +287,7 @@ function Skills({
 }: {
   skills: {
     programming_languages: string[];
-    web_development: string[];
+    web_development: string;
     game_development: string[];
     soft_skills: string[];
   };
