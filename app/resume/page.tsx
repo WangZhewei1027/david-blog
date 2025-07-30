@@ -317,9 +317,9 @@ function Skills({
             <h4 className="text-base font-semibold">
               <Trans i18nKey="web-development"></Trans>
             </h4>
-            <ul className="list-inside list-disc text-gray-600">
-              <li>{skills.web_development.join(", ")}</li>
-            </ul>
+            <span className="list-inside list-disc text-gray-600">
+              {skills.web_development}
+            </span>
           </div>
         </div>
         <div className="w-1/2">

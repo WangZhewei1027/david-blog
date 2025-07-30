@@ -5,7 +5,7 @@
   },
   "profile": {
     "photo": "David's profile photo",
-    "job_application": "前端实习生",
+    "job_application": "前端研发",
     "phone": "+86 13636472690",
     "email": "zw3636@nyu.edu",
     "website": "www.davidzheweiwang.com",
@@ -41,7 +41,7 @@
       "details": [
         "参与前端项目的需求分析与技术方案设计，独立与产品、设计、后端、数仓、财务、测试、语言等部门对接，高质量按时交付需求。",
         "参与基于微前端框架的业务开发和功能迭代。参与基于Electron和H5的跨平台桌面及移动应用开发。",
-        "优化国家化场景下的前端用户体验，提高了用户满意度和产品易用性，在职期间用户总量提升12%。"
+        "优化国际化i18n场景下的前端用户体验，提高了用户满意度和产品易用性，在职期间用户总量提升12%。"
       ]
     },
     {
@@ -69,7 +69,7 @@
       "period": "2024年12月 - 至今",
       "details": [
         "在校园通勤效率低、学生常因校车延误而错过课程的背景下，着手开发一款实时校车追踪应用。",
-        "目标是在网页端实现一个轻量级、响应迅速的PWA系统，具备实时位置跟踪、预计到达时间展示等功能。",
+        "实现了一个轻量级、响应迅速的PWA系统，具备实时位置跟踪、预计到达时间展示等功能。",
         "独立使用 Next.js 和 Tailwind CSS 构建前端界面，集成 WebSocket 实现实时校车数据更新；使用 SSR 提高首屏加载速度，增强移动端体验；采用 Zustand 管理应用状态，确保组件响应一致。",
         "该应用已正式投入校园使用，日均访问量过百，显著减少学生等待时间，广获好评。"
       ]
@@ -101,7 +101,6 @@
       ],
       "period": "2024年9月 - 2024年12月",
       "details": [
-        "在互动艺术课程中，希望探索音乐与编程结合的可能性，设计一个鼓励自由创作的在线系统。",
         "构建一个可视化节点音乐合成平台，让用户无需音乐基础即可通过拖拽节点实时创作声音。",
         "使用React与React Flow开发图形界面，实现音频模块的节点化表示；集成Tone.js进行音频合成与播放，采用Zustand管理状态以提升性能和交互响应；借助Supabase实现用户会话和作品存储。",
         "项目上线后受到师生积极反馈，被评为课程最佳展示项目之一，并收录于个人网站作品集中。"
@@ -113,7 +112,7 @@
       "tech_stack": ["React", "Next.js", "TailwindCSS", "TypeScript"],
       "period": "2024年9月 - 至今",
       "details": [
-        "独立设计并开发了个人作品集网站，利用Markdown解析HTML的技术，定期快速更新技术博客。",
+        "独立设计并开发了个人作品集网站，利用Markdown解析为HTML的技术，定期快速更新技术博客。",
         "使用React、Next.js与Tailwind CSS实现组件化开发和响应式布局，兼顾美观与性能。",
         "支持自适应浏览，优化移动端与桌面端体验，提升访问速度与可维护性。"
       ]
@@ -128,23 +127,7 @@
       "Python",
       "JavaScript"
     ],
-    "web_development": [
-      "HTML",
-      "CSS",
-      "JS",
-      "TypeScript",
-      "P5JS",
-      "Supabase",
-      "React",
-      "Next.js",
-      "Vue2",
-      "Vue3",
-      "TailwindCSS",
-      "MUI",
-      "Shadcn",
-      "reactflow",
-      "Three.js"
-    ],
+    "web_development": "HTML CSS JS | React Next.js Vue2 Vue3 | Zustand Pinia | TailwindCSS MUI Shadcn | reactflow Three.js P5JS | Supabase Express | ",
     "game_development": ["Unity", "GameMaker"],
     "soft_skills": ["中文 (母语)", "英语 (流利)"]
   },
