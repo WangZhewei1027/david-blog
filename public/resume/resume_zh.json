@@ -39,9 +39,10 @@
       "period": "2025年6月 - 2025年8月",
       "tech_stack": ["Vue3", "Vue2", "TypeScript"],
       "details": [
-        "参与前端项目的需求分析与技术方案设计，独立与产品、设计、后端、数仓、财务、测试、语言等部门对接，高质量按时交付需求。",
+        "参与前端业务的需求分析与技术方案设计，到开发交付的全流程工作；独立与产品、设计、后端、数仓、财务、测试、语言等部门对接，高效率按排期推进。",
         "参与基于微前端框架的业务开发和功能迭代。参与基于Electron和H5的跨平台桌面及移动应用开发。",
-        "优化国际化i18n场景下的前端用户体验，提高了用户满意度和产品易用性，在职期间用户总量提升12%。"
+        "优化国际化i18n场景下的前端用户体验，提高了用户满意度和产品易用性，在职期间用户总量提升12%。",
+        "使用标准CI/CD流程进行项目开发与部署，按时交付率100%，在职期间无线上事故。"
       ]
     },
     {
@@ -129,7 +130,7 @@
     ],
     "web_development": "HTML CSS JS | React Next.js Vue2 Vue3 | Zustand Pinia | TailwindCSS MUI Shadcn | reactflow Three.js P5JS | Supabase Express | ",
     "game_development": ["Unity", "GameMaker"],
-    "soft_skills": ["中文 (母语)", "英语 (流利)"]
+    "soft_skills": ["中文 (母语)", "英语 (无障碍沟通)"]
   },
   "interests": "受过专业训练的爵士音乐人，多乐器演奏者。"
 }
