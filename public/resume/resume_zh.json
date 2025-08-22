@@ -9,26 +9,27 @@
     "phone": "+86 13636472690",
     "email": "zw3636@nyu.edu",
     "website": "www.davidzheweiwang.com",
-    "location": ["上海", "纽约"]
+    "location": [
+      "上海",
+      "纽约"
+    ]
   },
   "education": [
     {
-      "school": "纽约大学 (2025 QS排名 第43)",
+      "school": "上海纽约大学 (2025 QS排名 第43)",
       "degree": "理学学士",
       "major": "计算机科学",
       "minor": "互动媒体艺术",
       "gpa": "3.6/4.0",
-      "period": "2024年9月 - 2026年5月",
+      "period": "2022年9月 - 2026年5月",
       "graduation": "2026年5月",
       "courses": [
-        "机器学习",
-        "P5JS",
-        "Unity & C#",
         "网页设计 (HTML, CSS, JS)",
         "数据结构",
-        "算法",
+        "算法设计",
         "线性代数",
-        "微积分"
+        "微积分",
+        "机器学习"
       ]
     }
   ],
@@ -37,19 +38,29 @@
       "role": "前端研发实习生",
       "organization": "国际化事业部，北京嘀嘀无限科技发展有限公司",
       "period": "2025年6月 - 2025年8月",
-      "tech_stack": ["Vue3", "Vue2", "TypeScript"],
+      "tech_stack": [
+        "Vue3",
+        "Vue2",
+        "TypeScript"
+      ],
       "details": [
-        "参与前端业务的需求分析与技术方案设计，到开发交付的全流程工作；独立与产品、设计、后端、数仓、财务、测试、语言等部门对接，高效率按排期推进。",
+        "独立与产品、设计、后端、数仓、财务、测试、语言等部门对接，高质量按时交付需求；参与前端项目的需求分析与技术方案设计。",
+        "展现较强的协调和沟通能力，在几个重要的交付节点担任了项目管理和沟通的角色，确保了项目输入输出物的时间节点及质量。",
         "参与基于微前端框架的业务开发和功能迭代。参与基于Electron和H5的跨平台桌面及移动应用开发。",
-        "优化国际化i18n场景下的前端用户体验，提高了用户满意度和产品易用性，在职期间用户总量提升12%。",
-        "使用标准CI/CD流程进行项目开发与部署，按时交付率100%，在职期间无线上事故。"
+        "优化国际化i18n场景下的前端用户体验，提高了用户满意度和产品易用性，在职期间用户总量提升12%。"
       ]
     },
     {
       "role": "学生研究员",
       "organization": "数字遗产实验室，上海纽约大学",
       "period": "2024年5月 - 至今",
-      "tech_stack": ["Unity", "Three.js", "TypeScript", "React", "Next.js"],
+      "tech_stack": [
+        "Unity",
+        "Three.js",
+        "TypeScript",
+        "React",
+        "Next.js"
+      ],
       "details": [
         "主导开发了一款基于Unity的AR应用，通过AR眼镜重建真如寺的历史建筑，打造沉浸式体验。",
         "基于Three.js与React构建了一个数字博物馆网站，展示真如寺的历史与文化，提升公众对数字文化遗产的接触。",
@@ -78,7 +89,9 @@
     {
       "name": "三星堆数字博物馆",
       "link": "www.sanxingdui.online",
-      "tech_stack": ["院长本科生研究基金 (DURF)，上海纽约大学"],
+      "tech_stack": [
+        "院长本科生研究基金 (DURF)，上海纽约大学"
+      ],
       "period": "2024年4月 - 2024年8月",
       "details": [
         "作为项目的主要开发者，负责构建一个基于Web的数字博物馆，以展示三星堆文化遗产。",
@@ -110,7 +123,12 @@
     {
       "name": "个人作品集网站",
       "link": "www.davidzheweiwang.com",
-      "tech_stack": ["React", "Next.js", "TailwindCSS", "TypeScript"],
+      "tech_stack": [
+        "React",
+        "Next.js",
+        "TailwindCSS",
+        "TypeScript"
+      ],
       "period": "2024年9月 - 至今",
       "details": [
         "独立设计并开发了个人作品集网站，利用Markdown解析为HTML的技术，定期快速更新技术博客。",
@@ -129,8 +147,14 @@
       "JavaScript"
     ],
     "web_development": "HTML CSS JS | React Next.js Vue2 Vue3 | Zustand Pinia | TailwindCSS MUI Shadcn | reactflow Three.js P5JS | Supabase Express | ",
-    "game_development": ["Unity", "GameMaker"],
-    "soft_skills": ["中文 (母语)", "英语 (无障碍沟通)"]
+    "game_development": [
+      "Unity",
+      "GameMaker"
+    ],
+    "soft_skills": [
+      "中文 (母语)",
+      "英语 (无障碍沟通)"
+    ]
   },
   "interests": "受过专业训练的爵士音乐人，多乐器演奏者。"
 }

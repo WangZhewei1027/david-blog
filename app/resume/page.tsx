@@ -90,10 +90,10 @@ function Profile({
       <div className="space-y-1">
         <div>
           <span className="align-bottom text-gray-700">
-            <strong>
+            {/* <strong>
               <Trans i18nKey="position-applying-for"></Trans>:{" "}
             </strong>
-            {profile.job_application}
+            {profile.job_application} */}
           </span>
         </div>
       </div>
